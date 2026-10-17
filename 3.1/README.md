@@ -29,7 +29,7 @@ database's own introduction says, have not been independently audited or verifie
 Downloaded in October 2026.
 
 In 02_import.R, the data is imported in a more user-friendly format. You can use this code in your project
-or you can manually change the dataframe by hand - report either in your read me!
+or you can manually change the dataframe by hand - report either in your README!
 
 ## Figures
 
