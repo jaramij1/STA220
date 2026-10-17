@@ -34,9 +34,13 @@ or you can manually change the dataframe by hand - report either in your README!
 ## Figures
 
 This project includes the code needed to produce most of the images in the workbook.
-Much of the figure code was produced by Claude - an AI tool - and edited by me to 
-better match the workbook's needs. You are not responsible
-for knowing or understanding all of this code, but I provide it anyway for transparency. 
+Much of the figure code was produced by Claude - an AI tool - and edited by me for correctness
+and to better match the workbook's needs. 
+
+You are not responsible for knowing or understanding all of this code, 
+but I provide it anyway for transparency. You may use this code for
+your dashboard, but you are responsible for understanding what it does and ensuring 
+its accuracy. 
 
 The code you are responsible for is in the workbook, which you should use to complete the practice
 script, which asks you to create five figures. The code written in the practice script 
