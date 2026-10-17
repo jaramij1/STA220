@@ -1,5 +1,5 @@
 # scripts/01_setup.R
-# Setup check for Module 3. Run before class on October 20.
+# Setup check for Module 3. 
 
 # install once per computer, then put a # in front of this line
 install.packages(c("tidyverse", "plotly", "shiny"))
@@ -28,4 +28,4 @@ mercer <- tribble(
 
 # one point for each town
 ggplot(mercer, aes(x = pop, y = budget_m)) +
-  geom_point()
+  geom_point() 
