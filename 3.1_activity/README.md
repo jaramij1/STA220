@@ -67,9 +67,9 @@ comes from in a Summary sheet (subgroup header, then column name):
 (1982-84 = 100), from the Bureau of Labor Statistics. An amount from year y in 2025 dollars is
 `amount * cpi_u[2025] / cpi_u[y]`. Check the table against bls.gov before reusing it.
 
-## The data
+## Manually Curating Data for Import into R
 
-urb_2026_police.csv was manually created following the steps below:
+ufb_2026_police.csv was manually created following the steps below:
 
 Sheet: I used only the “2026 Summary” tab of UFB.xlsm. I copied the cell values
 and pasted as values, ignoring the data table format and removing formulas. For muni_code, data was pasted exact so it did not convert to numeric (i.e., kept the lead 0)
