@@ -67,7 +67,26 @@ comes from in a Summary sheet (subgroup header, then column name):
 (1982-84 = 100), from the Bureau of Labor Statistics. An amount from year y in 2025 dollars is
 `amount * cpi_u[2025] / cpi_u[y]`. Check the table against bls.gov before reusing it.
 
-## The cards
+## The data
 
-Four of the eight graphics are honest and four are not; `02_cards.R` says which in the comment
-above each one. The accounts and the posts on the cards are made up. The numbers are not.
+urb_2026_police.csv was manually created following the steps below:
+
+Sheet: I used only the “2026 Summary” tab of UFB.xlsm. I copied the cell values
+and pasted as values, ignoring the data table format and removing formulas. For muni_code, data was pasted exact so it did not convert to numeric (i.e., kept the lead 0)
+
+Dropped Rows: I dropped rows 1–5 because they were headers and rows 570-574 because they were averages. 
+
+Keep Only Columns Related to Police Officer Personal Cost
+C: Municipality
+D: County
+F: No UFB Available
+G: Sig. Data Missing
+HE–HL: the eight “Police Officer Personnel Costs” columns
+
+Rename Columns: I renamed every column to lower-snake case and removed special characters. 
+
+Delete "No Data": I used find-and-replace to delete all "No Data".
+
+Format as CSV: I saved it as a .CSV. 
+
+

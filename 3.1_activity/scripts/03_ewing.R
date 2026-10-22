@@ -19,12 +19,19 @@ nj <- nj |>
 
 # Curate dataset ---------------------------------------------------------------------------------
 
+
+# 3 checks to pick variables
+dim(nj)
+names(nj)
+summary(nj)
+
 # limit to ufb for your town
 town <- nj |>
   filter(municipality == my_town, county == my_county)
 
 # check that you have observations for your town
 nrow(town) > 0
+
 
 # limit columns
 town <- town |>
@@ -39,9 +46,11 @@ town <- town |>
 
 # Limit to towns with a budget and a population
 nj_latest <- nj |>
-  filter(year == 2025, !is.na(budget), budget > 0, !is.na(pop), pop > 0)
+  filter(year == 2025 & !is.na(budget) & budget > 0 & !is.na(pop) & pop > 0)
 
 #NOTE: Could be future missing depending on what variables are used!!!
+
+#Note: You should only filter for missing on variables you will be using for your benchmarks!
 
 
 # Calculating rates
@@ -71,7 +80,7 @@ nj_latest |>
 # most recent year
 latest <- town |>
   filter(!is.na(budget)) |>
-  slice_max(year, n = 1)
+  filter(year == max(year))
 
 # Create variables for comparison in most recent year; not all of these are used in figure
 latest |>
@@ -111,5 +120,5 @@ ggplot(town, aes(x = year, y = local_tax * to_2025 / pop)) +
   scale_x_continuous(breaks = 2016:2025) +
   labs(title = paste(my_town, "municipal tax levy per resident, in 2025 dollars"),   # replace with the finding once you see it!
        subtitle = "Each bar is one budget year. Dashed line: the median New Jersey municipality that year.",
-       x = NULL, y = "Dollars per resident (2025 dollars)",
+       x = "Year", y = "Dollars per resident (2025 dollars)",
        caption = "Source: NJ DCA, User Friendly Budget Database, 2016 to 2025; BLS CPI-U")
