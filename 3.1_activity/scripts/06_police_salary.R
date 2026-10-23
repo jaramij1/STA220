@@ -9,7 +9,8 @@
 
 library(tidyverse)
 
-max_drive_min <- 20   # change to 25 to see the next ring of towns (the drive-time table is complete to about 25)
+# Set max drive time (Try changing this variable!)
+max_drive_min <- 20 
 
 # load data as object
 police <- read_csv(
@@ -26,7 +27,6 @@ summary(police)
 # Drive Times -------------------------------------------------------------------------------
 
 # Drive times from TCNJ to each police headquarters, made by 05_drive_times.R.
-# It's already in data/, so you don't need to run 05 first (same idea as 01_import.R).
 # OpenStreetMap's routing service (router.project-osrm.org), queried October 22, 2026.
 # Start: TCNJ (40.2712, -74.7829, from Wikipedia). End: each town's police headquarters
 # (addresses and sources in data/police_hq_addresses.xlsx).
@@ -34,8 +34,8 @@ summary(police)
 # The times assume no traffic
 
 # 19 departments: all of Mercer County plus the nearby departments in Middlesex, Burlington,
-# Hunterdon, and Monmouth. Every police HQ within 25 minutes should be here; past 25 it is not
-# complete. Towns with no officers of their own (like Hopewell borough) have no HQ, so no row.
+# Hunterdon, and Monmouth. Every police HQ within 25 minutes should be here
+# Towns with no officers of their own (like Hopewell borough) have no row. 
 drive_times <- read_csv(
   "data/police_hq_drive_times.csv",
   col_types = cols(muni_code = col_character())
@@ -88,15 +88,16 @@ summary(drive_police)
 near <- drive_police |>
   filter(drive_min <= max_drive_min)
 
-dim(near)   # 7 towns within 20 minutes (Bordentown township's HQ just misses, at 20.1)
+dim(near)   # 7 towns within 20 minutes 
 
 # Which towns can't give us an average full-time salary, and why?
 # - pol_ft is NA: no 2026 budget on file (Trenton)
 # - pol_ft is 0: the town reports no full-time officers (none here, since towns without a
 #   department have no HQ to drive to)
 # - pol_pt is over 0: base pay is one total for full- AND part-time officers, so dividing it
-#   by full-time officers alone would overstate full-time pay. None within 20 minutes; at 25
-#   minutes this drops Bordentown township and Plainsboro.
+#   by full-time officers alone would overstate full-time pay. 
+#   This doesn't happen at 20 minutes (Which is why I chose 20 minutes)
+#   If you increase to 30 minutes (first draft) this drops Bordentown township and Plainsboro.
 near |>
   filter(is.na(pol_ft) | pol_ft == 0 | pol_pt > 0) |>
   select(municipality, no_ufb, pol_ft, pol_pt)
@@ -109,9 +110,15 @@ near |>
     n_dropped = sum(is.na(pol_ft) | pol_ft == 0 | pol_pt > 0)
   )
 
+# In an executive summary:
+#       The search identified 7 towns within a 20-minute drive of TCNJ. 
+#       One town (Trenton) has no 2026 budget on file, so we can't 
+#       calculate an average salary for its officers.
+
 # Average salary = base pay for all officers / number of full-time officers.
-# Base pay is the annual pay rate, before overtime. It is an average across every rank,
-# from new officers to the chief, so it is NOT the starting salary my partner would see.
+# Base pay is the annual pay rate, before overtime! It is an average across every rank,
+# from new officers to the chief (if that town has one), 
+# so it is NOT the starting salary my partner would see.
 near_salary <- near |>
   filter(!is.na(pol_ft) & pol_ft > 0 & pol_pt == 0) |>
   mutate(
@@ -122,9 +129,12 @@ near_salary <- near |>
 
 near_salary   # 6 towns within 20 minutes
 
-# At 25 minutes, Princeton ($117,227) and Robbinsville ($115,429) join. Past 25 the table isn't
-# complete, and look hard at Lambertville (26.7 minutes) before trusting it: $162,557 in base
-# pay for 11 full-time officers is about $14,800 each. R won't find that suspicious. That's our job!
+# At 25 minutes, Princeton ($117,227) and Robbinsville ($115,429) join. 
+
+# Don't fundamentally trust the data!
+# Lambertville lists $162,557 in base pay for 
+# 11 full-time officers is about $14,800 each. 
+# R won't find that suspicious. That's our job!
 
 
 # Benchmark --------------------------------------------------------------------------------
@@ -167,7 +177,7 @@ salary_fig <- ggplot(
       sep = ""
     ),
     x = "Average base pay per full-time officer (thousands of dollars)",
-    y = NULL,
+    y = "Town",
     caption = "Source: NJ DCA, User Friendly Budget Database, 2026 sheet. Drive times: OpenStreetMap (OSRM), no traffic.\nNot shown: Trenton (no 2026 budget on file). Hopewell borough has no department; Hopewell Township's officers cover it."
   )
 
