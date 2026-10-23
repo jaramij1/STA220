@@ -1,0 +1,20 @@
+muni_code,municipality,county,department,hq_address,geocoder,lat,lon,drive_sec,drive_min,drive_miles
+1102,Ewing township,Mercer,Ewing Township Police Department,"2 Jake Garzio Drive, Ewing, NJ 08628",Census,40.27903564052,-74.80171352772,273.1,4.551666666666667,1.8539852262785332
+1107,Lawrence township,Mercer,Lawrence Township Police Department,"2211 Lawrenceville Road, Lawrenceville, NJ 08648",Census,40.282108363059,-74.731769569926,387.9,6.465,4.473437624274238
+1106,Hopewell township,Mercer,Hopewell Township Police Department,"201 Washington Crossing-Pennington Road, Titusville, NJ 08560",Census,40.309003038923,-74.81280430732,449,7.483333333333333,4.387564125507039
+1111,Trenton city,Mercer,Trenton Police Department,"225 North Clinton Avenue, Trenton, NJ 08609",Census,40.226503509222,-74.752881995538,539.3,8.988333333333333,4.294482720909886
+1108,Pennington borough,Mercer,Pennington Police Department,"30 North Main Street, Pennington, NJ 08534",Census,40.329236238585,-74.791424255899,554.6,9.243333333333334,4.249868269307245
+1103,Hamilton township,Mercer,Hamilton Township Police Division,"1270 Whitehorse-Mercerville Road, Hamilton, NJ 08619",Census,40.209205946369,-74.693634749332,880.2,14.67,7.440733615684404
+1113,West Windsor township,Mercer,West Windsor Police Department,"20 Municipal Drive, West Windsor, NJ 08550",Census,40.304219229686,-74.632198971447,1146.2,19.103333333333335,12.43444533921896
+0304,Bordentown township,Burlington,Bordentown Township Police Department,"1 Municipal Drive, Bordentown, NJ 08505",Census,40.140231488247,-74.703438385719,1204.9,20.081666666666667,11.15653334526366
+1114,Princeton borough,Mercer,Princeton Police Department,"1 Valley Road, Princeton, NJ 08540",Census,40.361060623146,-74.665285039699,1268,21.133333333333333,11.584160999761394
+1112,Robbinsville township,Mercer,Robbinsville Township Police Department,"1117 Route 130, Robbinsville, NJ 08691",Census,40.214819909058,-74.621556291508,1290.6,21.509999999999998,14.38057991330629
+1218,Plainsboro township,Middlesex,Plainsboro Township Police Department,"641 Plainsboro Road, Plainsboro, NJ 08536",Census,40.332384248022,-74.58835564828,1312,21.866666666666667,14.465397081046687
+1302,Allentown borough,Monmouth,Allentown Borough Police Department,"8 North Main Street, Allentown, NJ 08501",Census,40.178022748904,-74.584047186014,1550.2,25.836666666666666,15.890884733158355
+0318,Mansfield township,Burlington,Mansfield Township Police Department,"3135 Route 206 South, Suite 3, Columbus, NJ 08022",OpenStreetMap (Nominatim),40.0832151,-74.7180195,1575.4,26.256666666666668,15.285917740396085
+1026,West Amwell township,Hunterdon,West Amwell Township Police Department,"24 Mount Airy Village Road, Lambertville, NJ 08530",Census,40.396875553029,-74.908948920017,1581.7,26.361666666666668,16.03025829157719
+1221,South Brunswick township,Middlesex,South Brunswick Police Department,"540 Ridge Road, Monmouth Junction, NJ 08852",OpenStreetMap (Nominatim),40.3854847,-74.5409323,1586.9,26.448333333333334,17.780225980275194
+1017,Lambertville city,Hunterdon,Lambertville City Police Department,"349 North Main Street, Lambertville, NJ 08530",Census,40.378570330725,-74.947012275867,1601.2,26.686666666666667,16.757511134971764
+1101,East Windsor township,Mercer,East Windsor Township Police Department,"80 One Mile Road, East Windsor, NJ 08520",Census,40.269373532149,-74.54809207107,1649,27.483333333333334,15.553542312892706
+0315,Florence township,Burlington,Florence Township Police Department,"711 Broad Street, Florence, NJ 08518",Census,40.117136151385,-74.806578201131,1733,28.883333333333333,17.486690229062276
+1104,Hightstown borough,Mercer,Hightstown Police Department,"148 North Main Street, Hightstown, NJ 08520",Census,40.270222700249,-74.522737519254,1746.8,29.113333333333333,17.0647170524139
