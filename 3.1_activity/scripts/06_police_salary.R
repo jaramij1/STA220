@@ -9,7 +9,7 @@
 
 library(tidyverse)
 
-# Set max drive time (Try changing this variable!)
+# Set max drive time (Try changing this value!)
 max_drive_min <- 20 
 
 # load data as object
@@ -28,13 +28,14 @@ summary(police)
 
 # Drive times from TCNJ to each police headquarters, made by 05_drive_times.R.
 # OpenStreetMap's routing service (router.project-osrm.org), queried October 22, 2026.
-# Start: TCNJ (40.2712, -74.7829, from Wikipedia). End: each town's police headquarters
-# (addresses and sources in data/police_hq_addresses.xlsx).
+# Start: TCNJ (40.2712, -74.7829, from Wikipedia). 
+# End: each town's police headquarters (addresses and sources in data/police_hq_addresses.xlsx).
 
 # The times assume no traffic
 
 # 19 departments: all of Mercer County plus the nearby departments in Middlesex, Burlington,
-# Hunterdon, and Monmouth. Every police HQ within 25 minutes should be here
+# Hunterdon, and Monmouth (determined by rough approximation on Google Maps)
+# Every police HQ within 30 minutes should be here
 # Towns with no officers of their own (like Hopewell borough) have no row. 
 drive_times <- read_csv(
   "data/police_hq_drive_times.csv",
@@ -43,8 +44,7 @@ drive_times <- read_csv(
 
 dim(drive_times)   # expect 19 rows and 11 columns
 
-# Keep only the key and the drive time. municipality and county are in both tables, and
-# joining with them in both would give us municipality.x and municipality.y.
+# Keep only the key and the drive time.
 drive_times <- drive_times |>
   select(muni_code, department, drive_min)
 
