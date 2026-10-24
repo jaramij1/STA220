@@ -1,7 +1,7 @@
 # scripts/11_practice_in_r.R
 
 
-#####  I reccomend the following strategy when completing this practice
+#####  I recommend the following strategy when completing this practice
 
 # STEP 1: Attempt to create each prompt and answer the questions first without using AI.
 
