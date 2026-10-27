@@ -1,17 +1,12 @@
-# STA 220, Activity 3.2a: Run, Then Read
+# STA 220, Activity 3.2a: Interpreting R Code and Determining if a Merge is Feasible
 
-The R behind Activity 3.2a: eleven blocks of plotting code, one per kind of graphic in workbook 3.2,
-on the workbook's real data. Students run each block, predict and read the picture, and answer on the
-handout. Part B of the handout (reading ten data sources' documentation) has no code.
-Data for Everyday Life, The College of New Jersey, fall 2026.
+The R code for part A of activity 3.2a. Part B requires no R coding.
 
 ## For students
 
 Clone the class repository if you have not (clone, not fork), or **Fetch origin** and **Pull origin**
-in GitHub Desktop so this folder appears next to 3.1 and 3.2. Open `sta220-activity_3.2a.Rproj`, then
-`scripts/01_part_a.R`. Run the first section (it reads the five tables and runs the three checks),
-then one block at a time, A1 to A11. Write your prediction on the handout before you run a block.
-The only package is the tidyverse.
+
+Use the code to answer questions from part A of the activity. **Part B requires no coding!**
 
 ## What is here
 
