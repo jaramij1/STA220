@@ -1,0 +1,6 @@
+# the student’s own Task 6 chart; the figures in output/figures/ are rebuilt by master.R
+output/ewing_vs_neighbors.png
+.Rhistory
+.RData
+.Rproj.user/
+Rplots.pdf

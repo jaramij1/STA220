@@ -1,0 +1,17 @@
+permit_id,type,cost_k
+P-101,roof,18
+P-102,deck,22
+P-103,solar,31
+P-104,roof,14
+P-105,pool,65
+P-106,solar,28
+P-107,roof,21
+P-108,addition,140
+P-109,deck,9
+P-110,solar,35
+P-111,roof,16
+P-112,pool,48
+P-113,deck,27
+P-114,roof,12
+P-115,solar,26
+P-110,solar,35

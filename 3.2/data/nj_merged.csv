@@ -1,0 +1,565 @@
+muni_code,town,county,type,pop,density,land_sqmi,budget_m,levy_m,state_aid_m,ft_employees,police_ft,police_cost_m,state_plan,cost_share,pct_collected,debt_per_resident,sp_rating,key,district,avg_tax_bill
+0101,Absecon city,Atlantic,city,9249,1691,5.5,12.1,8.5,0.8,48,32,4.7,No,33,99.1,1782,A+,absecon city,ABSECON CITY,5731
+0102,Atlantic City,Atlantic,city,38959,3621,10.8,257.9,34,48,1237,328,54.9,No,22.9,98.1,6289,BB+/Positive,atlantic city,ATLANTIC CITY,4264
+0103,Brigantine city,Atlantic,city,7697,1180,6.5,37.2,26.6,0.8,139,35,5.4,No,0,99.4,4564,AA/Stable,brigantine city,BRIGANTINE CITY,7299
+0105,Buena Vista township,Atlantic,township,7197,175,41.1,7.2,4,0.7,NA,0,0,Yes,0,98,NA,A+,buena vista twp,BUENA VISTA TWP,6182
+0104,Buena borough,Atlantic,borough,4555,601,7.6,5.5,3.6,0.4,15,NA,0,No,16.1,97.4,2620,NA,buena boro,BUENA BORO,5976
+0106,Corbin City city,Atlantic,city,486,63,7.7,0.5,0.2,0.1,NA,0,0,Yes,NA,99.2,0,NA,corbin city,CORBIN CITY,4325
+0107,Egg Harbor City city,Atlantic,city,4442,409,10.9,8.2,4.8,0.5,26,16,2.1,Yes,21.1,99.3,0,A,egg harbor city,EGG HARBOR CITY,6657
+0108,Egg Harbor township,Atlantic,township,48538,724,67,52.4,28,6.1,238,92,15.6,No,0,99.8,506,AA-,egg harbor twp,EGG HARBOR TWP,7135
+0109,Estell Manor city,Atlantic,city,1699,32,53.4,1.4,0.6,0.3,1,0,0,Yes,0,98.1,0,NA,estell manor city,ESTELL MANOR CITY,5263
+0110,Folsom borough,Atlantic,borough,1840,223,8.3,1.7,0.8,0.2,3,0,0,Yes,22.9,98.3,224,NA,folsom boro,FOLSOM BORO,4389
+0111,Galloway township,Atlantic,township,38347,432,88.7,32,18.6,2.6,NA,NA,10.2,Yes,0,99.6,219,NA,galloway twp,GALLOWAY TWP,5731
+0112,Hamilton township,Atlantic,township,28669,259,110.9,30.7,20.7,2.9,124,53,9.4,Yes,24.7,99.2,617,AA-,hamilton twp,HAMILTON TWP,5681
+0113,Hammonton town,Atlantic,town,15036,369,40.7,17.1,11.5,1.3,76,33,5.7,Yes,24.4,99.8,1080,AA-,hammonton town,HAMMONTON TOWN,6097
+0114,Linwood city,Atlantic,city,7072,1855,3.8,14.2,10.1,0.6,36,17,3.7,No,22.4,98.9,1979,NA,linwood city,LINWOOD CITY,11455
+0115,Longport borough,Atlantic,borough,884,2237,0.4,9.9,7.9,0.1,29,14,2.7,No,22.5,99.6,13570,AA+,longport boro,LONGPORT BORO,13501
+0116,Margate City city,Atlantic,city,5239,3700,1.4,40.5,27.3,0.8,135,29,4.9,No,28.4,99.1,7965,AA+,margate city,MARGATE CITY,9917
+0117,Mullica township,Atlantic,township,5878,104,56.4,7.9,5,0.5,25,15,2,Yes,22.4,96.3,0,NA,mullica twp,MULLICA TWP,6670
+0118,Northfield city,Atlantic,city,8527,2380,3.6,14.9,9.6,0.6,53,22,3.2,Yes,23.3,98.9,1320,AAA-,northfield city,NORTHFIELD CITY,7870
+0119,Pleasantville city,Atlantic,city,20924,3657,5.7,36.6,27.3,2.2,145,54,8.1,Yes,0,100,605,A,pleasantville city,PLEASANTVILLE CITY,5333
+0120,Port Republic city,Atlantic,city,1131,152,7.5,1.5,0.9,0.2,8,0,0,Yes,0,197.2,0,NA,port republic city,PORT REPUBLIC CITY,7938
+0121,Somers Point city,Atlantic,city,10611,2646,4,19.6,13.1,1,73,28,5.3,Yes,24,101.4,1844,AA-,somers point city,SOMERS POINT CITY,7596
+0122,Ventnor City city,Atlantic,city,9372,4793,2,1.5,0.9,0.2,NA,NA,NA,NA,NA,NA,NA,NA,ventnor city,VENTNOR CITY,8786
+0123,Weymouth township,Atlantic,township,2762,234,11.8,1.8,0.9,0.3,6,0,0,NA,0,99.3,134,NA,weymouth twp,WEYMOUTH TWP,5381
+0201,Allendale borough,Bergen,borough,6928,2237,3.1,17.4,11.1,0,48,17,2.3,Yes,20.7,99.4,855,AAA,allendale boro,ALLENDALE BORO,17309
+0202,Alpine borough,Bergen,borough,1774,277,6.4,7.2,4.1,0.4,NA,NA,NA,NA,NA,NA,NA,NA,alpine boro,ALPINE BORO,22596
+0203,Bergenfield borough,Bergen,borough,28921,9959,2.9,47.6,33.8,2,146,49,15.7,Yes,22.5,98.6,1243,NA,bergenfield boro,BERGENFIELD BORO,11853
+0204,Bogota borough,Bergen,borough,9799,12985,0.8,14.6,9.8,0.7,43,21,3.6,Yes,26.3,99.3,3020,NA,bogota boro,BOGOTA BORO,11503
+0205,Carlstadt borough,Bergen,borough,6454,1635,3.9,33,26,1,78,36,6.8,No,21.5,99.3,6297,NA,carlstadt boro,CARLSTADT BORO,8763
+0206,Cliffside Park borough,Bergen,borough,26183,27395,1,47.6,35.1,1.2,164,48,10.7,Yes,16.1,98.2,1109,AA+,cliffside park boro,CLIFFSIDE PARK BORO,10403
+0207,Closter borough,Bergen,borough,8730,2762,3.2,21.3,14.9,1.5,69,24,4.8,Yes,29.5,99.1,2104,AA+,closter boro,CLOSTER BORO,18536
+0208,Cresskill borough,Bergen,borough,9311,4510,2.1,26.4,19,0.8,65,NA,5.9,Yes,20.4,98.7,1818,NA,cresskill boro,CRESSKILL BORO,19265
+0209,Demarest borough,Bergen,borough,4941,2384,2.1,13.6,9.9,0.4,46,19,3.7,Yes,28.3,99.2,4400,AA+,demarest boro,DEMAREST BORO,24741
+0210,Dumont borough,Bergen,borough,18606,9544,1.9,30.8,23.6,1.4,83,34,4.3,Yes,0,99.3,2637,AA,dumont boro,DUMONT BORO,12556
+0212,East Rutherford borough,Bergen,borough,10624,2862,3.7,32.9,12.3,2,67,43,11.7,Yes,29.6,98.4,3611,NA,east rutherford boro,EAST RUTHERFORD BORO,7787
+0213,Edgewater borough,Bergen,borough,15116,15566,1,39.9,28.7,0.8,100,35,8.6,No,-19.1,101,4539,NA,edgewater boro,EDGEWATER BORO,10327
+0211,Elmwood Park borough,Bergen,borough,21680,8203,2.6,39.7,23.6,1.5,124,89,12.3,Yes,22.2,99.2,1688,NA,elmwood park boro,ELMWOOD PARK BORO,10278
+0214,Emerson borough,Bergen,borough,7413,3323,2.2,16.6,12.2,0.6,42,22,5,Yes,31.6,98.7,1534,AA+,emerson boro,EMERSON BORO,14767
+0216,Englewood Cliffs borough,Bergen,borough,5443,2560,2.1,23.6,16.3,0.8,57,29,6.1,Yes,28.6,99,6021,NA,englewood cliffs boro,ENGLEWOOD CLIFFS BORO,15560
+0215,Englewood city,Bergen,city,30221,6136,4.9,80.5,62.4,2.8,304,89,19,Yes,31.2,99.9,3436,AA Stable,englewood city,ENGLEWOOD CITY,14476
+0217,Fair Lawn borough,Bergen,borough,36489,7106,5.1,65,40.6,3.8,179,62,14,Yes,9.5,99.4,0,NA,fair lawn boro,FAIRLAWN BORO,11996
+0218,Fairview borough,Bergen,borough,15606,18498,0.8,26.1,19.2,1,85,44,7,Yes,0,98.1,1681,AA-,fairview boro,FAIRVIEW BORO,11184
+0219,Fort Lee borough,Bergen,borough,40566,16113,2.5,96.6,74.3,1.8,305,114,20.4,No,0,98.9,1660,NA,fort lee boro,FORT LEE BORO,12506
+0220,Franklin Lakes borough,Bergen,borough,11251,1195,9.4,23.4,13.2,1.8,60,24,5.2,No,31.2,99.2,715,NA,franklin lakes boro,FRANKLIN LAKES BORO,19385
+0221,Garfield city,Bergen,city,33530,15883,2.1,46.5,28.5,2.8,124,69,13.2,No,19.4,98.2,1351,AA-,garfield city,GARFIELD CITY,9575
+0222,Glen Rock borough,Bergen,borough,12346,4567,2.7,25.8,18.3,1,75,25,5.2,Yes,0,99.6,1856,NA,glen rock boro,GLEN ROCK BORO,19303
+0223,Hackensack city,Bergen,city,46630,11125,4.2,131.5,92.1,4.3,433,111,24.8,No,24.8,100,3079,AA1,hackensack city,HACKENSACK CITY,9794
+0224,Harrington Park borough,Bergen,borough,5088,2757,1.8,9,6.5,0.5,23,11,2.7,Yes,32,99.3,1433,NA,harrington park boro,HARRINGTON PARK BORO,17013
+0225,Hasbrouck Heights borough,Bergen,borough,12253,8043,1.5,24.9,18.8,1.1,81,28,9.4,Yes,23.7,99.4,1165,NA,hasbrouck heights boro,HASBROUCK HEIGHTS BORO,13234
+0226,Haworth borough,Bergen,borough,3450,1781,1.9,10.6,7.6,0.6,33,13,3.5,NA,27.6,99.5,2137,AA+,haworth boro,HAWORTH BORO,20091
+0227,Hillsdale borough,Bergen,borough,10266,3538,2.9,18.9,11,1.2,42,22,4.9,Yes,27.2,99.2,454,AA+,hillsdale boro,HILLSDALE BORO,15102
+0228,Ho-Ho-Kus borough,Bergen,borough,4342,2496,1.7,12,8.4,0.3,38,16,3.9,Yes,40.9,99.6,2585,NA,ho-ho-kus boro,HOHOKUS BORO,18938
+0229,Leonia borough,Bergen,borough,9492,6232,1.5,18.9,14.1,1,54,19,3.8,Yes,26.8,99.4,3497,AA,leonia boro,LEONIA BORO,15015
+0230,Little Ferry borough,Bergen,borough,11137,7540,1.5,20,11.7,0.9,65,35,3.8,Yes,26.3,98.6,1283,AA,little ferry boro,LITTLE FERRY BORO,10577
+0231,Lodi borough,Bergen,borough,26358,11600,2.3,19.9,14,1.1,NA,NA,NA,NA,NA,NA,NA,NA,lodi boro,LODI BORO,10818
+0232,Lyndhurst township,Bergen,township,22642,4939,4.6,52,38.5,1.4,123,57,12.9,Yes,19.2,97.8,3657,AA,lyndhurst twp,LYNDHURST TWP,10688
+0233,Mahwah township,Bergen,township,25806,1016,25.4,49,29.8,5,151.3,55,13.3,No,26.3,99.5,1902,AAA,mahwah twp,MAHWAH TWP,9921
+0234,Maywood borough,Bergen,borough,10221,7944,1.3,19.9,14,1.1,96,46,9.2,Yes,27.4,NA,3608,AA,maywood boro,MAYWOOD BORO,11100
+0235,Midland Park borough,Bergen,borough,7104,4523,1.6,14,10.1,0.6,43,17,4,No,28.7,99.5,393,NA,midland park boro,MIDLAND PARK BORO,14028
+0236,Montvale borough,Bergen,borough,9663,2402,4,23.6,14.3,1.3,45,27,7.2,No,18.9,98.8,2334,AAA,montvale boro,MONTVALE BORO,13609
+0237,Moonachie borough,Bergen,borough,3168,1831,1.7,14.3,9.3,0.5,42,21,5.2,No,17.9,98.6,2296,AA,moonachie boro,MOONACHIE BORO,8990
+0238,New Milford borough,Bergen,borough,17229,7547,2.3,26.2,19.7,1.6,78,33,7.7,No,27.3,99.4,1162,NA,new milford boro,NEW MILFORD BORO,13425
+0239,North Arlington borough,Bergen,borough,16694,6720,2.5,30.8,19.4,1.1,69,31,8.1,Yes,17.4,95.8,740,AA STABLE,north arlington boro,NORTH ARLINGTON BORO,10865
+0240,Northvale borough,Bergen,borough,4979,3936,1.3,11.7,8.5,0.6,NA,NA,NA,NA,NA,NA,NA,NA,northvale boro,NORTHVALE BORO,12828
+0241,Norwood borough,Bergen,borough,5854,2102,2.8,13.7,10.2,0.6,30,17,4,Yes,NA,99.3,0,NA,norwood boro,NORWOOD BORO,15356
+0242,Oakland borough,Bergen,borough,12926,1520,8.5,26.1,17.6,1.3,83,27,6.1,No,22,106.1,1829,AAA,oakland boro,OAKLAND BORO,13332
+0243,Old Tappan borough,Bergen,borough,6342,1913,3.3,13.2,6.9,1.5,38,14,3.2,Yes,26,99.3,1704,AAA,old tappan boro,OLD TAPPAN BORO,18101
+0244,Oradell borough,Bergen,borough,8344,3460,2.4,21.2,15.8,0.8,56,23,5.4,Yes,28,99.5,2308,AA+,oradell boro,ORADELL BORO,17210
+0245,Palisades Park borough,Bergen,borough,20520,16562,1.2,30.5,21.3,1,120,57,8.6,Yes,11.3,99.2,1196,NA,palisades park boro,PALISADES PARK BORO,11085
+0246,Paramus borough,Bergen,borough,26786,2565,10.4,94.1,66.1,4.1,NA,NA,NA,NA,NA,NA,NA,NA,paramus boro,PARAMUS BORO,12095
+0247,Park Ridge borough,Bergen,borough,9634,3695,2.6,18,11.3,0.4,65,23,4.9,No,26.1,99.3,2177,AA,park ridge boro,PARK RIDGE BORO,15409
+0248,Ramsey borough,Bergen,borough,15003,2727,5.5,30.3,21.2,1.5,NA,NA,NA,NA,NA,NA,NA,NA,ramsey boro,RAMSEY BORO,15094
+0250,Ridgefield Park village,Bergen,village,13400,7861,1.7,27.7,19,1.2,75,33,8.3,No,31.7,98.5,1325,AAA (Insured),ridgefield park village,RIDGEFIELD PARK VILLAGE,12458
+0249,Ridgefield borough,Bergen,borough,11666,4587,2.5,27.2,12.9,5.6,76,29,6.4,Yes,24.7,99.1,2577,NA,ridgefield boro,RIDGEFIELD BORO,10873
+0251,Ridgewood village,Bergen,village,26701,4650,5.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,ridgewood village,RIDGEWOOD VILLAGE,20375
+0252,River Edge borough,Bergen,borough,12235,6676,1.8,21.6,16,1.1,64,26,5.3,Yes,27.2,99.3,2056,AA+/Stable,river edge boro,RIVER EDGE BORO,15748
+0253,River Vale township,Bergen,township,10407,2557,4.1,23.1,14.1,0.8,73,26,5.2,Yes,27.3,99.2,3715,AA/Stable,river vale twp,RIVER VALE TWP,16637
+0254,Rochelle Park township,Bergen,township,6002,6059,1,15.8,9.9,0.7,40,27,4.5,Yes,16.2,99.5,2230,NA,rochelle park twp,ROCHELLE PARK TWP,9462
+0255,Rockleigh borough,Bergen,borough,406,405,1,1.4,0.8,0.1,1,0,0,Yes,35,98.7,1736,NA,rockleigh boro,ROCKLEIGH BORO,13606
+0256,Rutherford borough,Bergen,borough,19214,6909,2.8,37.5,25.9,1.4,116,42,9.9,No,16.6,99.3,1414,AA+,rutherford boro,RUTHERFORD BORO,13645
+0257,Saddle Brook township,Bergen,township,14516,5392,2.7,31.7,24.3,1.5,84,34,9.3,No,0,98.5,4146,NA,saddle brook twp,SADDLE BROOK TWP,10666
+0258,Saddle River borough,Bergen,borough,3443,700,4.9,16.8,11.2,0.4,36,19,4.5,No,16.9,98.3,5729,AAA,saddle river boro,SADDLE RIVER BORO,19655
+0259,South Hackensack township,Bergen,township,2752,3840,0.7,12.5,9.3,0.5,35,23,5.3,No,32.2,99.8,3696,AA+,south hackensack twp,SOUTH HACKENSACK TWP,11167
+0260,Teaneck township,Bergen,township,42578,7049,6,85.9,63.8,3.4,370,97,21,Yes,29.3,99.9,1834,NA,teaneck twp,TEANECK TWP,13718
+0261,Tenafly borough,Bergen,borough,15455,3370,4.6,37.6,27.1,1.1,110,37,8.9,Yes,27.1,99.2,2131,NA,tenafly boro,TENAFLY BORO,23837
+0262,Teterboro borough,Bergen,borough,71,64,1.1,6.6,4.4,0.2,13,0,0,Yes,0,NA,0,NA,teterboro boro,TETERBORO BORO,1937
+0263,Upper Saddle River borough,Bergen,borough,8696,1655,5.3,17.1,11.4,0.9,47,18,4.1,Yes,0,99.1,3707,NA,upper saddle river boro,UPPER SADDLE RIVER BORO,19743
+0264,Waldwick borough,Bergen,borough,10308,5037,2,16.2,9.2,2.5,54,22,4.4,Yes,25.5,99.1,1511,-,waldwick boro,WALDWICK BORO,12463
+0265,Wallington borough,Bergen,borough,12060,12132,1,16.5,12.1,0.7,40,26,5.9,No,22.6,98.8,1289,AA,wallington boro,WALLINGTON BORO,10830
+0266,Washington township,Bergen,township,9437,3195,3,16.4,11.3,0.7,46,29,4.9,Yes,27.4,99.5,2176,AA+,washington twp,WASHINGTON TWP,13050
+0267,Westwood borough,Bergen,borough,11434,5063,2.3,22.5,16.3,1,73,37,5.6,No,0,99,1293,NA,westwood boro,WESTWOOD BORO,11502
+0269,Wood-Ridge borough,Bergen,borough,10397,9337,1.1,32.4,16.5,0.8,65.5,27,7.6,Yes,27.7,99.1,5819,AA,wood-ridge boro,WOOD-RIDGE BORO,10931
+0268,Woodcliff Lake borough,Bergen,borough,6234,1847,3.4,17.1,12.9,0.5,39,21,4.7,No,28.9,99,4056,AAA,woodcliff lake boro,WOODCLIFF LAKE BORO,19636
+0270,Wyckoff township,Bergen,township,17366,2635,6.6,26.7,16.1,1.1,67,28,5.8,Yes,23.4,99.5,706,NA,wyckoff twp,WYCKOFF TWP,15797
+0301,Bass River township,Burlington,township,1382,18,75.1,1.5,0.7,0.3,4,0,0,NA,NA,97.8,577,NA,bass river twp,BASS RIVER TWP,4757
+0302,Beverly city,Burlington,city,2543,4698,0.5,4.4,2.5,0.6,14,9,1.4,NA,NA,NA,0,NA,beverly city,BEVERLY CITY,6261
+0303,Bordentown city,Burlington,city,4068,4353,0.9,5.5,4.6,0.4,33,13,2.2,Yes,21,97.6,7994,NA,bordentown city,BORDENTOWN CITY,7579
+0304,Bordentown township,Burlington,township,12732,1470,8.7,17.4,8.8,0.9,64,29,4.9,No,24.7,97.8,4466,AA,bordentown twp,BORDENTOWN TWP,8176
+0305,Burlington city,Burlington,city,10143,3342,3,21.3,9.4,5.5,84,35,6.9,Yes,25.5,96.4,1346,AA-,burlington city,BURLINGTON CITY,6048
+0306,Burlington township,Burlington,township,24392,1810,13.5,27.8,23.4,4.6,149,51,6.3,No,44,99,0,AA,burlington twp,BURLINGTON TWP,6884
+0307,Chesterfield township,Burlington,township,9022,423,21.3,6.8,3.8,0.5,28,13,1.6,Yes,23.8,99.1,723,AA+,chesterfield twp,CHESTERFIELD TWP,12692
+0308,Cinnaminson township,Burlington,township,17724,2387,7.4,21.1,10.1,1.9,69,34,4.8,Yes,23.8,99.2,1070,AA+,cinnaminson twp,CINNAMINSON TWP,8377
+0309,Delanco township,Burlington,township,4953,2101,2.4,8.2,5.4,0.4,31.5,15,2.5,Yes,23.2,99,590,NA,delanco twp,DELANCO TWP,6672
+0310,Delran township,Burlington,township,18717,2823,6.6,20.2,11.8,1.3,77,30,6.1,No,18.7,98.8,775,AA,delran twp,DELRAN TWP,8073
+0311,Eastampton township,Burlington,township,6524,1139,5.7,9.3,6.4,0.4,30,16,NA,Yes,NA,100,1759,NA,eastampton twp,EASTAMPTON TWP,7357
+0312,Edgewater Park township,Burlington,township,9196,3150,2.9,11,7.2,0.7,39,20,3.3,Yes,23.6,97.8,2348,AA-,edgewater park twp,EDGEWATER PARK TWP,6248
+0313,Evesham township,Burlington,township,49050,1682,29.2,48.1,28.4,3.2,189,84,15.9,No,22.9,99.3,1285,NA,evesham twp,EVESHAM TWP,8696
+0314,Fieldsboro borough,Burlington,borough,547,1962,0.3,1,0.4,0.1,NA,0,0,No,NA,97,4582,NA,fieldsboro boro,FIELDSBORO BORO,6220
+0315,Florence township,Burlington,township,13247,1356,9.8,15.4,7.5,1.4,86,34,6.4,No,25.4,99.2,2745,AA,florence twp,FLORENCE TWP,5566
+0316,Hainesport township,Burlington,township,6128,947,6.5,5.3,2.7,0.4,10,0,0,Yes,6.6,99.2,0,NA,hainesport twp,HAINESPORT TWP,7493
+0317,Lumberton township,Burlington,township,13040,1012,12.9,11,6,1.3,51,28,3.4,No,23.4,98.7,1119,AA,lumberton twp,LUMBERTON TWP,7998
+0318,Mansfield township,Burlington,township,9091,418,21.7,12.9,5.2,0.5,39,18,3,Yes,0,99.4,1521,'AA',mansfield twp,MANSFIELD TWP,8214
+0319,Maple Shade township,Burlington,township,20322,5310,3.8,21.2,12.9,1.7,73,40,7.7,Yes,0,98.6,1135,AA-,maple shade twp,MAPLE SHADE TWP,6138
+0321,Medford Lakes borough,Burlington,borough,4347,3814,1.1,5.5,3.7,0.3,33,10,1.1,No,0,98.6,952,AA-,medford lakes boro,MEDFORD LAKES BORO,11019
+0320,Medford township,Burlington,township,25294,652,38.8,25.3,17.3,2,115,44,6.9,No,19.9,99.2,1645,NA,medford twp,MEDFORD TWP,11710
+0322,Moorestown township,Burlington,township,21796,1480,14.7,30,16.4,1.8,119,42,6.2,No,28.6,99.3,2462,NA,moorestown twp,MOORESTOWN TWP,12647
+0323,Mount Holly township,Burlington,township,10172,3603,2.8,12.9,6.3,1.5,52,24,3.5,Yes,21.9,99.4,1727,AA-,mount holly twp,MOUNT HOLLY TWP,5584
+0324,Mount Laurel township,Burlington,township,47211,2173,21.7,51.9,25.6,2.9,219,103,15.4,No,22.8,98.7,1099,AA+,mount laurel twp,MOUNT LAUREL TWP,6980
+0325,New Hanover township,Burlington,township,6339,284,22.3,2,0.3,0.9,7,3,0.5,Yes,19.2,96.9,5,NA,new hanover twp,NEW HANOVER TWP,5503
+0326,North Hanover township,Burlington,township,8102,466,17.4,4.5,2,0.8,16,9,1.2,Yes,21,98.4,593,NA,north hanover twp,NORTH HANOVER TWP,7478
+0327,Palmyra borough,Burlington,borough,7587,4102,1.8,11.1,7,0.6,42,17,2.5,Yes,22.8,98.2,1835,NA,palmyra boro,PALMYRA BORO,6434
+0328,Pemberton borough,Burlington,borough,1392,2361,0.6,1.7,0.9,0.1,12,6,0.6,Yes,26.7,98.4,960,NA,pemberton boro,PEMBERTON BORO,5180
+0329,Pemberton township,Burlington,township,27333,444,61.6,27,16.3,3.1,136,47,6.9,No,24.1,97,1093,NA,pemberton twp,PEMBERTON TWP,5045
+0330,Riverside township,Burlington,township,8146,5488,1.5,9.8,6.1,0.8,36,22,3.8,No,22.8,96.8,1285,NA,riverside twp,RIVERSIDE TWP,6010
+0331,Riverton borough,Burlington,borough,2816,4255,0.7,4.1,2.6,0.2,11,4,0.4,Yes,20.9,98.7,851,NA,riverton boro,RIVERTON BORO,9596
+0332,Shamong township,Burlington,township,6582,148,44.5,3.3,0.7,0.6,6,0,0,Yes,12.3,99.2,286,NA,shamong twp,SHAMONG TWP,9913
+0333,Southampton township,Burlington,township,10458,238,44,7.9,4.3,1.1,19,0,0,Yes,18,98.6,383,NA,southampton twp,SOUTHAMPTON TWP,6250
+0334,Springfield township,Burlington,township,3293,112,29.5,4.9,3.4,0.4,12,10,1,No,22.3,98.5,2223,AA-,springfield twp,SPRINGFIELD TWP,8782
+0335,Tabernacle township,Burlington,township,6948,141,49.2,6.1,3.6,1.2,10,0,0,Yes,15.4,99.6,1507,NA,tabernacle twp,TABERNACLE TWP,9118
+0336,Washington township,Burlington,township,717,7,101.7,1.4,0,1,NA,0,0,NA,NA,91.7,0,NA,washington twp,WASHINGTON TWP,4770
+0337,Westampton township,Burlington,township,9350,852,11,14.5,9.5,0.7,70,26,4.4,Yes,23.6,NA,858,NA,westampton twp,WESTAMPTON TWP,6775
+0338,Willingboro township,Burlington,township,32511,4208,7.7,51.5,33.5,3.7,218,70,13.2,Yes,14.8,97,1327,AA-,willingboro twp,WILLINGBORO TWP,6951
+0339,Woodland township,Burlington,township,1569,17,92.6,1.6,0.5,0.7,1,0,0,No,NA,96.1,210,NA,woodland twp,WOODLAND TWP,7376
+0340,Wrightstown borough,Burlington,borough,731,395,1.9,1.2,0.5,0.4,5,0,0,Yes,0,99.7,1363,NA,wrightstown boro,WRIGHTSTOWN BORO,5703
+0402,Audubon Park borough,Camden,borough,1000,6648,0.2,1.3,1,0.1,NA,0,0,NA,8,100,729,NA,audubon park boro,AUDUBON PARK BORO,NA
+0401,Audubon borough,Camden,borough,8801,5938,1.5,14.1,0,0.8,40,17,3.5,Yes,24.7,98.8,963,NA,audubon boro,AUDUBON BORO,8235
+0403,Barrington borough,Camden,borough,7140,4516,1.6,10.6,7,0.7,38,16,2.6,No,16.5,98.9,1609,AA-,barrington boro,BARRINGTON BORO,9301
+0404,Bellmawr borough,Camden,borough,11846,3969,3,18.6,10.3,1.2,NA,NA,NA,NA,NA,NA,NA,NA,bellmawr boro,BELLMAWR BORO,6371
+0405,Berlin borough,Camden,borough,7614,2119,3.6,10.6,6.6,0.7,45,21,3.3,No,-26.1,98.9,1878,AA-,berlin boro,BERLIN BORO,8077
+0406,Berlin township,Camden,township,6044,1808,3.3,12.5,8.3,1.3,40,18,3.5,Yes,18.7,97.5,1341,AA - Stable,berlin twp,BERLIN TWP,7307
+0407,Brooklawn borough,Camden,borough,1831,3749,0.5,4.6,2.5,0.2,16,10,1.2,No,19.1,NA,2106,NA,brooklawn boro,BROOKLAWN BORO,4673
+0408,Camden city,Camden,city,71749,8042,8.9,234.8,31.5,142.8,534,NA,0,No,25.4,90.8,167,A,camden city,CAMDEN CITY,2072
+0409,Cherry Hill township,Camden,township,78988,3281,24.1,81.4,48.6,8.9,331,141,25.1,No,19.4,99.9,1345,NA,cherry hill twp,CHERRY HILL TWP,9379
+0410,Chesilhurst borough,Camden,borough,1558,908,1.7,3.9,2,0.8,11,10,1.3,NA,0,93.9,424,NA,chesilhurst boro,CHESILHURST BORO,6638
+0411,Clementon borough,Camden,borough,5600,2959,1.9,7.5,5,0.4,30,12,2.3,Yes,9.2,96,832,A+,clementon boro,CLEMENTON BORO,5382
+0412,Collingswood borough,Camden,borough,14344,7838,1.8,22.1,12.9,1.2,91,28,4.4,No,19.9,99.9,1524,AA-,collingswood boro,COLLINGSWOOD BORO,9054
+0413,Gibbsboro borough,Camden,borough,2264,1052,2.2,3.8,2.6,0.3,14,8,0.6,No,16.1,99.3,1932,AA+,gibbsboro boro,GIBBSBORO BORO,9904
+0414,Gloucester City city,Camden,city,11618,5019,2.3,23.5,14.8,3,NA,NA,NA,NA,NA,NA,NA,NA,gloucester city,GLOUCESTER CITY,5504
+0415,Gloucester township,Camden,township,66896,2914,23,83.2,60.9,5.2,344,137,26.3,NA,NA,99.7,2450,AA-,gloucester twp,GLOUCESTER TWP,7771
+0418,Haddon Heights borough,Camden,borough,7588,4845,1.6,11,7.4,0.8,22,16,2.7,No,25.1,98.8,1537,NA,haddon heights boro,HADDON HEIGHTS BORO,10196
+0416,Haddon township,Camden,township,15612,5799,2.7,18,11.6,1.3,71,29,5.4,NA,15.2,99.4,1659,NA,haddon twp,HADDON TWP,9232
+0417,Haddonfield borough,Camden,borough,12707,4544,2.8,24.8,15.3,1,60,24,4.6,No,23.1,99.2,2748,NA,haddonfield boro,HADDONFIELD BORO,17141
+0419,Hi-Nella borough,Camden,borough,938,4215,0.2,1.2,0.7,0.1,2,1,0.1,No,NA,99,800,NA,hi-nella boro,HI-NELLA BORO,9355
+0420,Laurel Springs borough,Camden,borough,2003,4437,0.5,2.9,2.3,0.3,10,7,1,No,0,97.8,1387,NA,laurel springs boro,LAUREL SPRINGS BORO,9157
+0421,Lawnside borough,Camden,borough,3333,2330,1.4,7,3.2,1.2,28,6,1.5,No,13.9,94.4,2197,NA,lawnside boro,LAWNSIDE BORO,6539
+0422,Lindenwold borough,Camden,borough,21919,5617,3.9,20.1,11.2,2.1,89,44,7.4,Yes,16.6,98.4,341,AA-,lindenwold boro,LINDENWOLD BORO,5342
+0423,Magnolia borough,Camden,borough,4396,4493,1,6.1,3.7,0.5,25,14,1.9,No,23.6,98.5,617,AA-,magnolia boro,MAGNOLIA BORO,7155
+0424,Merchantville borough,Camden,borough,4226,7121,0.6,6.3,4.6,0.6,24,14,1.8,No,19.5,98.4,1905,A+/Stable,merchantville boro,MERCHANTVILLE BORO,10067
+0425,Mount Ephraim borough,Camden,borough,4700,5317,0.9,7.5,5,0.4,28,16,2.5,No,0,98.5,1564,A+,mount ephraim boro,MOUNT EPHRAIM BORO,7662
+0426,Oaklyn borough,Camden,borough,3979,6344,0.6,7,4.9,0.3,19,14,1.6,No,0,98.4,2076,NA,oaklyn boro,OAKLYN BORO,8769
+0427,Pennsauken township,Camden,township,37665,3594,10.5,53.3,32.6,5.6,226,104,19,No,3.2,98.5,1611,NA,pennsauken twp,PENNSAUKEN TWP,5921
+0428,Pine Hill borough,Camden,borough,10894,2786,3.9,12,6.9,0.9,43,25,2.9,No,0,97.4,764,NA,pine hill boro,PINE HILL BORO,6292
+0430,Runnemede borough,Camden,borough,8425,4108,2.1,10.2,6.9,0.9,43,17,3.1,No,21.2,NA,987,NA,runnemede boro,RUNNEMEDE BORO,6718
+0431,Somerdale borough,Camden,borough,5712,4104,1.4,8.1,4.8,0.5,42,17,2.4,No,0,98.3,1572,A+,somerdale boro,SOMERDALE BORO,6695
+0432,Stratford borough,Camden,borough,7185,4575,1.6,8,4.8,0.7,24,14,2.5,Yes,23.7,98.4,459,NA,stratford boro,STRATFORD BORO,7623
+0433,Tavistock borough,Camden,borough,2,7,0.3,0.2,0.2,0,NA,0,0,No,NA,100,0,N/A,tavistock boro,TAVISTOCK BORO,37918
+0434,Voorhees township,Camden,township,31473,2744,11.5,52.5,37.9,2.3,200,56,10,Yes,25.1,98.8,1217,AA,voorhees twp,VOORHEES TWP,11313
+0435,Waterford township,Camden,township,10539,293,36,32.3,20.7,2.3,105,32,6.6,No,25.5,96.9,1330,NA,waterford twp,WATERFORD TWP,7686
+0436,Winslow township,Camden,township,40458,705,57.4,39.1,20,6.1,195,84,15,No,NA,98,332,AA-,winslow twp,WINSLOW TWP,6425
+0437,Woodlynne borough,Camden,borough,2941,13518,0.2,3.4,2.4,0.2,6,0,0,Yes,18.5,96.1,120,NA,woodlynne boro,WOODLYNNE BORO,5583
+0501,Avalon borough,Cape May,borough,1216,285,4.3,36.2,20.7,0.4,80,21,3.1,No,23.1,99.5,23117,AAA,avalon boro,AVALON BORO,10701
+0503,Cape May Point borough,Cape May,borough,297,1007,0.3,2.5,1.8,0,6,0,0,Yes,7.5,99.3,9677,AA,cape may point boro,CAPE MAY POINT BORO,5460
+0502,Cape May city,Cape May,city,2742,1109,2.5,27.5,10.9,0.3,140,31,4.1,NA,0,NA,NA,NA,cape may city,CAPE MAY CITY,7188
+0504,Dennis township,Cape May,township,6098,101,60.4,5.9,2.4,1.7,15,0,0,Yes,16.7,98.2,1502,AA-,dennis twp,DENNIS TWP,3565
+0505,Lower township,Cape May,township,21705,793,27.4,35,23.9,1.6,138,50,8.3,Yes,17.4,99,1524,AA-/Stable,lower twp,LOWER TWP,4638
+0506,Middle township,Cape May,township,19944,284,70.2,28.2,18.4,3.6,131,57,8.7,No,13.7,99.2,653,AA-,middle twp,MIDDLE TWP,5144
+0507,North Wildwood city,Cape May,city,3555,2061,1.7,39.7,25.2,0.4,104,29,5.6,No,19.3,99.9,19286,AA-,north wildwood city,NORTH WILDWOOD CITY,4838
+0508,Ocean City city,Cape May,city,11219,1661,6.8,112.1,74,2.2,286,68,10.7,No,0,99.4,20631,AA,ocean city,OCEAN CITY,7237
+0509,Sea Isle City city,Cape May,city,2122,963,2.2,32.6,22.4,0.3,105,23,4.9,No,22.5,NA,36614,AA,sea isle city,SEA ISLE CITY,6323
+0510,Stone Harbor borough,Cape May,borough,784,552,1.4,22.7,17,0.2,81,NA,2.1,NA,NA,100,NA,NA,stone harbor boro,STONE HARBOR BORO,12340
+0511,Upper township,Cape May,township,12406,200,62,17.5,6.2,6.3,61,0,0,Yes,24.7,NA,1018,AA,upper twp,UPPER TWP,6313
+0512,West Cape May borough,Cape May,borough,995,848,1.2,3.8,2.3,0.1,14,0,0,Yes,0,97.8,4102,AA,west cape may boro,WEST CAPE MAY BORO,7300
+0513,West Wildwood borough,Cape May,borough,536,1874,0.3,3.6,2.9,0,14,9,1,Yes,4.3,96.8,10759,AA-,west wildwood boro,WEST WILDWOOD BORO,5104
+0515,Wildwood Crest borough,Cape May,borough,3036,2339,1.3,29.9,17.4,0.4,94,31,4.7,Yes,18.8,99,15434,NA,wildwood crest boro,WILDWOOD CREST BORO,5490
+0514,Wildwood city,Cape May,city,5098,3309,1.5,36.7,23.7,1,187,45,7.6,Yes,21.6,101.6,9850,AA-,wildwood city,WILDWOOD CITY,6182
+0516,Woodbine borough,Cape May,borough,2122,265,8,2,0.4,0.3,5,0,0,Yes,12.1,99.3,0,NA,woodbine boro,WOODBINE BORO,2067
+0601,Bridgeton city,Cumberland,city,27722,4451,6.2,29.6,17.5,4.5,203,60,8.7,Yes,21.8,98.5,369,NA,bridgeton city,BRIDGETON CITY,3805
+0602,Commercial township,Cumberland,township,4724,148,31.9,3.8,1.9,0.6,NA,0,0,Yes,17.3,93.3,241,NA,commercial twp,COMMERCIAL TWP,2838
+0603,Deerfield township,Cumberland,township,3216,191,16.8,2.2,0.3,0.3,6,0,0,Yes,-12.8,NA,223,NA,deerfield twp,DEERFIELD TWP,5334
+0604,Downe township,Cumberland,township,1401,29,48.4,3,0.6,0.5,7,0,0,Yes,0,92.2,30772,NA,downe twp,DOWNE TWP,3859
+0605,Fairfield township,Cumberland,township,5395,131,41.1,3.4,1.6,0.5,6,0,0,No,15.7,92.5,501,A+,fairfield twp,FAIRFIELD TWP,4083
+0606,Greenwich township,Cumberland,township,773,43,17.8,0.9,0.4,0.1,NA,0,0,NA,NA,95,0,NA,greenwich twp,GREENWICH TWP,6311
+0607,Hopewell township,Cumberland,township,4452,149,29.9,2.7,1.1,0.3,5,0,0,Yes,20,97.4,521,AA-,hopewell twp,HOPEWELL TWP,5681
+0608,Lawrence township,Cumberland,township,3130,85,36.9,2.5,1.6,0.3,7,0,0,No,6.2,94.5,582,NA,lawrence twp,LAWRENCE TWP,4971
+0609,Maurice River township,Cumberland,township,5184,56,93.2,3.9,1.3,1.2,10,0,0,Yes,22.9,94.6,0,NA,maurice river twp,MAURICE RIVER TWP,4634
+0610,Millville city,Cumberland,city,27838,663,42,39.1,21.2,4.3,249,85,14,Yes,20.6,NA,696,AA-/Stable,millville city,MILLVILLE CITY,4923
+0611,Shiloh borough,Cumberland,borough,453,377,1.2,0.3,0.1,0,NA,0,0,No,NA,96.2,0,NA,shiloh boro,SHILOH BORO,4776
+0612,Stow Creek township,Cumberland,township,1342,73,18.3,0.7,0.2,0.1,NA,0,0,No,NA,96.7,7,NA,stow creek twp,STOW CREEK TWP,5218
+0613,Upper Deerfield township,Cumberland,township,7978,255,31.2,5.7,1.3,1.4,18,0,0,Yes,0,97,242,AA-,upper deerfield twp,UPPER DEERFIELD TWP,5907
+0614,Vineland city,Cumberland,city,62070,908,68.4,88.3,44.4,6.3,683,148,24.2,Yes,22.9,101.4,1564,NA,vineland city,VINELAND CITY,5158
+0701,Belleville township,Essex,township,38672,11734,3.3,88,59.6,6.5,291,110,26.2,No,0,100,1380,NA,belleville twp,BELLEVILLE TWP,11273
+0702,Bloomfield township,Essex,township,55416,10384,5.3,101.2,70.7,8.5,399,123,30.2,No,12.8,99,1745,NA,bloomfield twp,BLOOMFIELD TWP,12023
+0703,Caldwell borough,Essex,borough,9326,7916,1.2,15.8,10.7,0.7,55,24,4.5,Yes,29.1,99.3,4371,AA-,caldwell boro,CALDWELL BORO TWP,13576
+0704,Cedar Grove township,Essex,township,13766,3249,4.2,24.1,14.2,1.1,85,31,9.2,Yes,23.1,98.5,1990,AA+,cedar grove twp,CEDAR GROVE TWP,12089
+0717,City of Orange township,Essex,township,35079,15854,2.2,89.7,66.9,8.5,366,141,25.5,No,22.5,99,1044,NA,city of orange twp,CITY OF ORANGE TWP,12421
+0705,East Orange city,Essex,city,71850,18294,3.9,168.7,94.4,22.4,882,228,37.3,No,18.9,97.1,1368,A+,east orange city,EAST ORANGE CITY,10299
+0706,Essex Fells borough,Essex,borough,2220,1576,1.4,7.1,4.9,0.2,28,13,2.7,Yes,26.7,98.9,2446,NA,essex fells boro,ESSEX FELLS TWP,20416
+0707,Fairfield township,Essex,township,8204,810,10.1,27.5,17,1.2,84,44,8.8,No,25.2,99.1,2679,NA,fairfield twp,FAIRFIELD TWP,11529
+0708,Glen Ridge borough,Essex,borough,8204,6436,1.3,18.5,13.3,0.4,55,25,4.9,Yes,17.1,99.4,729,NA,glen ridge boro,GLEN RIDGE BORO TWP,22987
+0709,Irvington township,Essex,township,61838,21219,2.9,129,89.3,11.8,622,185,39.7,No,9.6,99.4,1135,NA,irvington twp,IRVINGTON TWP,9360
+0710,Livingston township,Essex,township,32160,2333,13.8,65.4,39.4,3,235,75,16,Yes,17,98.4,3822,AA,livingston twp,LIVINGSTON TWP,17641
+0711,Maplewood township,Essex,township,26127,6744,3.9,59.4,40.6,1.9,183,63,10.7,No,27.6,99.1,2156,AA,maplewood twp,MAPLEWOOD TWP,18615
+0712,Millburn township,Essex,township,22756,2438,9.3,71,48,2.4,193,59,15.7,No,28.7,98.5,1798,NA,millburn twp,MILLBURN TWP,25415
+0713,Montclair township,Essex,township,41076,6585,6.2,105,62.6,3,406,112,23.3,Yes,28.6,NA,1761,AAA,montclair twp,MONTCLAIR TWP,21635
+0714,Newark city,Essex,city,317303,13142,24.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,newark city,NEWARK CITY,7238
+0715,North Caldwell borough,Essex,borough,6769,2206,3.1,13.1,7.9,0.5,42,24,3.6,Yes,24.2,NA,2515,NA,north caldwell boro,NORTH CALDWELL BORO,17970
+0716,Nutley township,Essex,township,30508,9048,3.4,64.8,43.9,5.3,250,71,23,Yes,27.2,99,1175,NA,nutley twp,NUTLEY TWP,12946
+0718,Roseland borough,Essex,borough,6370,1761,3.6,17.7,10.5,0.8,58,27,4.7,Yes,20.2,98.9,3670,AA+,roseland boro,ROSELAND BORO,11545
+0719,South Orange Village township,Essex,township,18736,6584,2.8,47.7,29.3,1.5,113,45,9.1,Yes,26,99,4299,AA,south orange village twp,SOUTH ORANGE VILLAGE TWP,22065
+0720,Verona township,Essex,township,14779,5289,2.8,28.8,18.3,1.2,102,34,8.5,No,29.2,99.3,3373,AA,verona twp,VERONA TWP,13411
+0721,West Caldwell township,Essex,township,11157,2189,5.1,25.8,16.4,1.3,73,27,6.3,No,24.8,99.7,3500,AA+,west caldwell twp,WEST CALDWELL TWP,12273
+0722,West Orange township,Essex,township,49211,4100,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,west orange twp,WEST ORANGE TWP,15779
+0801,Clayton borough,Gloucester,borough,9016,1274,7.1,9.7,5.6,0.6,37,16,3,Yes,21.1,97.9,624,NA,clayton boro,CLAYTON BORO,6782
+0802,Deptford township,Gloucester,township,32570,1879,17.3,40.5,25.4,2.2,160,70,10.3,Yes,20.1,98.4,1122,AA,deptford twp,DEPTFORD TWP,6169
+0803,East Greenwich township,Gloucester,township,12565,870,14.4,10.7,4.9,1.9,41,22,1.8,NA,25.9,99.3,856,NA,east greenwich twp,EAST GREENWICH TWP,9523
+0804,Elk township,Gloucester,township,4506,235,19.2,6.4,3.7,0.4,20,15,2.4,No,17.9,97.1,351,AA,elk twp,ELK TWP,7639
+0805,Franklin township,Gloucester,township,16691,299,55.8,18.7,10,1.5,77,39,6.9,No,11.5,98.1,430,AA-Stable,franklin twp,FRANKLIN TWP,6921
+0806,Glassboro borough,Gloucester,borough,24322,2610,9.3,31.3,15.3,2.6,173,49,7.8,Yes,24.6,98.1,1344,AA,glassboro boro,GLASSBORO BORO,6779
+0807,Greenwich township,Gloucester,township,5033,560,9,13.4,9,0.7,44,21,3.6,No,13.2,99.3,2007,AA-,greenwich twp,GREENWICH TWP,5678
+0808,Harrison township,Gloucester,township,13924,735,18.9,14.5,9.6,0.5,49,24,4.6,Yes,27.1,98.6,1627,AA,harrison twp,HARRISON TWP,11311
+0809,Logan township,Gloucester,township,6116,279,21.9,19.2,8.5,0.5,60,23,3.1,NA,NA,102.5,4448,NA,logan twp,LOGAN TWP,4248
+0810,Mantua township,Gloucester,township,15565,973,16,17.5,11.4,1.2,78,28,5.4,No,24.6,98.8,556,AA,mantua twp,MANTUA TWP,7723
+0811,Monroe township,Gloucester,township,38043,820,46.4,46.2,28.5,4.1,40,7,9.3,No,0,98.6,1178,AA,monroe twp,MONROE TWP,7603
+0812,National Park borough,Gloucester,borough,3085,3062,1,2.9,1.7,0.4,10,0,0,Yes,8.2,97.3,78,NA,national park boro,NATIONAL PARK BORO,6705
+0813,Newfield borough,Gloucester,borough,1812,1043,1.7,1.8,1.2,0.1,4,0,0,Yes,0,97.4,379,NA,newfield boro,NEWFIELD BORO,6815
+0814,Paulsboro borough,Gloucester,borough,6316,3282,1.9,11.2,6,0.6,54,26,3.4,No,0,96.5,1409,A+,paulsboro boro,PAULSBORO BORO,4654
+0815,Pitman borough,Gloucester,borough,8943,4031,2.2,11.6,7,0.6,60,18,3.1,No,0,98.6,744,AA-,pitman boro,PITMAN BORO,8353
+0816,South Harrison township,Gloucester,township,3472,218,15.9,2.9,1.3,0.1,4,0,0,Yes,20.4,97.7,0,NA,south harrison twp,SOUTH HARRISON TWP,10274
+0817,Swedesboro borough,Gloucester,borough,2766,3783,0.7,2.9,3.6,0.3,9,0,0,Yes,19.8,98.3,548,AA-,swedesboro boro,SWEDESBORO BORO,7423
+0818,Washington township,Gloucester,township,49756,2331,21.3,50,34.4,3.2,184,83,15.6,No,0,99.6,1047,NA,washington twp,WASHINGTON TWP,8184
+0819,Wenonah borough,Gloucester,borough,2328,2338,1,2.7,1.7,0.2,6,0,0,No,24.1,99.5,858,NA,wenonah boro,WENONAH BORO,11563
+0820,West Deptford township,Gloucester,township,22653,1475,15.4,41.1,23.8,2,143,43,8.5,No,22.1,98.6,2266,AA-,west deptford twp,WEST DEPTFORD TWP,7040
+0821,Westville borough,Gloucester,borough,4350,4249,1,6.9,3.5,0.4,47,14,1.6,No,18.6,99.3,906,AA-,westville boro,WESTVILLE BORO,6619
+0823,Woodbury Heights borough,Gloucester,borough,3155,2532,1.2,4.7,3.4,0.3,9,0,0,No,23.1,98.4,1167,AA,woodbury heights boro,WOODBURY HEIGHTS BORO,8560
+0822,Woodbury city,Gloucester,city,10138,5019,2,19,12.1,1.4,91,33,7.1,Yes,21.8,97.6,2108,AA,woodbury city,WOODBURY CITY,7388
+0824,Woolwich township,Gloucester,township,14658,696,21.1,19.9,8.3,0.4,48,31,4.8,No,18.7,99,3183,AA,woolwich twp,WOOLWICH TWP,10863
+0901,Bayonne city,Hudson,city,74532,12803,5.8,164,94.5,8.9,633,206,43.4,Yes,-13.9,99.8,2822,NA,bayonne city,BAYONNE CITY,11247
+0902,East Newark borough,Hudson,borough,2539,24765,0.1,4.7,2.4,0.6,13,6,1.3,No,32.2,94.3,1383,NA,east newark boro,EAST NEWARK BORO,8087
+0903,Guttenberg town,Hudson,town,11945,61886,0.2,26.1,16.7,0.5,58,26,5.6,No,5.2,98,2560,AA,guttenberg town,GUTTENBERG TOWN,10337
+0904,Harrison town,Hudson,town,22182,18315,1.2,56.7,16.3,11.6,183,61,10,Yes,25.1,98.9,586,NA,harrison town,HARRISON TOWN,10699
+0905,Hoboken city,Hudson,city,59149,47311,1.3,149.6,69.7,11.2,NA,NA,NA,NA,NA,NA,NA,NA,hoboken city,HOBOKEN CITY,9317
+0906,Jersey City city,Hudson,city,302824,20539,14.7,734.8,385,65.2,2854,823,139.2,No,25,97.4,2412,AA,jersey city,JERSEY CITY,10624
+0907,Kearny town,Hudson,town,40866,4621,8.8,93,42.6,18.7,336,113,18.2,Yes,26.5,98,2226,NA,kearny town,KEARNY TOWN,10568
+0908,North Bergen township,Hudson,township,61668,12007,5.1,119.3,78.2,7.3,378,137,24.2,No,22.9,98.8,1723,NA,north bergen twp,NORTH BERGEN TWP,8505
+0909,Secaucus town,Hudson,town,22710,3898,5.8,78.2,53,1.9,244,81,16.2,Yes,3.4,99.5,2599,AA,secaucus town,SECAUCUS TOWN,7333
+0910,Union City city,Hudson,city,66918,51995,1.3,170,84.8,63.7,537,152,21,No,0,100,1087,NA,union city,UNION CITY,9138
+0911,Weehawken township,Hudson,township,17877,22809,0.8,64.1,36.4,0.8,216,57,10.2,Yes,31.7,100,5377,n/a,weehawken twp,WEEHAWKEN TWP,14988
+0912,West New York town,Hudson,town,52975,53280,1,105.5,45.9,4.5,360,125,22.4,Yes,15.8,99.5,1040,A+,west new york town,WEST NEW YORK TOWN,8144
+1001,Alexandria township,Hunterdon,township,4845,176,27.5,3.7,2.5,0.3,7,0,0,Yes,24.1,98.4,421,AA+,alexandria twp,ALEXANDRIA TWP,11607
+1002,Bethlehem township,Hunterdon,township,3774,182,20.7,3.8,2.5,0.3,9,0,0,Yes,20.8,99,74,NA,bethlehem twp,BETHLEHEM TWP,11630
+1003,Bloomsbury borough,Hunterdon,borough,802,860,0.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,bloomsbury boro,BLOOMSBURY BORO,7583
+1004,Califon borough,Hunterdon,borough,1018,1062,1,1.5,1.2,0.1,1,0,0,Yes,23,97.4,1813,NA,califon boro,CALIFON BORO,12706
+1005,Clinton town,Hunterdon,town,2793,2074,1.3,6.2,4,0.2,37,12,2.3,Yes,13.8,98.6,3081,AA,clinton town,CLINTON TOWN,12437
+1006,Clinton township,Hunterdon,township,13405,449,29.9,16.7,11.8,1,60,27,5.4,Yes,0,99.2,2362,NA,clinton twp,CLINTON TWP,11950
+1007,Delaware township,Hunterdon,township,4592,125,36.7,6.6,4.5,0.4,21,7,1.8,Yes,0,98.8,2076,AA/Stable,delaware twp,DELAWARE TWP,11050
+1008,East Amwell township,Hunterdon,township,3948,139,28.5,3.1,1.5,0.3,8,0,0,No,0,NA,172,NA,east amwell twp,EAST AMWELL TWP,9555
+1009,Flemington borough,Hunterdon,borough,4905,4552,1.1,9,6.5,0.4,38,15,3.3,Yes,4.9,96.8,2298,AA-,flemington boro,FLEMINGTON BORO,9580
+1010,Franklin township,Hunterdon,township,3307,144,23,4.6,3,0.3,7,0,0.5,Yes,14.2,NA,831,NA,franklin twp,FRANKLIN TWP,12477
+1011,Frenchtown borough,Hunterdon,borough,1495,1325,1.1,2.8,1.6,0.1,9,3,0.3,Yes,0,93.7,2882,NA,frenchtown boro,FRENCHTOWN BORO,10830
+1012,Glen Gardner borough,Hunterdon,borough,1691,1092,1.5,1.4,0.9,0.1,4,0,0,Yes,25.2,97.2,554,NA,glen gardner boro,GLEN GARDNER BORO,7190
+1013,Hampton borough,Hunterdon,borough,1449,963,1.5,1.5,1,0.1,5,0,0,Yes,-14.3,98,1533,NA,hampton boro,HAMPTON BORO,9423
+1014,High Bridge borough,Hunterdon,borough,3607,1508,2.4,6.8,3.8,0.3,17,9,1.4,NA,0,98.7,2407,AA,high bridge boro,HIGH BRIDGE BORO,10928
+1015,Holland township,Hunterdon,township,5232,223,23.5,6.2,1.2,2.7,23,10,1.4,Yes,18.4,98.6,0,NA,holland twp,HOLLAND TWP,9209
+1016,Kingwood township,Hunterdon,township,3863,110,35,3.6,2.2,0.3,7,0,0,Yes,22.8,98.4,159,NA,kingwood twp,KINGWOOD TWP,9239
+1017,Lambertville city,Hunterdon,city,4197,3871,1.1,8,4.5,0.4,30,11,1.7,Yes,23.4,98.8,4024,AA,lambertville city,LAMBERTVILLE CITY,9724
+1018,Lebanon borough,Hunterdon,borough,1675,1857,0.9,2.3,1.5,0.1,2,0,0,Yes,-25,99.2,1992,AA-,lebanon boro,LEBANON BORO,7576
+1019,Lebanon township,Hunterdon,township,6237,198,31.4,7.6,3.1,2.7,25,11,2.2,Yes,22,97.6,36,NA,lebanon twp,LEBANON TWP,10557
+1020,Milford borough,Hunterdon,borough,1226,1037,1.2,1.9,1,0.3,5,0,0,Yes,35.1,97.6,719,NA,milford boro,MILFORD BORO,8866
+1021,Raritan township,Hunterdon,township,25288,675,37.5,25.4,18.1,2.1,94,37,9.4,NA,26.6,99.6,NA,NA,raritan twp,RARITAN TWP,11750
+1022,Readington township,Hunterdon,township,16371,344,47.6,26.4,18.4,1.4,75,28,5.1,Yes,18.2,99.3,2465,AA/STABLE,readington twp,READINGTON TWP,11848
+1023,Stockton borough,Hunterdon,borough,499,913,0.5,1.1,0.6,0.1,NA,0,0,NA,NA,99.1,586,NA,stockton boro,STOCKTON BORO,9158
+1024,Tewksbury township,Hunterdon,township,5919,187,31.6,10.8,6.7,0.5,29,11,1.8,Yes,23.4,99.1,2445,NA,tewksbury twp,TEWKSBURY TWP,15410
+1025,Union township,Hunterdon,township,6536,348,18.8,4.4,2.4,0.4,7,0,0,Yes,20.7,98.4,280,AA+,union twp,UNION TWP,10316
+1026,West Amwell township,Hunterdon,township,3034,140,21.6,4.6,2.5,1,16,6,1.2,Yes,20.6,99.4,1352,NA,west amwell twp,WEST AMWELL TWP,11119
+1101,East Windsor township,Mercer,township,30436,1955,15.6,25.3,13.6,3.6,97,44,7.5,Yes,26.8,NA,680,NA,east windsor twp,EAST WINDSOR TWP,9346
+1102,Ewing township,Mercer,township,35858,2358,15.2,58.1,35.3,9.9,255,87,13.8,Yes,25.2,99.9,1634,AA+,ewing twp,EWING TWP,8096
+1103,Hamilton township,Mercer,township,93911,2381,39.4,172.5,118.2,19.4,701,173,36.5,No,15.1,100,1621,AA,hamilton twp,HAMILTON TWP,7647
+1104,Hightstown borough,Mercer,borough,5978,4847,1.2,9.3,6.8,0.5,NA,NA,NA,NA,NA,NA,NA,NA,hightstown boro,HIGHTSTOWN BORO,10602
+1105,Hopewell borough,Mercer,borough,1938,2678,0.7,4.5,2.5,0.2,7,0,0,Yes,25,98.7,4274,AA,hopewell boro,HOPEWELL BORO,13761
+1106,Hopewell township,Mercer,township,17916,309,58.1,29.8,17.5,1.7,108,37,6.3,No,26.1,99.3,2574,AA+,hopewell twp,HOPEWELL TWP,14527
+1107,Lawrence township,Mercer,township,32388,1491,21.7,58.5,31,4,195,63,10.7,Yes,0.6,99.5,240,NA,lawrence twp,LAWRENCE TWP,8853
+1108,Pennington borough,Mercer,borough,2906,3024,1,4.8,3,0.2,17,6,1,Yes,24.3,99.4,1469,AA+,pennington boro,PENNINGTON BORO,15625
+1114,Princeton borough,Mercer,borough,31445,1752,17.9,77.9,37.9,2.5,234,53,10.3,NA,19.1,99.1,6680,Aaa,princeton boro,PRINCETON,22658
+1112,Robbinsville township,Mercer,township,15928,779,20.4,30.6,15.5,1.4,127,30,5.6,No,21.4,NA,4324,AA/Positive,robbinsville twp,ROBBINSVILLE TWP,12682
+1111,Trenton city,Mercer,city,91193,12033,7.6,260.8,83.1,110.2,NA,NA,NA,NA,NA,NA,NA,NA,trenton city,TRENTON CITY,3690
+1113,West Windsor township,Mercer,township,32241,1262,25.5,53.5,26.3,2.2,207,53,10.7,No,20.4,99.5,2258,AAA,west windsor twp,WEST WINDSOR TWP,16083
+1201,Carteret borough,Middlesex,borough,26003,5922,4.4,58.9,39.2,2.6,151,72,16.8,Yes,30.7,98.5,0,NA,carteret boro,CARTERET BORO,7814
+1202,Cranbury township,Middlesex,township,4170,314,13.3,14.1,7.2,0.5,70,42,8,Yes,27,198.9,9734,AAA,cranbury twp,CRANBURY TWP,11128
+1203,Dunellen borough,Middlesex,borough,8411,7918,1.1,11,6.4,0.6,43,20,3.3,Yes,23.8,98.7,3159,NA,dunellen boro,DUNELLEN BORO,10922
+1204,East Brunswick township,Middlesex,township,51086,2345,21.8,81.3,43.6,4.2,296,86,17.5,No,0,98.9,1719,NA,east brunswick twp,EAST BRUNSWICK TWP,11284
+1205,Edison township,Middlesex,township,110002,3658,30.1,173.3,111.7,16.3,NA,NA,NA,NA,NA,103,NA,NA,edison twp,EDISON TWP,10513
+1206,Helmetta borough,Middlesex,borough,2504,3023,0.8,14.1,7.2,0.5,NA,NA,NA,NA,NA,NA,NA,NA,helmetta boro,HELMETTA BORO,7061
+1207,Highland Park borough,Middlesex,borough,15386,8449,1.8,20.3,14.8,1,87,28,5.5,No,21.7,99.9,1015,AA,highland park boro,HIGHLAND PARK BORO,12310
+1208,Jamesburg borough,Middlesex,borough,5869,6652,0.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,jamesburg boro,JAMESBURG BORO,8335
+1210,Metuchen borough,Middlesex,borough,15470,5429,2.8,26.1,17.8,1.5,90,34,6.3,No,26.7,99.3,2892,NA,metuchen boro,METUCHEN BORO,13204
+1211,Middlesex borough,Middlesex,borough,14874,4264,3.5,24.7,15.8,1.8,79,31,4.9,Yes,27.4,99,1190,AA,middlesex boro,MIDDLESEX BORO,9832
+1212,Milltown borough,Middlesex,borough,7170,4615,1.6,12.4,7.1,0.4,63,16,3.4,Yes,20.1,NA,1917,AA-,milltown boro,MILLTOWN BORO,11057
+1213,Monroe township,Middlesex,township,50157,1196,41.9,76.1,45.5,2.3,324,74,16.2,No,29.3,99.5,1382,AA+,monroe twp,MONROE TWP,8893
+1214,New Brunswick city,Middlesex,city,57487,10986,5.2,111.4,41.5,15.5,554,147,31.5,No,15.6,99.6,987,A+ (Positive),new brunswick city,NEW BRUNSWICK CITY,6893
+1215,North Brunswick township,Middlesex,township,45323,3767,12,62.5,40.3,4.5,196,81,22.7,Yes,0,99.3,2064,AA+,north brunswick twp,NORTH BRUNSWICK TWP,10198
+1209,Old Bridge township,Middlesex,township,70506,1847,38.2,72.2,38.6,6.3,259.9,111,21.5,Yes,27,98.5,745,NA,old bridge twp,OLD BRIDGE TWP,8657
+1216,Perth Amboy city,Middlesex,city,56939,12213,4.7,96.6,64.9,9.3,481,145,22.1,No,22.1,100,1600,A+,perth amboy city,PERTH AMBOY CITY,7482
+1217,Piscataway township,Middlesex,township,62733,3338,18.8,86.3,68.4,5.9,225,82,21.4,No,16.3,99.2,2257,AA+/Stable,piscataway twp,PISCATAWAY TWP,8520
+1218,Plainsboro township,Middlesex,township,24558,2092,11.7,39.1,20.8,1.7,126,36,7.9,Yes,19.4,99.3,1055,AAA,plainsboro twp,PLAINSBORO TWP,11672
+1219,Sayreville borough,Middlesex,borough,47165,2979,15.8,80,37.7,9.4,264,95,19.9,No,0,98.6,1608,NA,sayreville boro,SAYREVILLE BORO,8919
+1220,South Amboy city,Middlesex,city,10549,6860,1.5,23.1,11.6,3.9,77,30,5.9,Yes,26.1,99.9,3698,AA-,south amboy city,SOUTH AMBOY CITY,8819
+1221,South Brunswick township,Middlesex,township,47896,1179,40.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,south brunswick twp,SOUTH BRUNSWICK TWP,10521
+1222,South Plainfield borough,Middlesex,borough,25062,3021,8.3,42.8,29.6,2.7,139,59,15.3,No,12.5,99,1357,AA,south plainfield boro,SOUTH PLAINFIELD BORO,8707
+1223,South River borough,Middlesex,borough,16392,5886,2.8,22.7,12,0.8,98,32,6.3,No,21.7,98.9,2031,AA,south river boro,SOUTH RIVER BORO,7462
+1224,Spotswood borough,Middlesex,borough,8306,3600,2.3,NA,NA,NA,NA,0,0,NA,NA,NA,0,NA,spotswood boro,SPOTSWOOD BORO,9416
+1225,Woodbridge township,Middlesex,township,106101,4562,23.3,202.3,103.4,23.5,862,225,46.1,No,20.1,97.5,1633,AA+/Stable,woodbridge twp,WOODBRIDGE TWP,9242
+1330,Aberdeen township,Monmouth,township,19376,3559,5.4,26.5,16,1.5,NA,NA,NA,NA,NA,NA,NA,NA,aberdeen twp,ABERDEEN TWP,8453
+1301,Allenhurst borough,Monmouth,borough,467,1864,0.3,7.6,3.2,0.2,20,9,1.5,No,26.3,98.2,20243,NA,allenhurst boro,ALLENHURST BORO,21877
+1302,Allentown borough,Monmouth,borough,1731,2903,0.6,2.9,1.9,0.1,13,6,1,No,23,98.9,2039,AA/Stable,allentown boro,ALLENTOWN BORO,9442
+1303,Asbury Park city,Monmouth,city,15473,10828,1.4,60.2,17.5,13.7,260,93,16.1,Yes,28.8,99.3,2807,NA,asbury park city,ASBURY PARK CITY,9312
+1304,Atlantic Highlands borough,Monmouth,borough,4402,3482,1.3,9.3,6.3,0.3,64,16,2.6,No,0,98.7,962,NA,atlantic highlands boro,ATLANTIC HIGHLANDS BORO,10344
+1305,Avon-by-the-Sea borough,Monmouth,borough,1944,4568,0.4,6.6,4.4,0.1,31,12,2.3,Yes,22.2,99.6,4084,NA,avon-by-the-sea boro,AVON BY THE SEA BORO,11326
+1306,Belmar borough,Monmouth,borough,5846,5593,1,23.2,10.2,0.4,83,25,4.6,Yes,18.8,98.9,3669,NA,belmar boro,BELMAR BORO,8589
+1307,Bradley Beach borough,Monmouth,borough,4140,6782,0.6,11.8,0,0.4,45,15,3.9,Yes,21.5,99.3,1768,NA,bradley beach boro,BRADLEY BEACH BORO,9590
+1308,Brielle borough,Monmouth,borough,4938,2813,1.8,14.1,11.5,0.3,32,13,4.2,No,14.6,99.2,1118,NA,brielle boro,BRIELLE BORO,14206
+1309,Colts Neck township,Monmouth,township,9961,324,30.7,20,12.6,2,53,25,4.7,No,36,99,3080,NA,colts neck twp,COLTS NECK TOWNSHIP,16668
+1310,Deal borough,Monmouth,borough,891,752,1.2,1.4,0.6,0,NA,NA,NA,NA,NA,NA,NA,NA,deal boro,DEAL BORO,23294
+1311,Eatontown borough,Monmouth,borough,13582,2325,5.8,33.9,17.4,1.5,103,41,8.2,Yes,0,99,1391,NA,eatontown boro,EATONTOWN BORO,10547
+1312,Englishtown borough,Monmouth,borough,2343,4112,0.6,3,2,0.1,12,8,0.9,Yes,0,100,1355,NA,englishtown boro,ENGLISHTOWN BORO,9051
+1313,Fair Haven borough,Monmouth,borough,6114,3837,1.6,12.3,8.8,0.5,31,14,2.9,Yes,26.2,99.5,7185,A++,fair haven boro,FAIR HAVEN BORO,17848
+1314,Farmingdale borough,Monmouth,borough,1495,2873,0.5,1.2,0.7,0.1,4,0,0,Yes,13.6,98.7,533,NA,farmingdale boro,FARMINGDALE BORO,8720
+1315,Freehold borough,Monmouth,borough,12530,6485,1.9,23.2,12.6,1.3,76,31,6.4,Yes,21.7,98,1598,NA,freehold boro,FREEHOLD BORO,8165
+1316,Freehold township,Monmouth,township,35800,926,38.7,50.9,25.2,7.5,NA,NA,NA,NA,NA,NA,NA,NA,freehold twp,FREEHOLD TWP,10894
+1339,Hazlet township,Monmouth,township,20641,3706,5.6,27.7,16.5,1.9,94,42,7.8,Yes,28.2,98.6,1384,NA,hazlet twp,HAZLET TWP,9645
+1317,Highlands borough,Monmouth,borough,4337,5859,0.7,14.7,10.8,0.4,28,NA,3.8,Yes,15.2,97.8,4747,NA,highlands boro,HIGHLANDS BORO,8443
+1318,Holmdel township,Monmouth,township,17488,980,17.8,32.4,17.1,2,108,47,10.6,Yes,28.5,99.2,2340,NA,holmdel twp,HOLMDEL TWP,15184
+1319,Howell township,Monmouth,township,54397,903,60.3,63.4,35.3,8,262,96,21.3,Yes,26.2,98.4,1420,AA-Stable,howell twp,HOWELL TWP,9285
+1320,Interlaken borough,Monmouth,borough,823,2484,0.3,2.8,2.3,0.1,6,0,0,No,10,99.6,1491,NA,interlaken boro,INTERLAKEN BORO,11397
+1321,Keansburg borough,Monmouth,borough,9689,9036,1.1,20.9,14.1,1.8,79,31,8.3,Yes,25.2,96.6,1497,NA,keansburg boro,KEANSBURG BORO,6777
+1322,Keyport borough,Monmouth,borough,7182,5200,1.4,12.8,9,0.7,50,23,3.9,Yes,21.5,97.7,1102,AA-,keyport boro,KEYPORT BORO,8649
+1347,Lake Como borough,Monmouth,borough,1672,6642,0.3,4.8,3.3,0.3,10,0,0,Yes,17.7,98.3,883,NA,lake como boro,LAKE COMO BORO,8255
+1323,Little Silver borough,Monmouth,borough,6101,2250,2.7,13.4,9.5,0.6,43,15,2.3,No,26.1,99.4,1558,NA,little silver boro,LITTLE SILVER BORO,15535
+1324,Loch Arbour village,Monmouth,village,227,2616,0.1,1.4,0.6,0,2,0,0,Yes,34,194.1,7488,NA,loch arbour village,LOCH ARBOUR VILLAGE,12084
+1325,Long Branch city,Monmouth,city,33214,6482,5.1,80.3,46.4,4.3,305,106,20.6,Yes,14.5,NA,2466,X,long branch city,LONG BRANCH CITY,11647
+1326,Manalapan township,Monmouth,township,40762,1330,30.7,45.3,28.6,3.9,165,71,12.7,Yes,23.7,99.4,461,NA,manalapan twp,MANALAPAN TWP,10376
+1327,Manasquan borough,Monmouth,borough,5925,4294,1.4,14.7,8.7,0.4,52,18,3.8,Yes,26.5,98.9,3167,NA,manasquan boro,MANASQUAN BORO,11344
+1328,Marlboro township,Monmouth,township,41852,1379,30.3,46.9,33,2.3,206.5,76,15.4,Yes,23.7,99.3,1734,AAA,marlboro twp,MARLBORO TWP,12144
+1329,Matawan borough,Monmouth,borough,9739,4298,2.3,15.8,11.1,1.5,53,25,3.4,No,26,98.9,2786,NA,matawan boro,MATAWAN BORO,11030
+1331,Middletown township,Monmouth,township,66940,1635,40.9,102.3,65.7,6.1,327,112,25.8,No,22.9,99.9,896,NA,middletown twp,MIDDLETOWN TWP,10674
+1332,Millstone township,Monmouth,township,10378,283,36.6,10.2,5,0.9,26,0,0,Yes,17.4,99,1617,NA,millstone twp,MILLSTONE TWP,12313
+1333,Monmouth Beach borough,Monmouth,borough,3218,3088,1,10.5,6.6,0.3,27,12,2.2,Yes,27.7,100,6230,NA,monmouth beach boro,MONMOUTH BEACH BORO,10602
+1335,Neptune City borough,Monmouth,borough,4599,5132,0.9,9.7,6.8,0.5,35,18,3.8,Yes,20.6,97.9,706,NA,neptune city boro,NEPTUNE CITY BORO,8542
+1334,Neptune township,Monmouth,township,28210,3471,8.1,55.8,34.4,5.1,226,82,16.1,Yes,18,98.8,1127,NA,neptune twp,NEPTUNE TWP,9355
+1337,Ocean township,Monmouth,township,27992,2576,10.9,45.6,27.3,2.6,172,62,14.2,Yes,21.9,98.9,1508,AA+,ocean twp,OCEAN TWP,11764
+1338,Oceanport borough,Monmouth,borough,6383,2012,3.2,13.4,8,0.5,34,16,3,No,23.9,107.4,2542,NA,oceanport boro,OCEANPORT BORO,12123
+1340,Red Bank borough,Monmouth,borough,12830,7350,1.7,29.2,15.3,2,111,39,8.6,No,15.4,98.8,1607,NA,red bank boro,RED BANK BORO,10167
+1341,Roosevelt borough,Monmouth,borough,802,413,1.9,1.3,0.9,0.1,1,0,0,NA,35,97.2,2061,AA,roosevelt boro,ROOSEVELT BORO,9437
+1342,Rumson borough,Monmouth,borough,7191,1419,5.1,22.4,14.7,0.7,56,18,3.3,Yes,23.4,99.3,1271,NA,rumson boro,RUMSON BORO,22890
+1343,Sea Bright borough,Monmouth,borough,1445,2008,0.7,8,5.2,0.2,24,12,2.2,Yes,22.2,97.9,5494,NA,sea bright boro,SEA BRIGHT BORO,9822
+1344,Sea Girt borough,Monmouth,borough,1874,1767,1.1,9.2,5.7,0.2,39,14,2.4,Yes,19.8,99.3,3749,AAA,sea girt boro,SEA GIRT BORO,15428
+1345,Shrewsbury borough,Monmouth,borough,4167,1929,2.2,10.4,8.6,0.4,42,17,3.1,Yes,25.9,99.3,1737,NA,shrewsbury boro,SHREWSBURY BORO,13572
+1346,Shrewsbury township,Monmouth,township,1076,10856,0.1,1.7,0.9,0.1,5,0,0,No,7.7,101.7,589,NA,shrewsbury twp,SHREWSBURY TWP,5649
+1349,Spring Lake Heights borough,Monmouth,borough,4859,3753,1.3,8.7,6.9,0.4,NA,NA,NA,NA,NA,98.9,NA,NA,spring lake heights boro,SPRING LAKE HEIGHTS BORO,8666
+1348,Spring Lake borough,Monmouth,borough,2781,2087,1.3,15.2,7.7,0.3,NA,NA,NA,NA,NA,NA,NA,NA,spring lake boro,SPRING LAKE BORO,15257
+1336,Tinton Falls borough,Monmouth,borough,19435,1256,15.5,31,18.1,1.5,124,47,9.7,Yes,26.9,99.1,700,NA,tinton falls boro,TINTON FALLS BORO,7926
+1350,Union Beach borough,Monmouth,borough,5691,3194,1.8,14,11,0.7,42,17,3.6,Yes,17.9,97.8,2660,A+,union beach boro,UNION BEACH BORO,8874
+1351,Upper Freehold township,Monmouth,township,7241,156,46.5,6.7,4.1,0.6,NA,NA,NA,NA,NA,NA,NA,NA,upper freehold twp,UPPER FREEHOLD TWP,13681
+1352,Wall township,Monmouth,township,26722,872,30.7,48.5,33.6,3.6,186,67,14.8,No,27,98.9,1175,AA,wall twp,WALL TWP,9991
+1353,West Long Branch borough,Monmouth,borough,8604,3013,2.9,14.7,11.2,0.8,55,25,5,No,30.3,NA,1519,X,west long branch boro,WEST LONG BRANCH BORO,12675
+1401,Boonton town,Morris,town,8894,3808,2.3,16.5,10.1,0.9,61,26,4.6,No,29.3,98.8,1147,NA,boonton town,BOONTON TOWN,12230
+1402,Boonton township,Morris,township,4460,549,8.1,8.3,4.4,0.2,19,14,2.8,Yes,31,98.6,2810,NA,boonton twp,BOONTON TWP,13259
+1403,Butler borough,Morris,borough,8196,4030,2,14.2,9,1,62,16,3.7,Yes,23.4,NA,213,AA,butler boro,BUTLER BORO,10144
+1404,Chatham borough,Morris,borough,10062,4287,2.3,18.4,9.8,0.6,55,19,4,No,29,99.4,2229,NA,chatham boro,CHATHAM BORO,16109
+1405,Chatham township,Morris,township,11284,1243,9.1,19.4,11.9,0.8,60,21,4.1,Yes,30.9,99.6,2044,NA,chatham twp,CHATHAM TWP,17172
+1406,Chester borough,Morris,borough,1695,1065,1.6,5.5,3.9,0.1,8,0,0,Yes,19.7,99.5,1797,NA,chester boro,CHESTER BORO,13986
+1407,Chester township,Morris,township,7776,267,29.1,17.2,9.4,0.9,52,23,4.3,No,29.3,99.3,1513,NA,chester twp,CHESTER TWP,17085
+1408,Denville township,Morris,township,17376,1449,12,27.6,14.8,1.8,118,36,6.7,Yes,24.1,99.1,459,x,denville twp,DENVILLE TWP,11282
+1409,Dover town,Morris,town,18909,7067,2.7,32.7,20.9,1.3,116,37,10.1,No,0,98.6,1635,AA,dover town,DOVER TOWN,7877
+1410,East Hanover township,Morris,township,11232,1426,7.9,30.5,20.7,2.9,86,37,7.8,No,29.9,97.7,4691,NA,east hanover twp,EAST HANOVER TWP,9155
+1411,Florham Park borough,Morris,borough,14533,1989,7.3,25.8,16.6,1,109,33,6.7,No,33.3,99.5,0,NA,florham park boro,FLORHAM PARK BORO,10924
+1412,Hanover township,Morris,township,15093,1436,10.5,32.7,20,2.3,116,39,6.8,No,22.1,98.7,102,N/A,hanover twp,HANOVER TWP,8671
+1413,Harding township,Morris,township,3936,196,20.1,11.2,7,0.6,35,17,2.9,No,25,99.3,900,NA,harding twp,HARDING TWP,14809
+1414,Jefferson township,Morris,township,20705,532,38.9,35,27.5,2.1,117,40,8.6,No,20.9,98.6,1112,AA+,jefferson twp,JEFFERSON TWP,9573
+1415,Kinnelon borough,Morris,borough,10108,561,18,17.9,12.5,0.8,48,18,4.1,No,21.6,99.2,1489,NA,kinnelon boro,KINNELON BORO,16774
+1416,Lincoln Park borough,Morris,borough,11030,1724,6.4,24.9,16.7,0.9,78,28,5.4,No,0,97.9,1085,AA+,lincoln park boro,LINCOLN PARK BORO,9983
+1430,Long Hill township,Morris,township,8692,737,11.8,17.7,10.9,1.4,56,28,4.7,Yes,31.2,99.3,194,NA,long hill twp,LONG HILL TWP,13370
+1417,Madison borough,Morris,borough,16555,3838,4.3,37.9,15.2,0.8,123,28,5.9,No,28.7,99.6,852,AAA,madison boro,MADISON BORO,14959
+1418,Mendham borough,Morris,borough,5000,843,5.9,9.4,7,0.5,35,13,2.7,Yes,30.2,99,294,NA,mendham boro,MENDHAM BORO,16474
+1419,Mendham township,Morris,township,6057,341,17.8,11.3,8.3,0.5,32,14,2.1,NA,-304.4,99.6,0,NA,mendham twp,MENDHAM TWP,20297
+1420,Mine Hill township,Morris,township,4171,1419,2.9,5.7,4.4,0.3,12,0,0,NA,0,99.5,527,AA+,mine hill twp,MINE HILL TWP,7873
+1421,Montville township,Morris,township,24456,1313,18.6,36.3,21.2,2.2,111,41,7.9,Yes,30.6,99.1,785,AAA,montville twp,MONTVILLE TWP,14018
+1423,Morris Plains borough,Morris,borough,6590,2581,2.6,19.7,14.1,0.6,50,18,3.8,Yes,26.2,99.4,1656,NA,morris plains boro,MORRIS PLAINS BORO,11354
+1422,Morris township,Morris,township,23727,1513,15.7,42.9,25.2,3.3,184,45,8.2,Yes,29.2,99.4,1076,NA,morris twp,MORRIS TWP,11387
+1424,Morristown town,Morris,town,20732,7126,2.9,51.7,27.1,2.9,193,66,11.8,No,23.7,98.1,1200,AA+,morristown town,MORRISTOWN TOWN,10008
+1426,Mount Arlington borough,Morris,borough,5979,2794,2.1,13.1,7.1,0.3,32,15,2.9,Yes,21.9,98.4,1469,NA,mount arlington boro,MOUNT ARLINGTON BORO,8396
+1427,Mount Olive township,Morris,township,29499,996,29.6,39.1,25.1,2.1,162,51,11.4,No,8.6,99.5,1069,AA+,mount olive twp,MOUNT OLIVE TWP,10997
+1425,Mountain Lakes borough,Morris,borough,4644,1758,2.6,11.3,7.5,0.4,32,14,2.7,Yes,25.4,99.4,3906,AAA,mountain lakes boro,MOUNTAIN LAKES BORO,23006
+1428,Netcong borough,Morris,borough,3925,4714,0.8,5.1,3.2,0.4,20,12,2.1,NA,-20.6,99,1082,NA,netcong boro,NETCONG BORO,9092
+1429,Parsippany-Troy Hills township,Morris,township,56729,2400,23.6,93.6,63.8,4.6,477,106,23.1,No,24,99.4,1866,AA,parsippany-troy hills twp,PARSIPPANY-TROY HILLS TWP,10581
+1431,Pequannock township,Morris,township,15741,2319,6.8,22.5,13.9,1.2,90,31,6.3,No,13,99.3,35,NA,pequannock twp,PEQUANNOCK TWP,10026
+1432,Randolph township,Morris,township,26780,1281,20.9,46.2,22,1.9,129,34,6.9,No,26.2,99.3,816,NA,randolph twp,RANDOLPH TWP,13908
+1433,Riverdale borough,Morris,borough,4142,2044,2,8.7,6.2,0.4,31.6,17,3.7,Yes,25.6,99.3,358,NA,riverdale boro,RIVERDALE BORO,7236
+1434,Rockaway borough,Morris,borough,6651,3207,2.1,11.7,7.3,0.6,37,14,3.3,Yes,0,98.8,963,NA,rockaway boro,ROCKAWAY BORO,10091
+1435,Rockaway township,Morris,township,26893,644,41.7,45,30.5,1.8,169,63,11.3,Yes,23.9,98.8,638,NA,rockaway twp,ROCKAWAY TWP,11212
+1436,Roxbury township,Morris,township,23397,1122,20.9,36.4,23.1,2.1,133,43,9.1,Yes,22.6,98.8,150,AA+,roxbury twp,ROXBURY TWP,9447
+1437,Victory Gardens borough,Morris,borough,1596,10998,0.1,1.7,0.9,0.1,4,0,0,Yes,10.5,96,0,NA,victory gardens boro,VICTORY GARDENS BORO,5610
+1438,Washington township,Morris,township,18364,412,44.6,21.2,13.7,1.4,82,34,6.8,Yes,26.4,99.2,611,AA,washington twp,WASHINGTON TWP,12691
+1439,Wharton borough,Morris,borough,7444,3593,2.1,13.6,7.1,0,47.6,24,4.7,No,0,98.6,0,NA,wharton boro,WHARTON BORO,10075
+1501,Barnegat Light borough,Ocean,borough,641,772,0.8,4.1,2.8,0.1,NA,0,0,Yes,NA,NA,1089,NA,barnegat light boro,BARNEGAT LIGHT BORO,8386
+1533,Barnegat township,Ocean,township,25871,756,34.2,35.3,27.1,1.1,123,53,12.8,Yes,16.3,98.9,665,AA,barnegat twp,BARNEGAT TWP,7334
+1502,Bay Head borough,Ocean,borough,964,1646,0.6,7.2,4.7,0.2,17,10,2.2,Yes,15.3,98.8,3428,NA,bay head boro,BAY HEAD BORO,16462
+1503,Beach Haven borough,Ocean,borough,1069,1092,1,16.1,9.1,0.2,53,13,2.8,Yes,22.2,98.9,15154,NA,beach haven boro,BEACH HAVEN BORO,11217
+1504,Beachwood borough,Ocean,borough,11242,4069,2.8,12.4,9.3,0.7,77,26,4.4,Yes,15.4,106.8,1152,AA-,beachwood boro,BEACHWOOD BORO,6031
+1505,Berkeley township,Ocean,township,45211,1059,42.7,62.3,42.7,4.3,295,84,14.7,No,0,99.6,1877,AA-,berkeley twp,BERKELEY TWP,5036
+1506,Brick township,Ocean,township,76629,2995,25.6,122.2,86.1,5.5,430,146,44.8,No,-21.6,98.9,1635,AA,brick twp,BRICK TWP,7668
+1508,Eagleswood township,Ocean,township,1803,112,16.1,2,1.2,0.2,7,0,0,Yes,8.2,96.9,1019,NA,eagleswood twp,EAGLESWOOD TWP,7002
+1509,Harvey Cedars borough,Ocean,borough,402,716,0.6,4.4,4.2,0.1,NA,NA,NA,NA,NA,99.2,NA,NA,harvey cedars boro,HARVEY CEDARS BORO,12411
+1510,Island Heights borough,Ocean,borough,1715,2816,0.6,3.6,3.2,0.1,11,6,1.1,Yes,24.4,98.3,3164,NA,island heights boro,ISLAND HEIGHTS BORO,8900
+1511,Jackson township,Ocean,township,60704,612,99.2,57.6,36.8,3.5,NA,NA,NA,Yes,NA,98.5,403,AA+,jackson twp,JACKSON TWP,8499
+1512,Lacey township,Ocean,township,30041,361,83.2,41.7,22.9,11.4,141,49,12.1,Yes,16.9,99.4,857,AA+,lacey twp,LACEY TWP,7273
+1513,Lakehurst borough,Ocean,borough,2713,3031,0.9,5.1,2.9,0.3,28,10,1.3,Yes,21.9,98.7,879,NA,lakehurst boro,LAKEHURST BORO,5559
+1514,Lakewood township,Ocean,township,141985,5753,24.7,147,97.2,13,515,184,52.5,No,6.9,106.5,1040,A+,lakewood twp,LAKEWOOD TWP,8450
+1515,Lavallette borough,Ocean,borough,1854,2272,0.8,10.7,6.9,0.2,43,13,2.4,Yes,-19.9,99.5,3363,AA,lavallette boro,LAVALLETTE BORO,8504
+1516,Little Egg Harbor township,Ocean,township,21587,456,47.3,28.5,22.1,1.5,123,40,10.2,No,20,99.8,1929,NA,little egg harbor twp,LITTLE EGG HARBOR TWP,5977
+1517,Long Beach township,Ocean,township,3157,579,5.4,36.6,23.2,0.7,133,34,7.9,Yes,0,98,9374,AA+,long beach twp,LONG BEACH TWP,11480
+1518,Manchester township,Ocean,township,46252,568,81.4,48.5,29.7,3.3,248,77,17,Yes,24.6,98.9,677,AA-,manchester twp,MANCHESTER TWP,4960
+1519,Mantoloking borough,Ocean,borough,340,880,0.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,mantoloking boro,MANTOLOKING BORO,24447
+1521,Ocean Gate borough,Ocean,borough,1987,4416,0.4,4.7,2.8,1.3,20,13,2,Yes,14.4,101.3,2487,NA,ocean gate boro,OCEAN GATE BORO,6779
+1520,Ocean township,Ocean,township,9242,443,20.9,16.6,11.4,0.6,65,23,5,No,20.7,97.8,1296,NA,ocean twp,OCEAN TWP,7037
+1522,Pine Beach borough,Ocean,borough,2214,3480,0.6,3.4,2.5,0.2,13,6,1,Yes,15.3,99.2,1653,N/A,pine beach boro,PINE BEACH BORO,7704
+1523,Plumsted township,Ocean,township,9387,240,39.1,7.4,2.6,0.5,26,15,2,No,0,99.8,3516,NA,plumsted twp,PLUMSTED TWP,7732
+1525,Point Pleasant Beach borough,Ocean,borough,4941,3471,1.4,18.7,10.1,0.6,NA,NA,NA,NA,NA,NA,NA,NA,point pleasant beach boro,PT PLEASANT BEACH BORO,9883
+1524,Point Pleasant borough,Ocean,borough,19565,5604,3.5,24.7,17.3,1.4,82,34,6.5,Yes,27.1,99.4,1207,NA,point pleasant boro,POINT PLEASANT BORO,9169
+1526,Seaside Heights borough,Ocean,borough,2522,4086,0.6,21.2,7.9,0.6,80,26,4.8,Yes,0,99.7,7404,NA,seaside heights boro,SEASIDE HEIGHTS BORO,7286
+1527,Seaside Park borough,Ocean,borough,2058,3142,0.7,13.7,8,0.2,36,15,3,No,27.3,99.1,18918,NA,seaside park boro,SEASIDE PARK BORO,9348
+1528,Ship Bottom borough,Ocean,borough,1125,1580,0.7,10.1,6.1,0.3,30,12,2.2,Yes,25.2,99.7,13811,NA,ship bottom boro,SHIP BOTTOM BORO,8236
+1529,South Toms River borough,Ocean,borough,3756,3245,1.2,5.9,3.9,0.3,25,16,1.8,Yes,23.6,98.4,615,NA,south toms river boro,SOUTH TOMS RIVER BORO,5582
+1530,Stafford township,Ocean,township,30585,663,46.1,59.9,43.6,2.6,219,59,12.8,No,21.3,99.6,3200,AA,stafford twp,STAFFORD TWP,7304
+1531,Surf City borough,Ocean,borough,1298,1745,0.7,8.6,4.9,0.2,42,12,2.3,No,19.7,99.3,4642,NA,surf city boro,SURF CITY BORO,9464
+1507,Toms River township,Ocean,township,99873,2464,40.5,134.3,89.8,8.6,445,158,35.1,No,28.9,98.6,1665,AA,toms river twp,TOMS RIVER TWP,7896
+1532,Tuckerton borough,Ocean,borough,3701,1101,3.4,6.3,4.4,0.3,181818.2,0,0,Yes,12.1,98.7,0,A-Stable,tuckerton boro,TUCKERTON BORO,7027
+1601,Bloomingdale borough,Passaic,borough,7795,886,8.8,15.4,8.8,0.6,66,18,3.7,No,18.8,99.5,1947,AA-,bloomingdale boro,BLOOMINGDALE BORO,11737
+1602,Clifton city,Passaic,city,90322,8011,11.3,139.4,93.5,10.2,751,185,34,No,0,99,1040,AA-/ Stable,clifton city,CLIFTON CITY,10684
+1603,Haledon borough,Passaic,borough,9063,7460,1.2,14.4,9.9,0.7,38,18,4,Yes,0,98.2,NA,NA,haledon boro,HALEDON BORO,12232
+1604,Hawthorne borough,Passaic,borough,20006,6029,3.3,28.2,19.9,1.5,93,32,5.2,Yes,13.2,NA,0,NA,hawthorne boro,HAWTHORNE BORO,11605
+1605,Little Falls township,Passaic,township,15099,5403,2.8,25.9,16.8,1.3,81,32,6.6,Yes,12,99.5,2708,NA,little falls twp,LITTLE FALLS TWP,10581
+1606,North Haledon borough,Passaic,borough,8854,2556,3.5,18.5,13.2,0.6,82,18,5.3,Yes,26,99,1696,AA-,north haledon boro,NORTH HALEDON BORO,11709
+1607,Passaic city,Passaic,city,70722,22574,3.1,118.7,78,12.7,496,170,33.5,Yes,19.5,99.8,260,A+,passaic city,PASSAIC CITY,11356
+1608,Paterson city,Passaic,city,160463,19073,8.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,paterson city,PATERSON CITY,9943
+1609,Pompton Lakes borough,Passaic,borough,11156,3865,2.9,18.1,11.7,1.1,NA,NA,NA,NA,NA,NA,NA,NA,pompton lakes boro,POMPTON LAKES BORO,11007
+1610,Prospect Park borough,Passaic,borough,6382,13717,0.5,9.1,5.6,0.6,23,0,4.5,Yes,11.8,103.1,1196,A2,prospect park boro,PROSPECT PARK BORO,12652
+1611,Ringwood borough,Passaic,borough,11762,460,25.6,18.5,13.4,1.7,63,22,4.8,No,25,99.1,827,AA+,ringwood boro,RINGWOOD BORO,12609
+1612,Totowa borough,Passaic,borough,11064,2766,4,22.5,14.9,1.3,75,30,7.2,Yes,15.7,96.3,36,NA,totowa boro,TOTOWA BORO,10928
+1613,Wanaque borough,Passaic,borough,11346,1407,8.1,17.8,12.9,0.9,59,24,4.2,Yes,0,NA,3188,NA,wanaque boro,WANAQUE BORO,9922
+1614,Wayne township,Passaic,township,54096,2280,23.7,100.9,67.7,4.5,376,126,33.3,No,0,99.1,1689,NA,wayne twp,WAYNE TWP,13702
+1615,West Milford township,Passaic,township,24990,329,75.9,39.6,25.6,3.2,130,46,8.6,No,32.1,98.8,1462,AA+,west milford twp,WEST MILFORD TWP,9864
+1616,Woodland Park borough,Passaic,borough,13477,4586,2.9,23.6,17.2,0.8,79,27,5.5,No,0,99.3,1710,NA,woodland park boro,WOODLAND PARK BORO,11636
+1701,Alloway township,Salem,township,3327,99,33.5,2.2,1.1,0.4,6,0,0,Yes,15.9,97.4,135,NA,alloway twp,ALLOWAY TWP,6877
+1713,Carneys Point township,Salem,township,8693,514,16.9,13.3,5.6,0.8,56,28,4.3,No,26.2,96.2,945,AA-,carneys point twp,CARNEYS POINT TOWNSHIP,5370
+1702,Elmer borough,Salem,borough,1377,1541,0.9,1.4,0.8,0.1,2,2,0.2,No,NA,98.5,144,NA,elmer boro,ELMER BORO,6828
+1703,Elsinboro township,Salem,township,1016,85,11.9,0.9,0.5,0.1,NA,NA,0,No,NA,97.7,0,NA,elsinboro twp,ELSINBORO TWP,5583
+1704,Lower Alloways Creek township,Salem,township,1750,39,45.3,10.5,0,5.1,NA,NA,NA,NA,NA,0,NA,NA,lower alloways creek twp,LOWER ALLOWAY CREEK TWP,2293
+1705,Mannington township,Salem,township,1476,44,33.9,1.5,0.5,0.3,3,0,0,Yes,9,95.8,34,NA,mannington twp,MANNINGTON TWP,6024
+1706,Oldmans township,Salem,township,1946,100,19.5,2.8,0.5,0.2,2,0,0,No,11.1,98.3,0,NA,oldmans twp,OLDMANS TWP,5560
+1707,Penns Grove borough,Salem,borough,4921,5513,0.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,penns grove boro,PENNS GROVE BORO,4810
+1708,Pennsville township,Salem,township,12855,604,21.3,22.7,10.6,5.4,77,23,3.3,No,8.2,96.4,889,NA,pennsville twp,PENNSVILLE TWP,7850
+1709,Pilesgrove township,Salem,township,4267,122,34.9,3.4,1.6,0.5,5,0,0,Yes,16.6,98.1,373,AA,pilesgrove twp,PILESGROVE TWP,10042
+1710,Pittsgrove township,Salem,township,8972,200,44.9,4.5,2.7,0.7,12,0,0,No,0,101.7,39,NA,pittsgrove twp,PITTSGROVE TWP,7811
+1711,Quinton township,Salem,township,2641,111,23.8,2,1,0.3,NA,0,0,No,NA,94.6,158,NA,quinton twp,QUINTON TWP,5715
+1712,Salem city,Salem,city,5369,2290,2.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,salem city,SALEM CITY,3808
+1714,Upper Pittsgrove township,Salem,township,3507,87,40.2,1.6,0,0,8,0,0,Yes,0,97.5,899,NA,upper pittsgrove twp,UPPER PITTSGROVE TWP,7225
+1715,Woodstown borough,Salem,borough,3757,2386,1.6,4.4,2.5,0.3,20,10,1.7,No,18.3,98.4,419,NA,woodstown boro,WOODSTOWN BORO,8600
+1801,Bedminster township,Somerset,township,8356,320,26.1,13.4,7.1,0.9,NA,NA,NA,NA,NA,NA,NA,NA,bedminster twp,BEDMINSTER TWP,5645
+1802,Bernards township,Somerset,township,28718,1187,24.2,48.2,23.5,1.8,148,40,7.5,Yes,25.7,99.7,0,AAA,bernards twp,BERNARDS TWP,13971
+1803,Bernardsville borough,Somerset,borough,8020,625,12.8,21.2,13.2,0.7,NA,0,4.1,NA,NA,98.8,2528,AAA,bernardsville boro,BERNARDSVILLE BORO,16720
+1804,Bound Brook borough,Somerset,borough,12643,7610,1.7,20.7,10,1.1,62,28,4.6,Yes,24.4,99.1,2242,NA,bound brook boro,BOUND BROOK BORO,9496
+1805,Branchburg township,Somerset,township,15619,778,20.1,27.3,15,3.1,89,28,8.4,Yes,20.9,99.1,2386,AAA,branchburg twp,BRANCHBURG TWP,10231
+1806,Bridgewater township,Somerset,township,46871,1470,31.9,49.1,27.9,6,190,81,15.4,No,0,99.3,1844,AA+,bridgewater twp,BRIDGEWATER TWP,10857
+1807,Far Hills borough,Somerset,borough,935,193,4.8,4.7,2.7,0.1,8,7,1.2,Yes,32.9,99,0,NA,far hills boro,FAR HILLS BORO,12542
+1808,Franklin township,Somerset,township,69862,1513,46.2,73.2,39,5,280,108,20.9,No,21.2,NA,973,NA,franklin twp,FRANKLIN TWP,8340
+1809,Green Brook township,Somerset,township,7451,1691,4.4,11.3,8.5,0.6,42,23,0.9,NA,28.2,99.5,48,AA,green brook twp,GREEN BROOK TWP,14309
+1810,Hillsborough township,Somerset,township,45421,832,54.6,40,28.4,3.3,195,60,12.2,No,27.8,99.4,732,AA+,hillsborough twp,HILLSBOROUGH TWP,11418
+1811,Manville borough,Somerset,borough,11031,4672,2.4,16.4,10.3,1.6,54,23,5.1,Yes,NA,98.5,386,NA,manville boro,MANVILLE BORO,8118
+1812,Millstone borough,Somerset,borough,455,669,0.7,0.8,0.4,0.1,NA,0,0,No,NA,99,0,NA,millstone boro,MILLSTONE BORO,7251
+1813,Montgomery township,Somerset,township,24254,751,32.3,31.7,19.4,1.4,129,34,6.8,NA,0,99.1,1703,NA,montgomery twp,MONTGOMERY TWP,17080
+1814,North Plainfield borough,Somerset,borough,23072,8218,2.8,1.6,25.5,1.6,124,45,2.1,Yes,19.8,98.7,1060,NA,north plainfield boro,NORTH PLAINFIELD BORO,9828
+1815,Peapack and Gladstone borough,Somerset,borough,2602,454,5.7,8.3,0,0.3,43,13,1.4,No,NA,99.2,658,NA,peapack and gladstone boro,PEAPACK GLADSTONE BORO,13984
+1816,Raritan borough,Somerset,borough,8584,4310,2,14.7,8,0.7,48,21,3.9,Yes,27.7,99.6,3293,AA+,raritan boro,RARITAN BORO,9635
+1817,Rocky Hill borough,Somerset,borough,755,1236,0.6,2,0.8,0.1,NA,0,0,No,NA,99.1,650,NA,rocky hill boro,ROCKY HILL BORO,11858
+1818,Somerville borough,Somerset,borough,14428,6172,2.3,28.3,13.3,1.4,71,33,5.1,No,25.5,98.9,1790,AA,somerville boro,SOMERVILLE BORO,10900
+1819,South Bound Brook borough,Somerset,borough,4965,7702,0.6,7.7,4.5,0.4,22,13,2.7,Yes,20.8,99.1,892,NA,south bound brook boro,SOUTH BOUND BROOK BORO,9127
+1820,Warren township,Somerset,township,16819,860,19.6,25.5,15.8,1.3,86,32,7.9,Yes,0,99.3,1014,AAA,warren twp,WARREN TWP,16392
+1821,Watchung borough,Somerset,borough,6606,1098,6,19.7,13.7,0.7,53,31,5.2,Yes,25.6,99.4,2142,AA,watchung boro,WATCHUNG BORO,17119
+1901,Andover borough,Sussex,borough,610,453,1.3,0.8,0.4,0.1,1,0,0,No,NA,97.7,0,NA,andover boro,ANDOVER BORO,7754
+1902,Andover township,Sussex,township,5685,284,20,10.8,7.4,0.5,37,12,2.6,Yes,24.5,99,230,AA+,andover twp,ANDOVER TWP,10687
+1903,Branchville borough,Sussex,borough,810,1366,0.6,1.5,0.3,0.7,2,0,0,Yes,0,96.9,7683,NA,branchville boro,BRANCHVILLE BORO,6300
+1904,Byram township,Sussex,township,8217,382,21.5,13.3,9.5,0.6,35,14,3,Yes,26.5,98.7,289,AA+,byram twp,BYRAM TWP,9805
+1905,Frankford township,Sussex,township,5349,158,33.9,4.9,3.1,0.5,16,0,0,Yes,19.5,99.4,144,NA,frankford twp,FRANKFORD TWP,8013
+1906,Franklin borough,Sussex,borough,5059,1161,4.4,9.1,5.3,0.6,29,18,3.4,Yes,0,NA,711,NA,franklin boro,FRANKLIN BORO,7483
+1907,Fredon township,Sussex,township,3316,188,17.6,3.6,2.1,0.3,7,0,0,No,16.1,98.4,264,NA,fredon twp,FREDON TWP,10372
+1908,Green township,Sussex,township,3712,232,16,4.3,3.1,0.2,11,0,0,Yes,20.1,99.3,230,NA,green twp,GREEN TWP,12198
+1909,Hamburg borough,Sussex,borough,3351,2927,1.1,4.1,2.9,0.2,22,11,1.2,Yes,22.6,97.3,0,NA,hamburg boro,HAMBURG BORO,7882
+1910,Hampton township,Sussex,township,4938,201,24.6,5.4,3.4,0.5,14,0,0,Yes,3,98.7,0,NA,hampton twp,HAMPTON TWP,7608
+1911,Hardyston township,Sussex,township,8472,265,32,12.9,8.2,0.7,53,20,4.2,No,29.1,99,1049,NA,hardyston twp,HARDYSTON TWP,7266
+1912,Hopatcong borough,Sussex,borough,14750,1355,10.9,19.1,14.5,1,NA,NA,NA,NA,NA,NA,NA,NA,hopatcong boro,HOPATCONG BORO,7937
+1913,Lafayette township,Sussex,township,2429,136,17.9,2.8,1.1,0.2,8,0,0,Yes,13.3,98.2,0,NA,lafayette twp,LAFAYETTE TWP,9083
+1914,Montague township,Sussex,township,3880,86,45.2,3,1.6,0.4,NA,NA,NA,NA,NA,NA,NA,NA,montague twp,MONTAGUE TWP,4607
+1915,Newton town,Sussex,town,8435,2510,3.4,15.9,10.3,1,67,23,2.9,No,23.4,98.5,1617,AA-,newton town,NEWTON TOWN,8698
+1916,Ogdensburg borough,Sussex,borough,2310,1048,2.2,3.7,2.8,0.2,16,9,1.3,Yes,0,98,819,AA-,ogdensburg boro,OGDENSBURG BORO,8835
+1917,Sandyston township,Sussex,township,2022,49,41.3,1.8,0.7,0.3,3,0,0,Yes,27,98.2,0,NA,sandyston twp,SANDYSTON TWP,6720
+1918,Sparta township,Sussex,township,20362,553,36.8,31.4,19,1.3,121,38,7.4,No,26,NA,248,AA+,sparta twp,SPARTA TWP,13359
+1919,Stanhope borough,Sussex,borough,3599,1958,1.8,5.7,4.1,0.2,22,9,1.7,Yes,24.2,98.4,468,NA,stanhope boro,STANHOPE BORO,8789
+1920,Stillwater township,Sussex,township,4093,152,26.9,4.2,2.2,0.4,9,0,0,Yes,0,97.9,444,NA,stillwater twp,STILLWATER TWP,7514
+1921,Sussex borough,Sussex,borough,2072,3494,0.6,1.8,1.1,0.2,5,0,0,Yes,0,97.3,581,NA,sussex boro,SUSSEX BORO,6443
+1922,Vernon township,Sussex,township,22879,338,67.6,32.2,20.2,2.3,105,32,6.6,No,25.5,96.9,1330,NA,vernon twp,VERNON TWP,7071
+1923,Walpack township,Sussex,township,7,0,24.2,0.1,0,0,NA,0,0,No,NA,64.8,0,NA,walpack twp,WALPACK TWP,1170
+1924,Wantage township,Sussex,township,11087,166,66.8,7,4.2,0.8,24,0,0,No,0,97.9,401,NA,wantage twp,WANTAGE TWP,7623
+2001,Berkeley Heights township,Union,township,14510,2333,6.2,30.4,15.5,1.6,65,29,5.7,No,22.3,99.6,4422,NA,berkeley heights twp,BERKELEY HEIGHTS TWP,13673
+2002,Clark township,Union,township,16277,3809,4.3,31.5,20.9,1.8,105,43,9.1,Yes,0,99.2,1652,NA,clark twp,CLARK TWP,11623
+2003,Cranford township,Union,township,24513,5070,4.8,48.2,29,2.9,165,53,10.5,Yes,26.7,99.4,2273,NA,cranford twp,CRANFORD TWP,12775
+2004,Elizabeth city,Union,city,140413,11398,12.3,333.8,195.2,29.5,1318,375,67.7,Yes,16.7,97.9,937,NA,elizabeth city,ELIZABETH CITY,9215
+2005,Fanwood borough,Union,borough,7968,5948,1.3,12,7.8,0.8,32,14,1.8,No,29,NA,NA,NA,fanwood boro,FANWOOD BORO,13853
+2006,Garwood borough,Union,borough,5346,8220,0.7,11.3,7.5,0.5,35,18,2.9,No,27.3,99.3,1703,AA Stable,garwood boro,GARWOOD BORO,11342
+2007,Hillside township,Union,township,22690,8201,2.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,hillside twp,HILLSIDE TWP,10156
+2008,Kenilworth borough,Union,borough,8527,3972,2.1,20.9,15.5,1,64,25,4.4,Yes,12.5,99.1,1792,NA,kenilworth boro,KENILWORTH BORO,11778
+2009,Linden city,Union,city,45393,4247,10.7,138.7,72.1,20.1,543,152,28.3,Yes,26.5,98.6,2192,AA-,linden city,LINDEN CITY,9392
+2010,Mountainside borough,Union,borough,7228,1809,4,16,10.6,0.8,46,22,4.4,Yes,27.3,99.4,905,NA,mountainside boro,MOUNTAINSIDE BORO,12903
+2011,New Providence borough,Union,borough,13957,3784,3.7,26.6,16.1,1.3,71,32,4.9,No,29.4,99.2,2020,AAA,new providence boro,NEW PROVIDENCE BORO,15879
+2012,Plainfield city,Union,city,56507,9482,6,100.3,61.7,8.8,549.5,134,26.1,No,23.8,97.2,1008,NA,plainfield city,PLAINFIELD CITY,9524
+2013,Rahway city,Union,city,30763,7896,3.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,rahway city,RAHWAY CITY,10141
+2015,Roselle Park borough,Union,borough,14390,11752,1.2,23.7,15.5,1.1,65,33,5.5,Yes,26.9,98.7,1312,NA,roselle park boro,ROSELLE PARK BORO,11190
+2014,Roselle borough,Union,borough,23064,8753,2.6,53.7,36.3,2.5,180,60,10.9,Yes,19.2,96.9,2081,A+,roselle boro,ROSELLE BORO,10684
+2016,Scotch Plains township,Union,township,25223,2796,9,33.6,19,2.3,115,50,10.8,No,25.4,98.9,970,AA+,scotch plains twp,SCOTCH PLAINS TWP,14993
+2017,Springfield township,Union,township,17630,3419,5.2,42.3,30.9,1.8,111,45,8.6,No,2.5,99.4,1183,NA,springfield twp,SPRINGFIELD TWP,12742
+2018,Summit city,Union,city,23102,3854,6,59.2,31.9,3.7,199,48,7.8,Yes,0,99.8,2910,AAA,summit city,SUMMIT CITY,18977
+2019,Union township,Union,township,63171,6980,9.1,135.9,87.1,6.2,479,151,26,No,29.1,98.2,2789,AA,union twp,UNION TWP,10507
+2020,Westfield town,Union,town,32050,4766,6.7,58,31.5,3.1,228,63,10.4,No,36.4,105.8,803,AAA,westfield town,WESTFIELD TWP,18487
+2021,Winfield township,Union,township,1438,7938,0.2,2.4,2,0.2,12,10,0.5,Yes,15.5,NA,0,NA,winfield twp,WINFIELD TWP,4149
+2101,Allamuchy township,Warren,township,5475,274,20,4.4,2.6,0.4,10,0,0,Yes,19.3,98.4,1314,AA,allamuchy twp,ALLAMUCHY TWP,7578
+2102,Alpha borough,Warren,borough,2357,1402,1.7,3.5,2.2,0.2,6,0,0,Yes,0,98.6,2629,NA,alpha boro,ALPHA BORO,6696
+2103,Belvidere town,Warren,town,2545,1756,1.4,3.8,2.3,0.5,13,6,1,NA,0,97.6,713,NA,belvidere town,BELVIDERE TWP,7625
+2104,Blairstown township,Warren,township,5783,193,29.9,6.1,2.1,3,18,3,1.9,Yes,0,98.8,836,NA,blairstown twp,BLAIRSTOWN TWP,9099
+2105,Franklin township,Warren,township,3021,129,23.4,3.8,1.5,0.3,3,0,0,Yes,20,97.9,1360,NA,franklin twp,FRANKLIN TWP,9644
+2106,Frelinghuysen township,Warren,township,2242,95,23.6,2.3,1,0.2,3,0,0,Yes,0,97.1,329,NA,frelinghuysen twp,FRELINGHUYSEN TWP,8954
+2107,Greenwich township,Warren,township,5528,522,10.6,6.1,4.5,0.3,14,13,2.4,Yes,0,NA,NA,NA,greenwich twp,GREENWICH TWP,10891
+2108,Hackettstown town,Warren,town,10182,2819,3.6,13.1,7.2,0.8,50,20,4,NA,17.1,99,0,NA,hackettstown town,HACKETTSTOWN TOWN,9484
+2109,Hardwick township,Warren,township,1623,43,37.5,1.6,1,0.1,3,0,0,Yes,NA,98,0,NA,hardwick twp,HARDWICK TWP,8922
+2110,Harmony township,Warren,township,2538,107,23.8,3.8,1.5,0.5,4,0,0,Yes,19.3,98.4,1324,NA,harmony twp,HARMONY TWP,5618
+2111,Hope township,Warren,township,1859,103,18.1,1.9,0.9,0.2,3,0,0,Yes,17,99,0,NA,hope twp,HOPE TWP,8431
+2112,Independence township,Warren,township,5651,285,19.8,5.2,3.2,0.3,19,12,1.8,Yes,25.1,98.5,0,AA/STABLE,independence twp,INDEPENDENCE TWP,8470
+2113,Knowlton township,Warren,township,2939,119,24.7,2.6,1.2,0.3,5,0,0,Yes,0,98.2,264,NA,knowlton twp,KNOWLTON TWP,8268
+2114,Liberty township,Warren,township,2700,231,11.7,2.2,1.1,0.2,5,0,0,Yes,14.7,98,356,NA,liberty twp,LIBERTY TWP,7770
+2115,Lopatcong township,Warren,township,9502,1299,7.3,11.5,6.4,1,34,19,3.5,Yes,25,NA,3014,AA,lopatcong twp,LOPATCONG TWP,6992
+2116,Mansfield township,Warren,township,7889,267,29.6,9.1,4.9,0.9,11,NA,2.9,NA,-27.4,98.6,24,NA,mansfield twp,MANSFIELD TWP,8403
+2117,Oxford township,Warren,township,2477,416,6,NA,1.2,0.2,4,0,0,Yes,19.9,97.9,474,NA,oxford twp,OXFORD TWP,8049
+2119,Phillipsburg town,Warren,town,15393,4824,3.2,24.4,12.4,2,105,41,8.1,Yes,26,96.7,1587,AA-,phillipsburg town,PHILLIPSBURG TOWN,5097
+2120,Pohatcong township,Warren,township,3296,247,13.4,8.1,5.6,0.4,25,13,2.7,No,19.2,98.5,1054,NA,pohatcong twp,POHATCONG TWP,7497
+2121,Washington borough,Warren,borough,7375,3753,2,8.8,5.8,0.6,17,0,0,Yes,20.5,97.5,315,AA,washington boro,WASHINGTON BORO,8038
+2122,Washington township,Warren,township,6927,386,18,13.5,5.3,0.5,57,35,NA,No,20.5,96.8,958,AA,washington twp,WASHINGTON TWP,9896
+2123,White township,Warren,township,4729,173,27.4,3.4,1.2,0.3,5,0,0,Yes,26.3,95.7,162,NA,white twp,WHITE TWP,6448

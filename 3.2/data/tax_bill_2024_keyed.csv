@@ -1,0 +1,565 @@
+county,key,district,avg_tax_bill
+Atlantic,absecon city,ABSECON CITY,5731
+Atlantic,atlantic city,ATLANTIC CITY,4264
+Atlantic,brigantine city,BRIGANTINE CITY,7299
+Atlantic,buena boro,BUENA BORO,5976
+Atlantic,buena vista twp,BUENA VISTA TWP,6182
+Atlantic,corbin city,CORBIN CITY,4325
+Atlantic,egg harbor city,EGG HARBOR CITY,6657
+Atlantic,egg harbor twp,EGG HARBOR TWP,7135
+Atlantic,estell manor city,ESTELL MANOR CITY,5263
+Atlantic,folsom boro,FOLSOM BORO,4389
+Atlantic,galloway twp,GALLOWAY TWP,5731
+Atlantic,hamilton twp,HAMILTON TWP,5681
+Atlantic,hammonton town,HAMMONTON TOWN,6097
+Atlantic,linwood city,LINWOOD CITY,11455
+Atlantic,longport boro,LONGPORT BORO,13501
+Atlantic,margate city,MARGATE CITY,9917
+Atlantic,mullica twp,MULLICA TWP,6670
+Atlantic,northfield city,NORTHFIELD CITY,7870
+Atlantic,pleasantville city,PLEASANTVILLE CITY,5333
+Atlantic,port republic city,PORT REPUBLIC CITY,7938
+Atlantic,somers point city,SOMERS POINT CITY,7596
+Atlantic,ventnor city,VENTNOR CITY,8786
+Atlantic,weymouth twp,WEYMOUTH TWP,5381
+Bergen,allendale boro,ALLENDALE BORO,17309
+Bergen,alpine boro,ALPINE BORO,22596
+Bergen,bergenfield boro,BERGENFIELD BORO,11853
+Bergen,bogota boro,BOGOTA BORO,11503
+Bergen,carlstadt boro,CARLSTADT BORO,8763
+Bergen,cliffside park boro,CLIFFSIDE PARK BORO,10403
+Bergen,closter boro,CLOSTER BORO,18536
+Bergen,cresskill boro,CRESSKILL BORO,19265
+Bergen,demarest boro,DEMAREST BORO,24741
+Bergen,dumont boro,DUMONT BORO,12556
+Bergen,elmwood park boro,ELMWOOD PARK BORO,10278
+Bergen,east rutherford boro,EAST RUTHERFORD BORO,7787
+Bergen,edgewater boro,EDGEWATER BORO,10327
+Bergen,emerson boro,EMERSON BORO,14767
+Bergen,englewood city,ENGLEWOOD CITY,14476
+Bergen,englewood cliffs boro,ENGLEWOOD CLIFFS BORO,15560
+Bergen,fair lawn boro,FAIRLAWN BORO,11996
+Bergen,fairview boro,FAIRVIEW BORO,11184
+Bergen,fort lee boro,FORT LEE BORO,12506
+Bergen,franklin lakes boro,FRANKLIN LAKES BORO,19385
+Bergen,garfield city,GARFIELD CITY,9575
+Bergen,glen rock boro,GLEN ROCK BORO,19303
+Bergen,hackensack city,HACKENSACK CITY,9794
+Bergen,harrington park boro,HARRINGTON PARK BORO,17013
+Bergen,hasbrouck heights boro,HASBROUCK HEIGHTS BORO,13234
+Bergen,haworth boro,HAWORTH BORO,20091
+Bergen,hillsdale boro,HILLSDALE BORO,15102
+Bergen,ho-ho-kus boro,HOHOKUS BORO,18938
+Bergen,leonia boro,LEONIA BORO,15015
+Bergen,little ferry boro,LITTLE FERRY BORO,10577
+Bergen,lodi boro,LODI BORO,10818
+Bergen,lyndhurst twp,LYNDHURST TWP,10688
+Bergen,mahwah twp,MAHWAH TWP,9921
+Bergen,maywood boro,MAYWOOD BORO,11100
+Bergen,midland park boro,MIDLAND PARK BORO,14028
+Bergen,montvale boro,MONTVALE BORO,13609
+Bergen,moonachie boro,MOONACHIE BORO,8990
+Bergen,new milford boro,NEW MILFORD BORO,13425
+Bergen,north arlington boro,NORTH ARLINGTON BORO,10865
+Bergen,northvale boro,NORTHVALE BORO,12828
+Bergen,norwood boro,NORWOOD BORO,15356
+Bergen,oakland boro,OAKLAND BORO,13332
+Bergen,old tappan boro,OLD TAPPAN BORO,18101
+Bergen,oradell boro,ORADELL BORO,17210
+Bergen,palisades park boro,PALISADES PARK BORO,11085
+Bergen,paramus boro,PARAMUS BORO,12095
+Bergen,park ridge boro,PARK RIDGE BORO,15409
+Bergen,ramsey boro,RAMSEY BORO,15094
+Bergen,ridgefield boro,RIDGEFIELD BORO,10873
+Bergen,ridgefield park village,RIDGEFIELD PARK VILLAGE,12458
+Bergen,ridgewood village,RIDGEWOOD VILLAGE,20375
+Bergen,river edge boro,RIVER EDGE BORO,15748
+Bergen,river vale twp,RIVER VALE TWP,16637
+Bergen,rochelle park twp,ROCHELLE PARK TWP,9462
+Bergen,rockleigh boro,ROCKLEIGH BORO,13606
+Bergen,rutherford boro,RUTHERFORD BORO,13645
+Bergen,saddle brook twp,SADDLE BROOK TWP,10666
+Bergen,saddle river boro,SADDLE RIVER BORO,19655
+Bergen,south hackensack twp,SOUTH HACKENSACK TWP,11167
+Bergen,teaneck twp,TEANECK TWP,13718
+Bergen,tenafly boro,TENAFLY BORO,23837
+Bergen,teterboro boro,TETERBORO BORO,1937
+Bergen,upper saddle river boro,UPPER SADDLE RIVER BORO,19743
+Bergen,waldwick boro,WALDWICK BORO,12463
+Bergen,wallington boro,WALLINGTON BORO,10830
+Bergen,washington twp,WASHINGTON TWP,13050
+Bergen,westwood boro,WESTWOOD BORO,11502
+Bergen,woodcliff lake boro,WOODCLIFF LAKE BORO,19636
+Bergen,wood-ridge boro,WOOD-RIDGE BORO,10931
+Bergen,wyckoff twp,WYCKOFF TWP,15797
+Burlington,bass river twp,BASS RIVER TWP,4757
+Burlington,beverly city,BEVERLY CITY,6261
+Burlington,bordentown city,BORDENTOWN CITY,7579
+Burlington,bordentown twp,BORDENTOWN TWP,8176
+Burlington,burlington city,BURLINGTON CITY,6048
+Burlington,burlington twp,BURLINGTON TWP,6884
+Burlington,chesterfield twp,CHESTERFIELD TWP,12692
+Burlington,cinnaminson twp,CINNAMINSON TWP,8377
+Burlington,delanco twp,DELANCO TWP,6672
+Burlington,delran twp,DELRAN TWP,8073
+Burlington,eastampton twp,EASTAMPTON TWP,7357
+Burlington,edgewater park twp,EDGEWATER PARK TWP,6248
+Burlington,evesham twp,EVESHAM TWP,8696
+Burlington,fieldsboro boro,FIELDSBORO BORO,6220
+Burlington,florence twp,FLORENCE TWP,5566
+Burlington,hainesport twp,HAINESPORT TWP,7493
+Burlington,lumberton twp,LUMBERTON TWP,7998
+Burlington,mansfield twp,MANSFIELD TWP,8214
+Burlington,maple shade twp,MAPLE SHADE TWP,6138
+Burlington,medford twp,MEDFORD TWP,11710
+Burlington,medford lakes boro,MEDFORD LAKES BORO,11019
+Burlington,moorestown twp,MOORESTOWN TWP,12647
+Burlington,mount holly twp,MOUNT HOLLY TWP,5584
+Burlington,mount laurel twp,MOUNT LAUREL TWP,6980
+Burlington,new hanover twp,NEW HANOVER TWP,5503
+Burlington,north hanover twp,NORTH HANOVER TWP,7478
+Burlington,palmyra boro,PALMYRA BORO,6434
+Burlington,pemberton boro,PEMBERTON BORO,5180
+Burlington,pemberton twp,PEMBERTON TWP,5045
+Burlington,riverside twp,RIVERSIDE TWP,6010
+Burlington,riverton boro,RIVERTON BORO,9596
+Burlington,shamong twp,SHAMONG TWP,9913
+Burlington,southampton twp,SOUTHAMPTON TWP,6250
+Burlington,springfield twp,SPRINGFIELD TWP,8782
+Burlington,tabernacle twp,TABERNACLE TWP,9118
+Burlington,washington twp,WASHINGTON TWP,4770
+Burlington,westampton twp,WESTAMPTON TWP,6775
+Burlington,willingboro twp,WILLINGBORO TWP,6951
+Burlington,woodland twp,WOODLAND TWP,7376
+Burlington,wrightstown boro,WRIGHTSTOWN BORO,5703
+Camden,audubon boro,AUDUBON BORO,8235
+Camden,audubon park boro,AUDUBON PARK BORO,0
+Camden,barrington boro,BARRINGTON BORO,9301
+Camden,bellmawr boro,BELLMAWR BORO,6371
+Camden,berlin boro,BERLIN BORO,8077
+Camden,berlin twp,BERLIN TWP,7307
+Camden,brooklawn boro,BROOKLAWN BORO,4673
+Camden,camden city,CAMDEN CITY,2072
+Camden,cherry hill twp,CHERRY HILL TWP,9379
+Camden,chesilhurst boro,CHESILHURST BORO,6638
+Camden,clementon boro,CLEMENTON BORO,5382
+Camden,collingswood boro,COLLINGSWOOD BORO,9054
+Camden,gibbsboro boro,GIBBSBORO BORO,9904
+Camden,gloucester city,GLOUCESTER CITY,5504
+Camden,gloucester twp,GLOUCESTER TWP,7771
+Camden,haddon twp,HADDON TWP,9232
+Camden,haddonfield boro,HADDONFIELD BORO,17141
+Camden,haddon heights boro,HADDON HEIGHTS BORO,10196
+Camden,hi-nella boro,HI-NELLA BORO,9355
+Camden,laurel springs boro,LAUREL SPRINGS BORO,9157
+Camden,lawnside boro,LAWNSIDE BORO,6539
+Camden,lindenwold boro,LINDENWOLD BORO,5342
+Camden,magnolia boro,MAGNOLIA BORO,7155
+Camden,merchantville boro,MERCHANTVILLE BORO,10067
+Camden,mount ephraim boro,MOUNT EPHRAIM BORO,7662
+Camden,oaklyn boro,OAKLYN BORO,8769
+Camden,pennsauken twp,PENNSAUKEN TWP,5921
+Camden,pine hill boro,PINE HILL BORO,6292
+Camden,runnemede boro,RUNNEMEDE BORO,6718
+Camden,somerdale boro,SOMERDALE BORO,6695
+Camden,stratford boro,STRATFORD BORO,7623
+Camden,tavistock boro,TAVISTOCK BORO,37918
+Camden,voorhees twp,VOORHEES TWP,11313
+Camden,waterford twp,WATERFORD TWP,7686
+Camden,winslow twp,WINSLOW TWP,6425
+Camden,woodlynne boro,WOODLYNNE BORO,5583
+Cape May,avalon boro,AVALON BORO,10701
+Cape May,cape may city,CAPE MAY CITY,7188
+Cape May,cape may point boro,CAPE MAY POINT BORO,5460
+Cape May,dennis twp,DENNIS TWP,3565
+Cape May,lower twp,LOWER TWP,4638
+Cape May,middle twp,MIDDLE TWP,5144
+Cape May,north wildwood city,NORTH WILDWOOD CITY,4838
+Cape May,ocean city,OCEAN CITY,7237
+Cape May,sea isle city,SEA ISLE CITY,6323
+Cape May,stone harbor boro,STONE HARBOR BORO,12340
+Cape May,upper twp,UPPER TWP,6313
+Cape May,west cape may boro,WEST CAPE MAY BORO,7300
+Cape May,west wildwood boro,WEST WILDWOOD BORO,5104
+Cape May,wildwood city,WILDWOOD CITY,6182
+Cape May,wildwood crest boro,WILDWOOD CREST BORO,5490
+Cape May,woodbine boro,WOODBINE BORO,2067
+Cumberland,bridgeton city,BRIDGETON CITY,3805
+Cumberland,commercial twp,COMMERCIAL TWP,2838
+Cumberland,deerfield twp,DEERFIELD TWP,5334
+Cumberland,downe twp,DOWNE TWP,3859
+Cumberland,fairfield twp,FAIRFIELD TWP,4083
+Cumberland,greenwich twp,GREENWICH TWP,6311
+Cumberland,hopewell twp,HOPEWELL TWP,5681
+Cumberland,lawrence twp,LAWRENCE TWP,4971
+Cumberland,maurice river twp,MAURICE RIVER TWP,4634
+Cumberland,millville city,MILLVILLE CITY,4923
+Cumberland,shiloh boro,SHILOH BORO,4776
+Cumberland,stow creek twp,STOW CREEK TWP,5218
+Cumberland,upper deerfield twp,UPPER DEERFIELD TWP,5907
+Cumberland,vineland city,VINELAND CITY,5158
+Essex,belleville twp,BELLEVILLE TWP,11273
+Essex,bloomfield twp,BLOOMFIELD TWP,12023
+Essex,caldwell boro,CALDWELL BORO TWP,13576
+Essex,cedar grove twp,CEDAR GROVE TWP,12089
+Essex,east orange city,EAST ORANGE CITY,10299
+Essex,essex fells boro,ESSEX FELLS TWP,20416
+Essex,fairfield twp,FAIRFIELD TWP,11529
+Essex,glen ridge boro,GLEN RIDGE BORO TWP,22987
+Essex,irvington twp,IRVINGTON TWP,9360
+Essex,livingston twp,LIVINGSTON TWP,17641
+Essex,maplewood twp,MAPLEWOOD TWP,18615
+Essex,millburn twp,MILLBURN TWP,25415
+Essex,montclair twp,MONTCLAIR TWP,21635
+Essex,newark city,NEWARK CITY,7238
+Essex,north caldwell boro,NORTH CALDWELL BORO,17970
+Essex,nutley twp,NUTLEY TWP,12946
+Essex,city of orange twp,CITY OF ORANGE TWP,12421
+Essex,roseland boro,ROSELAND BORO,11545
+Essex,south orange village twp,SOUTH ORANGE VILLAGE TWP,22065
+Essex,verona twp,VERONA TWP,13411
+Essex,west caldwell twp,WEST CALDWELL TWP,12273
+Essex,west orange twp,WEST ORANGE TWP,15779
+Gloucester,clayton boro,CLAYTON BORO,6782
+Gloucester,deptford twp,DEPTFORD TWP,6169
+Gloucester,east greenwich twp,EAST GREENWICH TWP,9523
+Gloucester,elk twp,ELK TWP,7639
+Gloucester,franklin twp,FRANKLIN TWP,6921
+Gloucester,glassboro boro,GLASSBORO BORO,6779
+Gloucester,greenwich twp,GREENWICH TWP,5678
+Gloucester,harrison twp,HARRISON TWP,11311
+Gloucester,logan twp,LOGAN TWP,4248
+Gloucester,mantua twp,MANTUA TWP,7723
+Gloucester,monroe twp,MONROE TWP,7603
+Gloucester,national park boro,NATIONAL PARK BORO,6705
+Gloucester,newfield boro,NEWFIELD BORO,6815
+Gloucester,paulsboro boro,PAULSBORO BORO,4654
+Gloucester,pitman boro,PITMAN BORO,8353
+Gloucester,south harrison twp,SOUTH HARRISON TWP,10274
+Gloucester,swedesboro boro,SWEDESBORO BORO,7423
+Gloucester,washington twp,WASHINGTON TWP,8184
+Gloucester,wenonah boro,WENONAH BORO,11563
+Gloucester,west deptford twp,WEST DEPTFORD TWP,7040
+Gloucester,westville boro,WESTVILLE BORO,6619
+Gloucester,woodbury city,WOODBURY CITY,7388
+Gloucester,woodbury heights boro,WOODBURY HEIGHTS BORO,8560
+Gloucester,woolwich twp,WOOLWICH TWP,10863
+Hudson,bayonne city,BAYONNE CITY,11247
+Hudson,east newark boro,EAST NEWARK BORO,8087
+Hudson,guttenberg town,GUTTENBERG TOWN,10337
+Hudson,harrison town,HARRISON TOWN,10699
+Hudson,hoboken city,HOBOKEN CITY,9317
+Hudson,jersey city,JERSEY CITY,10624
+Hudson,kearny town,KEARNY TOWN,10568
+Hudson,north bergen twp,NORTH BERGEN TWP,8505
+Hudson,secaucus town,SECAUCUS TOWN,7333
+Hudson,union city,UNION CITY,9138
+Hudson,weehawken twp,WEEHAWKEN TWP,14988
+Hudson,west new york town,WEST NEW YORK TOWN,8144
+Hunterdon,alexandria twp,ALEXANDRIA TWP,11607
+Hunterdon,bethlehem twp,BETHLEHEM TWP,11630
+Hunterdon,bloomsbury boro,BLOOMSBURY BORO,7583
+Hunterdon,califon boro,CALIFON BORO,12706
+Hunterdon,clinton town,CLINTON TOWN,12437
+Hunterdon,clinton twp,CLINTON TWP,11950
+Hunterdon,delaware twp,DELAWARE TWP,11050
+Hunterdon,east amwell twp,EAST AMWELL TWP,9555
+Hunterdon,flemington boro,FLEMINGTON BORO,9580
+Hunterdon,franklin twp,FRANKLIN TWP,12477
+Hunterdon,frenchtown boro,FRENCHTOWN BORO,10830
+Hunterdon,glen gardner boro,GLEN GARDNER BORO,7190
+Hunterdon,hampton boro,HAMPTON BORO,9423
+Hunterdon,high bridge boro,HIGH BRIDGE BORO,10928
+Hunterdon,holland twp,HOLLAND TWP,9209
+Hunterdon,kingwood twp,KINGWOOD TWP,9239
+Hunterdon,lambertville city,LAMBERTVILLE CITY,9724
+Hunterdon,lebanon boro,LEBANON BORO,7576
+Hunterdon,lebanon twp,LEBANON TWP,10557
+Hunterdon,milford boro,MILFORD BORO,8866
+Hunterdon,raritan twp,RARITAN TWP,11750
+Hunterdon,readington twp,READINGTON TWP,11848
+Hunterdon,stockton boro,STOCKTON BORO,9158
+Hunterdon,tewksbury twp,TEWKSBURY TWP,15410
+Hunterdon,union twp,UNION TWP,10316
+Hunterdon,west amwell twp,WEST AMWELL TWP,11119
+Mercer,east windsor twp,EAST WINDSOR TWP,9346
+Mercer,ewing twp,EWING TWP,8096
+Mercer,hamilton twp,HAMILTON TWP,7647
+Mercer,hightstown boro,HIGHTSTOWN BORO,10602
+Mercer,hopewell boro,HOPEWELL BORO,13761
+Mercer,hopewell twp,HOPEWELL TWP,14527
+Mercer,lawrence twp,LAWRENCE TWP,8853
+Mercer,pennington boro,PENNINGTON BORO,15625
+Mercer,trenton city,TRENTON CITY,3690
+Mercer,robbinsville twp,ROBBINSVILLE TWP,12682
+Mercer,west windsor twp,WEST WINDSOR TWP,16083
+Mercer,princeton boro,PRINCETON,22658
+Middlesex,carteret boro,CARTERET BORO,7814
+Middlesex,cranbury twp,CRANBURY TWP,11128
+Middlesex,dunellen boro,DUNELLEN BORO,10922
+Middlesex,east brunswick twp,EAST BRUNSWICK TWP,11284
+Middlesex,edison twp,EDISON TWP,10513
+Middlesex,helmetta boro,HELMETTA BORO,7061
+Middlesex,highland park boro,HIGHLAND PARK BORO,12310
+Middlesex,jamesburg boro,JAMESBURG BORO,8335
+Middlesex,metuchen boro,METUCHEN BORO,13204
+Middlesex,middlesex boro,MIDDLESEX BORO,9832
+Middlesex,milltown boro,MILLTOWN BORO,11057
+Middlesex,monroe twp,MONROE TWP,8893
+Middlesex,new brunswick city,NEW BRUNSWICK CITY,6893
+Middlesex,north brunswick twp,NORTH BRUNSWICK TWP,10198
+Middlesex,old bridge twp,OLD BRIDGE TWP,8657
+Middlesex,perth amboy city,PERTH AMBOY CITY,7482
+Middlesex,piscataway twp,PISCATAWAY TWP,8520
+Middlesex,plainsboro twp,PLAINSBORO TWP,11672
+Middlesex,sayreville boro,SAYREVILLE BORO,8919
+Middlesex,south amboy city,SOUTH AMBOY CITY,8819
+Middlesex,south brunswick twp,SOUTH BRUNSWICK TWP,10521
+Middlesex,south plainfield boro,SOUTH PLAINFIELD BORO,8707
+Middlesex,south river boro,SOUTH RIVER BORO,7462
+Middlesex,spotswood boro,SPOTSWOOD BORO,9416
+Middlesex,woodbridge twp,WOODBRIDGE TWP,9242
+Monmouth,aberdeen twp,ABERDEEN TWP,8453
+Monmouth,allenhurst boro,ALLENHURST BORO,21877
+Monmouth,allentown boro,ALLENTOWN BORO,9442
+Monmouth,asbury park city,ASBURY PARK CITY,9312
+Monmouth,atlantic highlands boro,ATLANTIC HIGHLANDS BORO,10344
+Monmouth,avon-by-the-sea boro,AVON BY THE SEA BORO,11326
+Monmouth,belmar boro,BELMAR BORO,8589
+Monmouth,bradley beach boro,BRADLEY BEACH BORO,9590
+Monmouth,brielle boro,BRIELLE BORO,14206
+Monmouth,colts neck twp,COLTS NECK TOWNSHIP,16668
+Monmouth,deal boro,DEAL BORO,23294
+Monmouth,eatontown boro,EATONTOWN BORO,10547
+Monmouth,englishtown boro,ENGLISHTOWN BORO,9051
+Monmouth,fair haven boro,FAIR HAVEN BORO,17848
+Monmouth,farmingdale boro,FARMINGDALE BORO,8720
+Monmouth,freehold boro,FREEHOLD BORO,8165
+Monmouth,freehold twp,FREEHOLD TWP,10894
+Monmouth,hazlet twp,HAZLET TWP,9645
+Monmouth,highlands boro,HIGHLANDS BORO,8443
+Monmouth,holmdel twp,HOLMDEL TWP,15184
+Monmouth,howell twp,HOWELL TWP,9285
+Monmouth,interlaken boro,INTERLAKEN BORO,11397
+Monmouth,keansburg boro,KEANSBURG BORO,6777
+Monmouth,keyport boro,KEYPORT BORO,8649
+Monmouth,little silver boro,LITTLE SILVER BORO,15535
+Monmouth,loch arbour village,LOCH ARBOUR VILLAGE,12084
+Monmouth,long branch city,LONG BRANCH CITY,11647
+Monmouth,manalapan twp,MANALAPAN TWP,10376
+Monmouth,manasquan boro,MANASQUAN BORO,11344
+Monmouth,marlboro twp,MARLBORO TWP,12144
+Monmouth,matawan boro,MATAWAN BORO,11030
+Monmouth,middletown twp,MIDDLETOWN TWP,10674
+Monmouth,millstone twp,MILLSTONE TWP,12313
+Monmouth,monmouth beach boro,MONMOUTH BEACH BORO,10602
+Monmouth,neptune twp,NEPTUNE TWP,9355
+Monmouth,neptune city boro,NEPTUNE CITY BORO,8542
+Monmouth,ocean twp,OCEAN TWP,11764
+Monmouth,oceanport boro,OCEANPORT BORO,12123
+Monmouth,red bank boro,RED BANK BORO,10167
+Monmouth,roosevelt boro,ROOSEVELT BORO,9437
+Monmouth,rumson boro,RUMSON BORO,22890
+Monmouth,sea bright boro,SEA BRIGHT BORO,9822
+Monmouth,sea girt boro,SEA GIRT BORO,15428
+Monmouth,shrewsbury boro,SHREWSBURY BORO,13572
+Monmouth,shrewsbury twp,SHREWSBURY TWP,5649
+Monmouth,lake como boro,LAKE COMO BORO,8255
+Monmouth,spring lake boro,SPRING LAKE BORO,15257
+Monmouth,spring lake heights boro,SPRING LAKE HEIGHTS BORO,8666
+Monmouth,tinton falls boro,TINTON FALLS BORO,7926
+Monmouth,union beach boro,UNION BEACH BORO,8874
+Monmouth,upper freehold twp,UPPER FREEHOLD TWP,13681
+Monmouth,wall twp,WALL TWP,9991
+Monmouth,west long branch boro,WEST LONG BRANCH BORO,12675
+Morris,boonton town,BOONTON TOWN,12230
+Morris,boonton twp,BOONTON TWP,13259
+Morris,butler boro,BUTLER BORO,10144
+Morris,chatham boro,CHATHAM BORO,16109
+Morris,chatham twp,CHATHAM TWP,17172
+Morris,chester boro,CHESTER BORO,13986
+Morris,chester twp,CHESTER TWP,17085
+Morris,denville twp,DENVILLE TWP,11282
+Morris,dover town,DOVER TOWN,7877
+Morris,east hanover twp,EAST HANOVER TWP,9155
+Morris,florham park boro,FLORHAM PARK BORO,10924
+Morris,hanover twp,HANOVER TWP,8671
+Morris,harding twp,HARDING TWP,14809
+Morris,jefferson twp,JEFFERSON TWP,9573
+Morris,kinnelon boro,KINNELON BORO,16774
+Morris,lincoln park boro,LINCOLN PARK BORO,9983
+Morris,madison boro,MADISON BORO,14959
+Morris,mendham boro,MENDHAM BORO,16474
+Morris,mendham twp,MENDHAM TWP,20297
+Morris,mine hill twp,MINE HILL TWP,7873
+Morris,montville twp,MONTVILLE TWP,14018
+Morris,morris twp,MORRIS TWP,11387
+Morris,morris plains boro,MORRIS PLAINS BORO,11354
+Morris,morristown town,MORRISTOWN TOWN,10008
+Morris,mountain lakes boro,MOUNTAIN LAKES BORO,23006
+Morris,mount arlington boro,MOUNT ARLINGTON BORO,8396
+Morris,mount olive twp,MOUNT OLIVE TWP,10997
+Morris,netcong boro,NETCONG BORO,9092
+Morris,parsippany-troy hills twp,PARSIPPANY-TROY HILLS TWP,10581
+Morris,long hill twp,LONG HILL TWP,13370
+Morris,pequannock twp,PEQUANNOCK TWP,10026
+Morris,randolph twp,RANDOLPH TWP,13908
+Morris,riverdale boro,RIVERDALE BORO,7236
+Morris,rockaway boro,ROCKAWAY BORO,10091
+Morris,rockaway twp,ROCKAWAY TWP,11212
+Morris,roxbury twp,ROXBURY TWP,9447
+Morris,victory gardens boro,VICTORY GARDENS BORO,5610
+Morris,washington twp,WASHINGTON TWP,12691
+Morris,wharton boro,WHARTON BORO,10075
+Ocean,barnegat twp,BARNEGAT TWP,7334
+Ocean,barnegat light boro,BARNEGAT LIGHT BORO,8386
+Ocean,bay head boro,BAY HEAD BORO,16462
+Ocean,beach haven boro,BEACH HAVEN BORO,11217
+Ocean,beachwood boro,BEACHWOOD BORO,6031
+Ocean,berkeley twp,BERKELEY TWP,5036
+Ocean,brick twp,BRICK TWP,7668
+Ocean,toms river twp,TOMS RIVER TWP,7896
+Ocean,eagleswood twp,EAGLESWOOD TWP,7002
+Ocean,harvey cedars boro,HARVEY CEDARS BORO,12411
+Ocean,island heights boro,ISLAND HEIGHTS BORO,8900
+Ocean,jackson twp,JACKSON TWP,8499
+Ocean,lacey twp,LACEY TWP,7273
+Ocean,lakehurst boro,LAKEHURST BORO,5559
+Ocean,lakewood twp,LAKEWOOD TWP,8450
+Ocean,lavallette boro,LAVALLETTE BORO,8504
+Ocean,little egg harbor twp,LITTLE EGG HARBOR TWP,5977
+Ocean,long beach twp,LONG BEACH TWP,11480
+Ocean,manchester twp,MANCHESTER TWP,4960
+Ocean,mantoloking boro,MANTOLOKING BORO,24447
+Ocean,ocean twp,OCEAN TWP,7037
+Ocean,ocean gate boro,OCEAN GATE BORO,6779
+Ocean,pine beach boro,PINE BEACH BORO,7704
+Ocean,plumsted twp,PLUMSTED TWP,7732
+Ocean,point pleasant boro,POINT PLEASANT BORO,9169
+Ocean,point pleasant beach boro,PT PLEASANT BEACH BORO,9883
+Ocean,seaside heights boro,SEASIDE HEIGHTS BORO,7286
+Ocean,seaside park boro,SEASIDE PARK BORO,9348
+Ocean,ship bottom boro,SHIP BOTTOM BORO,8236
+Ocean,south toms river boro,SOUTH TOMS RIVER BORO,5582
+Ocean,stafford twp,STAFFORD TWP,7304
+Ocean,surf city boro,SURF CITY BORO,9464
+Ocean,tuckerton boro,TUCKERTON BORO,7027
+Passaic,bloomingdale boro,BLOOMINGDALE BORO,11737
+Passaic,clifton city,CLIFTON CITY,10684
+Passaic,haledon boro,HALEDON BORO,12232
+Passaic,hawthorne boro,HAWTHORNE BORO,11605
+Passaic,little falls twp,LITTLE FALLS TWP,10581
+Passaic,north haledon boro,NORTH HALEDON BORO,11709
+Passaic,passaic city,PASSAIC CITY,11356
+Passaic,paterson city,PATERSON CITY,9943
+Passaic,pompton lakes boro,POMPTON LAKES BORO,11007
+Passaic,prospect park boro,PROSPECT PARK BORO,12652
+Passaic,ringwood boro,RINGWOOD BORO,12609
+Passaic,totowa boro,TOTOWA BORO,10928
+Passaic,wanaque boro,WANAQUE BORO,9922
+Passaic,wayne twp,WAYNE TWP,13702
+Passaic,west milford twp,WEST MILFORD TWP,9864
+Passaic,woodland park boro,WOODLAND PARK BORO,11636
+Salem,alloway twp,ALLOWAY TWP,6877
+Salem,carneys point twp,CARNEYS POINT TOWNSHIP,5370
+Salem,elmer boro,ELMER BORO,6828
+Salem,elsinboro twp,ELSINBORO TWP,5583
+Salem,lower alloways creek twp,LOWER ALLOWAY CREEK TWP,2293
+Salem,mannington twp,MANNINGTON TWP,6024
+Salem,oldmans twp,OLDMANS TWP,5560
+Salem,penns grove boro,PENNS GROVE BORO,4810
+Salem,pennsville twp,PENNSVILLE TWP,7850
+Salem,pilesgrove twp,PILESGROVE TWP,10042
+Salem,pittsgrove twp,PITTSGROVE TWP,7811
+Salem,quinton twp,QUINTON TWP,5715
+Salem,salem city,SALEM CITY,3808
+Salem,upper pittsgrove twp,UPPER PITTSGROVE TWP,7225
+Salem,woodstown boro,WOODSTOWN BORO,8600
+Somerset,bedminster twp,BEDMINSTER TWP,5645
+Somerset,bernards twp,BERNARDS TWP,13971
+Somerset,bernardsville boro,BERNARDSVILLE BORO,16720
+Somerset,bound brook boro,BOUND BROOK BORO,9496
+Somerset,branchburg twp,BRANCHBURG TWP,10231
+Somerset,bridgewater twp,BRIDGEWATER TWP,10857
+Somerset,far hills boro,FAR HILLS BORO,12542
+Somerset,franklin twp,FRANKLIN TWP,8340
+Somerset,green brook twp,GREEN BROOK TWP,14309
+Somerset,hillsborough twp,HILLSBOROUGH TWP,11418
+Somerset,manville boro,MANVILLE BORO,8118
+Somerset,millstone boro,MILLSTONE BORO,7251
+Somerset,montgomery twp,MONTGOMERY TWP,17080
+Somerset,north plainfield boro,NORTH PLAINFIELD BORO,9828
+Somerset,peapack and gladstone boro,PEAPACK GLADSTONE BORO,13984
+Somerset,raritan boro,RARITAN BORO,9635
+Somerset,rocky hill boro,ROCKY HILL BORO,11858
+Somerset,somerville boro,SOMERVILLE BORO,10900
+Somerset,south bound brook boro,SOUTH BOUND BROOK BORO,9127
+Somerset,warren twp,WARREN TWP,16392
+Somerset,watchung boro,WATCHUNG BORO,17119
+Sussex,andover boro,ANDOVER BORO,7754
+Sussex,andover twp,ANDOVER TWP,10687
+Sussex,branchville boro,BRANCHVILLE BORO,6300
+Sussex,byram twp,BYRAM TWP,9805
+Sussex,frankford twp,FRANKFORD TWP,8013
+Sussex,franklin boro,FRANKLIN BORO,7483
+Sussex,fredon twp,FREDON TWP,10372
+Sussex,green twp,GREEN TWP,12198
+Sussex,hamburg boro,HAMBURG BORO,7882
+Sussex,hampton twp,HAMPTON TWP,7608
+Sussex,hardyston twp,HARDYSTON TWP,7266
+Sussex,hopatcong boro,HOPATCONG BORO,7937
+Sussex,lafayette twp,LAFAYETTE TWP,9083
+Sussex,montague twp,MONTAGUE TWP,4607
+Sussex,newton town,NEWTON TOWN,8698
+Sussex,ogdensburg boro,OGDENSBURG BORO,8835
+Sussex,sandyston twp,SANDYSTON TWP,6720
+Sussex,sparta twp,SPARTA TWP,13359
+Sussex,stanhope boro,STANHOPE BORO,8789
+Sussex,stillwater twp,STILLWATER TWP,7514
+Sussex,sussex boro,SUSSEX BORO,6443
+Sussex,vernon twp,VERNON TWP,7071
+Sussex,walpack twp,WALPACK TWP,1170
+Sussex,wantage twp,WANTAGE TWP,7623
+Union,berkeley heights twp,BERKELEY HEIGHTS TWP,13673
+Union,clark twp,CLARK TWP,11623
+Union,cranford twp,CRANFORD TWP,12775
+Union,elizabeth city,ELIZABETH CITY,9215
+Union,fanwood boro,FANWOOD BORO,13853
+Union,garwood boro,GARWOOD BORO,11342
+Union,hillside twp,HILLSIDE TWP,10156
+Union,kenilworth boro,KENILWORTH BORO,11778
+Union,linden city,LINDEN CITY,9392
+Union,mountainside boro,MOUNTAINSIDE BORO,12903
+Union,new providence boro,NEW PROVIDENCE BORO,15879
+Union,plainfield city,PLAINFIELD CITY,9524
+Union,rahway city,RAHWAY CITY,10141
+Union,roselle boro,ROSELLE BORO,10684
+Union,roselle park boro,ROSELLE PARK BORO,11190
+Union,scotch plains twp,SCOTCH PLAINS TWP,14993
+Union,springfield twp,SPRINGFIELD TWP,12742
+Union,summit city,SUMMIT CITY,18977
+Union,union twp,UNION TWP,10507
+Union,westfield town,WESTFIELD TWP,18487
+Union,winfield twp,WINFIELD TWP,4149
+Warren,allamuchy twp,ALLAMUCHY TWP,7578
+Warren,alpha boro,ALPHA BORO,6696
+Warren,belvidere town,BELVIDERE TWP,7625
+Warren,blairstown twp,BLAIRSTOWN TWP,9099
+Warren,franklin twp,FRANKLIN TWP,9644
+Warren,frelinghuysen twp,FRELINGHUYSEN TWP,8954
+Warren,greenwich twp,GREENWICH TWP,10891
+Warren,hackettstown town,HACKETTSTOWN TOWN,9484
+Warren,hardwick twp,HARDWICK TWP,8922
+Warren,harmony twp,HARMONY TWP,5618
+Warren,hope twp,HOPE TWP,8431
+Warren,independence twp,INDEPENDENCE TWP,8470
+Warren,knowlton twp,KNOWLTON TWP,8268
+Warren,liberty twp,LIBERTY TWP,7770
+Warren,lopatcong twp,LOPATCONG TWP,6992
+Warren,mansfield twp,MANSFIELD TWP,8403
+Warren,oxford twp,OXFORD TWP,8049
+Warren,phillipsburg town,PHILLIPSBURG TOWN,5097
+Warren,pohatcong twp,POHATCONG TWP,7497
+Warren,washington boro,WASHINGTON BORO,8038
+Warren,washington twp,WASHINGTON TWP,9896
+Warren,white twp,WHITE TWP,6448

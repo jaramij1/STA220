@@ -1,0 +1,13 @@
+town,type,pop,land_sqmi,density,budget_m,levy_m,ft_employees,police_ft,state_plan,cost_share,debt_per_resident
+East Windsor township,township,30436,15.6,1955,25.3,13.6,97,44,Yes,26.8,680
+Ewing township,township,35858,15.2,2358,58.1,35.3,255,87,Yes,25.2,1634
+Hamilton township,township,93911,39.4,2381,172.5,118.2,701,173,No,15.1,1621
+Hightstown borough,borough,5978,1.2,4847,9.3,6.8,NA,NA,NA,NA,NA
+Hopewell borough,borough,1938,0.7,2678,4.5,2.5,7,0,Yes,25,4274
+Hopewell township,township,17916,58.1,309,29.8,17.5,108,37,No,26.1,2574
+Lawrence township,township,32388,21.7,1491,58.5,31,195,63,Yes,0.6,240
+Pennington borough,borough,2906,1,3024,4.8,3,17,6,Yes,24.3,1469
+Princeton borough,borough,31445,17.9,1752,77.9,37.9,234,53,NA,19.1,6680
+Robbinsville township,township,15928,20.4,779,30.6,15.5,127,30,No,21.4,4324
+Trenton city,city,91193,7.6,12033,260.8,83.1,NA,NA,NA,NA,NA
+West Windsor township,township,32241,25.5,1262,53.5,26.3,207,53,No,20.4,2258

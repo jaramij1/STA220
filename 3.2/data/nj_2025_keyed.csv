@@ -1,0 +1,565 @@
+muni_code,county,town,key
+0101,Atlantic,Absecon city,absecon city
+0102,Atlantic,Atlantic City,atlantic city
+0103,Atlantic,Brigantine city,brigantine city
+0105,Atlantic,Buena Vista township,buena vista twp
+0104,Atlantic,Buena borough,buena boro
+0106,Atlantic,Corbin City city,corbin city
+0107,Atlantic,Egg Harbor City city,egg harbor city
+0108,Atlantic,Egg Harbor township,egg harbor twp
+0109,Atlantic,Estell Manor city,estell manor city
+0110,Atlantic,Folsom borough,folsom boro
+0111,Atlantic,Galloway township,galloway twp
+0112,Atlantic,Hamilton township,hamilton twp
+0113,Atlantic,Hammonton town,hammonton town
+0114,Atlantic,Linwood city,linwood city
+0115,Atlantic,Longport borough,longport boro
+0116,Atlantic,Margate City city,margate city
+0117,Atlantic,Mullica township,mullica twp
+0118,Atlantic,Northfield city,northfield city
+0119,Atlantic,Pleasantville city,pleasantville city
+0120,Atlantic,Port Republic city,port republic city
+0121,Atlantic,Somers Point city,somers point city
+0122,Atlantic,Ventnor City city,ventnor city
+0123,Atlantic,Weymouth township,weymouth twp
+0201,Bergen,Allendale borough,allendale boro
+0202,Bergen,Alpine borough,alpine boro
+0203,Bergen,Bergenfield borough,bergenfield boro
+0204,Bergen,Bogota borough,bogota boro
+0205,Bergen,Carlstadt borough,carlstadt boro
+0206,Bergen,Cliffside Park borough,cliffside park boro
+0207,Bergen,Closter borough,closter boro
+0208,Bergen,Cresskill borough,cresskill boro
+0209,Bergen,Demarest borough,demarest boro
+0210,Bergen,Dumont borough,dumont boro
+0212,Bergen,East Rutherford borough,east rutherford boro
+0213,Bergen,Edgewater borough,edgewater boro
+0211,Bergen,Elmwood Park borough,elmwood park boro
+0214,Bergen,Emerson borough,emerson boro
+0216,Bergen,Englewood Cliffs borough,englewood cliffs boro
+0215,Bergen,Englewood city,englewood city
+0217,Bergen,Fair Lawn borough,fair lawn boro
+0218,Bergen,Fairview borough,fairview boro
+0219,Bergen,Fort Lee borough,fort lee boro
+0220,Bergen,Franklin Lakes borough,franklin lakes boro
+0221,Bergen,Garfield city,garfield city
+0222,Bergen,Glen Rock borough,glen rock boro
+0223,Bergen,Hackensack city,hackensack city
+0224,Bergen,Harrington Park borough,harrington park boro
+0225,Bergen,Hasbrouck Heights borough,hasbrouck heights boro
+0226,Bergen,Haworth borough,haworth boro
+0227,Bergen,Hillsdale borough,hillsdale boro
+0228,Bergen,Ho-Ho-Kus borough,ho-ho-kus boro
+0229,Bergen,Leonia borough,leonia boro
+0230,Bergen,Little Ferry borough,little ferry boro
+0231,Bergen,Lodi borough,lodi boro
+0232,Bergen,Lyndhurst township,lyndhurst twp
+0233,Bergen,Mahwah township,mahwah twp
+0234,Bergen,Maywood borough,maywood boro
+0235,Bergen,Midland Park borough,midland park boro
+0236,Bergen,Montvale borough,montvale boro
+0237,Bergen,Moonachie borough,moonachie boro
+0238,Bergen,New Milford borough,new milford boro
+0239,Bergen,North Arlington borough,north arlington boro
+0240,Bergen,Northvale borough,northvale boro
+0241,Bergen,Norwood borough,norwood boro
+0242,Bergen,Oakland borough,oakland boro
+0243,Bergen,Old Tappan borough,old tappan boro
+0244,Bergen,Oradell borough,oradell boro
+0245,Bergen,Palisades Park borough,palisades park boro
+0246,Bergen,Paramus borough,paramus boro
+0247,Bergen,Park Ridge borough,park ridge boro
+0248,Bergen,Ramsey borough,ramsey boro
+0250,Bergen,Ridgefield Park village,ridgefield park village
+0249,Bergen,Ridgefield borough,ridgefield boro
+0251,Bergen,Ridgewood village,ridgewood village
+0252,Bergen,River Edge borough,river edge boro
+0253,Bergen,River Vale township,river vale twp
+0254,Bergen,Rochelle Park township,rochelle park twp
+0255,Bergen,Rockleigh borough,rockleigh boro
+0256,Bergen,Rutherford borough,rutherford boro
+0257,Bergen,Saddle Brook township,saddle brook twp
+0258,Bergen,Saddle River borough,saddle river boro
+0259,Bergen,South Hackensack township,south hackensack twp
+0260,Bergen,Teaneck township,teaneck twp
+0261,Bergen,Tenafly borough,tenafly boro
+0262,Bergen,Teterboro borough,teterboro boro
+0263,Bergen,Upper Saddle River borough,upper saddle river boro
+0264,Bergen,Waldwick borough,waldwick boro
+0265,Bergen,Wallington borough,wallington boro
+0266,Bergen,Washington township,washington twp
+0267,Bergen,Westwood borough,westwood boro
+0269,Bergen,Wood-Ridge borough,wood-ridge boro
+0268,Bergen,Woodcliff Lake borough,woodcliff lake boro
+0270,Bergen,Wyckoff township,wyckoff twp
+0301,Burlington,Bass River township,bass river twp
+0302,Burlington,Beverly city,beverly city
+0303,Burlington,Bordentown city,bordentown city
+0304,Burlington,Bordentown township,bordentown twp
+0305,Burlington,Burlington city,burlington city
+0306,Burlington,Burlington township,burlington twp
+0307,Burlington,Chesterfield township,chesterfield twp
+0308,Burlington,Cinnaminson township,cinnaminson twp
+0309,Burlington,Delanco township,delanco twp
+0310,Burlington,Delran township,delran twp
+0311,Burlington,Eastampton township,eastampton twp
+0312,Burlington,Edgewater Park township,edgewater park twp
+0313,Burlington,Evesham township,evesham twp
+0314,Burlington,Fieldsboro borough,fieldsboro boro
+0315,Burlington,Florence township,florence twp
+0316,Burlington,Hainesport township,hainesport twp
+0317,Burlington,Lumberton township,lumberton twp
+0318,Burlington,Mansfield township,mansfield twp
+0319,Burlington,Maple Shade township,maple shade twp
+0321,Burlington,Medford Lakes borough,medford lakes boro
+0320,Burlington,Medford township,medford twp
+0322,Burlington,Moorestown township,moorestown twp
+0323,Burlington,Mount Holly township,mount holly twp
+0324,Burlington,Mount Laurel township,mount laurel twp
+0325,Burlington,New Hanover township,new hanover twp
+0326,Burlington,North Hanover township,north hanover twp
+0327,Burlington,Palmyra borough,palmyra boro
+0328,Burlington,Pemberton borough,pemberton boro
+0329,Burlington,Pemberton township,pemberton twp
+0330,Burlington,Riverside township,riverside twp
+0331,Burlington,Riverton borough,riverton boro
+0332,Burlington,Shamong township,shamong twp
+0333,Burlington,Southampton township,southampton twp
+0334,Burlington,Springfield township,springfield twp
+0335,Burlington,Tabernacle township,tabernacle twp
+0336,Burlington,Washington township,washington twp
+0337,Burlington,Westampton township,westampton twp
+0338,Burlington,Willingboro township,willingboro twp
+0339,Burlington,Woodland township,woodland twp
+0340,Burlington,Wrightstown borough,wrightstown boro
+0402,Camden,Audubon Park borough,audubon park boro
+0401,Camden,Audubon borough,audubon boro
+0403,Camden,Barrington borough,barrington boro
+0404,Camden,Bellmawr borough,bellmawr boro
+0405,Camden,Berlin borough,berlin boro
+0406,Camden,Berlin township,berlin twp
+0407,Camden,Brooklawn borough,brooklawn boro
+0408,Camden,Camden city,camden city
+0409,Camden,Cherry Hill township,cherry hill twp
+0410,Camden,Chesilhurst borough,chesilhurst boro
+0411,Camden,Clementon borough,clementon boro
+0412,Camden,Collingswood borough,collingswood boro
+0413,Camden,Gibbsboro borough,gibbsboro boro
+0414,Camden,Gloucester City city,gloucester city
+0415,Camden,Gloucester township,gloucester twp
+0418,Camden,Haddon Heights borough,haddon heights boro
+0416,Camden,Haddon township,haddon twp
+0417,Camden,Haddonfield borough,haddonfield boro
+0419,Camden,Hi-Nella borough,hi-nella boro
+0420,Camden,Laurel Springs borough,laurel springs boro
+0421,Camden,Lawnside borough,lawnside boro
+0422,Camden,Lindenwold borough,lindenwold boro
+0423,Camden,Magnolia borough,magnolia boro
+0424,Camden,Merchantville borough,merchantville boro
+0425,Camden,Mount Ephraim borough,mount ephraim boro
+0426,Camden,Oaklyn borough,oaklyn boro
+0427,Camden,Pennsauken township,pennsauken twp
+0428,Camden,Pine Hill borough,pine hill boro
+0430,Camden,Runnemede borough,runnemede boro
+0431,Camden,Somerdale borough,somerdale boro
+0432,Camden,Stratford borough,stratford boro
+0433,Camden,Tavistock borough,tavistock boro
+0434,Camden,Voorhees township,voorhees twp
+0435,Camden,Waterford township,waterford twp
+0436,Camden,Winslow township,winslow twp
+0437,Camden,Woodlynne borough,woodlynne boro
+0501,Cape May,Avalon borough,avalon boro
+0503,Cape May,Cape May Point borough,cape may point boro
+0502,Cape May,Cape May city,cape may city
+0504,Cape May,Dennis township,dennis twp
+0505,Cape May,Lower township,lower twp
+0506,Cape May,Middle township,middle twp
+0507,Cape May,North Wildwood city,north wildwood city
+0508,Cape May,Ocean City city,ocean city
+0509,Cape May,Sea Isle City city,sea isle city
+0510,Cape May,Stone Harbor borough,stone harbor boro
+0511,Cape May,Upper township,upper twp
+0512,Cape May,West Cape May borough,west cape may boro
+0513,Cape May,West Wildwood borough,west wildwood boro
+0515,Cape May,Wildwood Crest borough,wildwood crest boro
+0514,Cape May,Wildwood city,wildwood city
+0516,Cape May,Woodbine borough,woodbine boro
+0601,Cumberland,Bridgeton city,bridgeton city
+0602,Cumberland,Commercial township,commercial twp
+0603,Cumberland,Deerfield township,deerfield twp
+0604,Cumberland,Downe township,downe twp
+0605,Cumberland,Fairfield township,fairfield twp
+0606,Cumberland,Greenwich township,greenwich twp
+0607,Cumberland,Hopewell township,hopewell twp
+0608,Cumberland,Lawrence township,lawrence twp
+0609,Cumberland,Maurice River township,maurice river twp
+0610,Cumberland,Millville city,millville city
+0611,Cumberland,Shiloh borough,shiloh boro
+0612,Cumberland,Stow Creek township,stow creek twp
+0613,Cumberland,Upper Deerfield township,upper deerfield twp
+0614,Cumberland,Vineland city,vineland city
+0701,Essex,Belleville township,belleville twp
+0702,Essex,Bloomfield township,bloomfield twp
+0703,Essex,Caldwell borough,caldwell boro
+0704,Essex,Cedar Grove township,cedar grove twp
+0717,Essex,City of Orange township,city of orange twp
+0705,Essex,East Orange city,east orange city
+0706,Essex,Essex Fells borough,essex fells boro
+0707,Essex,Fairfield township,fairfield twp
+0708,Essex,Glen Ridge borough,glen ridge boro
+0709,Essex,Irvington township,irvington twp
+0710,Essex,Livingston township,livingston twp
+0711,Essex,Maplewood township,maplewood twp
+0712,Essex,Millburn township,millburn twp
+0713,Essex,Montclair township,montclair twp
+0714,Essex,Newark city,newark city
+0715,Essex,North Caldwell borough,north caldwell boro
+0716,Essex,Nutley township,nutley twp
+0718,Essex,Roseland borough,roseland boro
+0719,Essex,South Orange Village township,south orange village twp
+0720,Essex,Verona township,verona twp
+0721,Essex,West Caldwell township,west caldwell twp
+0722,Essex,West Orange township,west orange twp
+0801,Gloucester,Clayton borough,clayton boro
+0802,Gloucester,Deptford township,deptford twp
+0803,Gloucester,East Greenwich township,east greenwich twp
+0804,Gloucester,Elk township,elk twp
+0805,Gloucester,Franklin township,franklin twp
+0806,Gloucester,Glassboro borough,glassboro boro
+0807,Gloucester,Greenwich township,greenwich twp
+0808,Gloucester,Harrison township,harrison twp
+0809,Gloucester,Logan township,logan twp
+0810,Gloucester,Mantua township,mantua twp
+0811,Gloucester,Monroe township,monroe twp
+0812,Gloucester,National Park borough,national park boro
+0813,Gloucester,Newfield borough,newfield boro
+0814,Gloucester,Paulsboro borough,paulsboro boro
+0815,Gloucester,Pitman borough,pitman boro
+0816,Gloucester,South Harrison township,south harrison twp
+0817,Gloucester,Swedesboro borough,swedesboro boro
+0818,Gloucester,Washington township,washington twp
+0819,Gloucester,Wenonah borough,wenonah boro
+0820,Gloucester,West Deptford township,west deptford twp
+0821,Gloucester,Westville borough,westville boro
+0823,Gloucester,Woodbury Heights borough,woodbury heights boro
+0822,Gloucester,Woodbury city,woodbury city
+0824,Gloucester,Woolwich township,woolwich twp
+0901,Hudson,Bayonne city,bayonne city
+0902,Hudson,East Newark borough,east newark boro
+0903,Hudson,Guttenberg town,guttenberg town
+0904,Hudson,Harrison town,harrison town
+0905,Hudson,Hoboken city,hoboken city
+0906,Hudson,Jersey City city,jersey city
+0907,Hudson,Kearny town,kearny town
+0908,Hudson,North Bergen township,north bergen twp
+0909,Hudson,Secaucus town,secaucus town
+0910,Hudson,Union City city,union city
+0911,Hudson,Weehawken township,weehawken twp
+0912,Hudson,West New York town,west new york town
+1001,Hunterdon,Alexandria township,alexandria twp
+1002,Hunterdon,Bethlehem township,bethlehem twp
+1003,Hunterdon,Bloomsbury borough,bloomsbury boro
+1004,Hunterdon,Califon borough,califon boro
+1005,Hunterdon,Clinton town,clinton town
+1006,Hunterdon,Clinton township,clinton twp
+1007,Hunterdon,Delaware township,delaware twp
+1008,Hunterdon,East Amwell township,east amwell twp
+1009,Hunterdon,Flemington borough,flemington boro
+1010,Hunterdon,Franklin township,franklin twp
+1011,Hunterdon,Frenchtown borough,frenchtown boro
+1012,Hunterdon,Glen Gardner borough,glen gardner boro
+1013,Hunterdon,Hampton borough,hampton boro
+1014,Hunterdon,High Bridge borough,high bridge boro
+1015,Hunterdon,Holland township,holland twp
+1016,Hunterdon,Kingwood township,kingwood twp
+1017,Hunterdon,Lambertville city,lambertville city
+1018,Hunterdon,Lebanon borough,lebanon boro
+1019,Hunterdon,Lebanon township,lebanon twp
+1020,Hunterdon,Milford borough,milford boro
+1021,Hunterdon,Raritan township,raritan twp
+1022,Hunterdon,Readington township,readington twp
+1023,Hunterdon,Stockton borough,stockton boro
+1024,Hunterdon,Tewksbury township,tewksbury twp
+1025,Hunterdon,Union township,union twp
+1026,Hunterdon,West Amwell township,west amwell twp
+1101,Mercer,East Windsor township,east windsor twp
+1102,Mercer,Ewing township,ewing twp
+1103,Mercer,Hamilton township,hamilton twp
+1104,Mercer,Hightstown borough,hightstown boro
+1105,Mercer,Hopewell borough,hopewell boro
+1106,Mercer,Hopewell township,hopewell twp
+1107,Mercer,Lawrence township,lawrence twp
+1108,Mercer,Pennington borough,pennington boro
+1114,Mercer,Princeton borough,princeton boro
+1112,Mercer,Robbinsville township,robbinsville twp
+1111,Mercer,Trenton city,trenton city
+1113,Mercer,West Windsor township,west windsor twp
+1201,Middlesex,Carteret borough,carteret boro
+1202,Middlesex,Cranbury township,cranbury twp
+1203,Middlesex,Dunellen borough,dunellen boro
+1204,Middlesex,East Brunswick township,east brunswick twp
+1205,Middlesex,Edison township,edison twp
+1206,Middlesex,Helmetta borough,helmetta boro
+1207,Middlesex,Highland Park borough,highland park boro
+1208,Middlesex,Jamesburg borough,jamesburg boro
+1210,Middlesex,Metuchen borough,metuchen boro
+1211,Middlesex,Middlesex borough,middlesex boro
+1212,Middlesex,Milltown borough,milltown boro
+1213,Middlesex,Monroe township,monroe twp
+1214,Middlesex,New Brunswick city,new brunswick city
+1215,Middlesex,North Brunswick township,north brunswick twp
+1209,Middlesex,Old Bridge township,old bridge twp
+1216,Middlesex,Perth Amboy city,perth amboy city
+1217,Middlesex,Piscataway township,piscataway twp
+1218,Middlesex,Plainsboro township,plainsboro twp
+1219,Middlesex,Sayreville borough,sayreville boro
+1220,Middlesex,South Amboy city,south amboy city
+1221,Middlesex,South Brunswick township,south brunswick twp
+1222,Middlesex,South Plainfield borough,south plainfield boro
+1223,Middlesex,South River borough,south river boro
+1224,Middlesex,Spotswood borough,spotswood boro
+1225,Middlesex,Woodbridge township,woodbridge twp
+1330,Monmouth,Aberdeen township,aberdeen twp
+1301,Monmouth,Allenhurst borough,allenhurst boro
+1302,Monmouth,Allentown borough,allentown boro
+1303,Monmouth,Asbury Park city,asbury park city
+1304,Monmouth,Atlantic Highlands borough,atlantic highlands boro
+1305,Monmouth,Avon-by-the-Sea borough,avon-by-the-sea boro
+1306,Monmouth,Belmar borough,belmar boro
+1307,Monmouth,Bradley Beach borough,bradley beach boro
+1308,Monmouth,Brielle borough,brielle boro
+1309,Monmouth,Colts Neck township,colts neck twp
+1310,Monmouth,Deal borough,deal boro
+1311,Monmouth,Eatontown borough,eatontown boro
+1312,Monmouth,Englishtown borough,englishtown boro
+1313,Monmouth,Fair Haven borough,fair haven boro
+1314,Monmouth,Farmingdale borough,farmingdale boro
+1315,Monmouth,Freehold borough,freehold boro
+1316,Monmouth,Freehold township,freehold twp
+1339,Monmouth,Hazlet township,hazlet twp
+1317,Monmouth,Highlands borough,highlands boro
+1318,Monmouth,Holmdel township,holmdel twp
+1319,Monmouth,Howell township,howell twp
+1320,Monmouth,Interlaken borough,interlaken boro
+1321,Monmouth,Keansburg borough,keansburg boro
+1322,Monmouth,Keyport borough,keyport boro
+1347,Monmouth,Lake Como borough,lake como boro
+1323,Monmouth,Little Silver borough,little silver boro
+1324,Monmouth,Loch Arbour village,loch arbour village
+1325,Monmouth,Long Branch city,long branch city
+1326,Monmouth,Manalapan township,manalapan twp
+1327,Monmouth,Manasquan borough,manasquan boro
+1328,Monmouth,Marlboro township,marlboro twp
+1329,Monmouth,Matawan borough,matawan boro
+1331,Monmouth,Middletown township,middletown twp
+1332,Monmouth,Millstone township,millstone twp
+1333,Monmouth,Monmouth Beach borough,monmouth beach boro
+1335,Monmouth,Neptune City borough,neptune city boro
+1334,Monmouth,Neptune township,neptune twp
+1337,Monmouth,Ocean township,ocean twp
+1338,Monmouth,Oceanport borough,oceanport boro
+1340,Monmouth,Red Bank borough,red bank boro
+1341,Monmouth,Roosevelt borough,roosevelt boro
+1342,Monmouth,Rumson borough,rumson boro
+1343,Monmouth,Sea Bright borough,sea bright boro
+1344,Monmouth,Sea Girt borough,sea girt boro
+1345,Monmouth,Shrewsbury borough,shrewsbury boro
+1346,Monmouth,Shrewsbury township,shrewsbury twp
+1349,Monmouth,Spring Lake Heights borough,spring lake heights boro
+1348,Monmouth,Spring Lake borough,spring lake boro
+1336,Monmouth,Tinton Falls borough,tinton falls boro
+1350,Monmouth,Union Beach borough,union beach boro
+1351,Monmouth,Upper Freehold township,upper freehold twp
+1352,Monmouth,Wall township,wall twp
+1353,Monmouth,West Long Branch borough,west long branch boro
+1401,Morris,Boonton town,boonton town
+1402,Morris,Boonton township,boonton twp
+1403,Morris,Butler borough,butler boro
+1404,Morris,Chatham borough,chatham boro
+1405,Morris,Chatham township,chatham twp
+1406,Morris,Chester borough,chester boro
+1407,Morris,Chester township,chester twp
+1408,Morris,Denville township,denville twp
+1409,Morris,Dover town,dover town
+1410,Morris,East Hanover township,east hanover twp
+1411,Morris,Florham Park borough,florham park boro
+1412,Morris,Hanover township,hanover twp
+1413,Morris,Harding township,harding twp
+1414,Morris,Jefferson township,jefferson twp
+1415,Morris,Kinnelon borough,kinnelon boro
+1416,Morris,Lincoln Park borough,lincoln park boro
+1430,Morris,Long Hill township,long hill twp
+1417,Morris,Madison borough,madison boro
+1418,Morris,Mendham borough,mendham boro
+1419,Morris,Mendham township,mendham twp
+1420,Morris,Mine Hill township,mine hill twp
+1421,Morris,Montville township,montville twp
+1423,Morris,Morris Plains borough,morris plains boro
+1422,Morris,Morris township,morris twp
+1424,Morris,Morristown town,morristown town
+1426,Morris,Mount Arlington borough,mount arlington boro
+1427,Morris,Mount Olive township,mount olive twp
+1425,Morris,Mountain Lakes borough,mountain lakes boro
+1428,Morris,Netcong borough,netcong boro
+1429,Morris,Parsippany-Troy Hills township,parsippany-troy hills twp
+1431,Morris,Pequannock township,pequannock twp
+1432,Morris,Randolph township,randolph twp
+1433,Morris,Riverdale borough,riverdale boro
+1434,Morris,Rockaway borough,rockaway boro
+1435,Morris,Rockaway township,rockaway twp
+1436,Morris,Roxbury township,roxbury twp
+1437,Morris,Victory Gardens borough,victory gardens boro
+1438,Morris,Washington township,washington twp
+1439,Morris,Wharton borough,wharton boro
+1501,Ocean,Barnegat Light borough,barnegat light boro
+1533,Ocean,Barnegat township,barnegat twp
+1502,Ocean,Bay Head borough,bay head boro
+1503,Ocean,Beach Haven borough,beach haven boro
+1504,Ocean,Beachwood borough,beachwood boro
+1505,Ocean,Berkeley township,berkeley twp
+1506,Ocean,Brick township,brick twp
+1508,Ocean,Eagleswood township,eagleswood twp
+1509,Ocean,Harvey Cedars borough,harvey cedars boro
+1510,Ocean,Island Heights borough,island heights boro
+1511,Ocean,Jackson township,jackson twp
+1512,Ocean,Lacey township,lacey twp
+1513,Ocean,Lakehurst borough,lakehurst boro
+1514,Ocean,Lakewood township,lakewood twp
+1515,Ocean,Lavallette borough,lavallette boro
+1516,Ocean,Little Egg Harbor township,little egg harbor twp
+1517,Ocean,Long Beach township,long beach twp
+1518,Ocean,Manchester township,manchester twp
+1519,Ocean,Mantoloking borough,mantoloking boro
+1521,Ocean,Ocean Gate borough,ocean gate boro
+1520,Ocean,Ocean township,ocean twp
+1522,Ocean,Pine Beach borough,pine beach boro
+1523,Ocean,Plumsted township,plumsted twp
+1525,Ocean,Point Pleasant Beach borough,point pleasant beach boro
+1524,Ocean,Point Pleasant borough,point pleasant boro
+1526,Ocean,Seaside Heights borough,seaside heights boro
+1527,Ocean,Seaside Park borough,seaside park boro
+1528,Ocean,Ship Bottom borough,ship bottom boro
+1529,Ocean,South Toms River borough,south toms river boro
+1530,Ocean,Stafford township,stafford twp
+1531,Ocean,Surf City borough,surf city boro
+1507,Ocean,Toms River township,toms river twp
+1532,Ocean,Tuckerton borough,tuckerton boro
+1601,Passaic,Bloomingdale borough,bloomingdale boro
+1602,Passaic,Clifton city,clifton city
+1603,Passaic,Haledon borough,haledon boro
+1604,Passaic,Hawthorne borough,hawthorne boro
+1605,Passaic,Little Falls township,little falls twp
+1606,Passaic,North Haledon borough,north haledon boro
+1607,Passaic,Passaic city,passaic city
+1608,Passaic,Paterson city,paterson city
+1609,Passaic,Pompton Lakes borough,pompton lakes boro
+1610,Passaic,Prospect Park borough,prospect park boro
+1611,Passaic,Ringwood borough,ringwood boro
+1612,Passaic,Totowa borough,totowa boro
+1613,Passaic,Wanaque borough,wanaque boro
+1614,Passaic,Wayne township,wayne twp
+1615,Passaic,West Milford township,west milford twp
+1616,Passaic,Woodland Park borough,woodland park boro
+1701,Salem,Alloway township,alloway twp
+1713,Salem,Carneys Point township,carneys point twp
+1702,Salem,Elmer borough,elmer boro
+1703,Salem,Elsinboro township,elsinboro twp
+1704,Salem,Lower Alloways Creek township,lower alloways creek twp
+1705,Salem,Mannington township,mannington twp
+1706,Salem,Oldmans township,oldmans twp
+1707,Salem,Penns Grove borough,penns grove boro
+1708,Salem,Pennsville township,pennsville twp
+1709,Salem,Pilesgrove township,pilesgrove twp
+1710,Salem,Pittsgrove township,pittsgrove twp
+1711,Salem,Quinton township,quinton twp
+1712,Salem,Salem city,salem city
+1714,Salem,Upper Pittsgrove township,upper pittsgrove twp
+1715,Salem,Woodstown borough,woodstown boro
+1801,Somerset,Bedminster township,bedminster twp
+1802,Somerset,Bernards township,bernards twp
+1803,Somerset,Bernardsville borough,bernardsville boro
+1804,Somerset,Bound Brook borough,bound brook boro
+1805,Somerset,Branchburg township,branchburg twp
+1806,Somerset,Bridgewater township,bridgewater twp
+1807,Somerset,Far Hills borough,far hills boro
+1808,Somerset,Franklin township,franklin twp
+1809,Somerset,Green Brook township,green brook twp
+1810,Somerset,Hillsborough township,hillsborough twp
+1811,Somerset,Manville borough,manville boro
+1812,Somerset,Millstone borough,millstone boro
+1813,Somerset,Montgomery township,montgomery twp
+1814,Somerset,North Plainfield borough,north plainfield boro
+1815,Somerset,Peapack and Gladstone borough,peapack and gladstone boro
+1816,Somerset,Raritan borough,raritan boro
+1817,Somerset,Rocky Hill borough,rocky hill boro
+1818,Somerset,Somerville borough,somerville boro
+1819,Somerset,South Bound Brook borough,south bound brook boro
+1820,Somerset,Warren township,warren twp
+1821,Somerset,Watchung borough,watchung boro
+1901,Sussex,Andover borough,andover boro
+1902,Sussex,Andover township,andover twp
+1903,Sussex,Branchville borough,branchville boro
+1904,Sussex,Byram township,byram twp
+1905,Sussex,Frankford township,frankford twp
+1906,Sussex,Franklin borough,franklin boro
+1907,Sussex,Fredon township,fredon twp
+1908,Sussex,Green township,green twp
+1909,Sussex,Hamburg borough,hamburg boro
+1910,Sussex,Hampton township,hampton twp
+1911,Sussex,Hardyston township,hardyston twp
+1912,Sussex,Hopatcong borough,hopatcong boro
+1913,Sussex,Lafayette township,lafayette twp
+1914,Sussex,Montague township,montague twp
+1915,Sussex,Newton town,newton town
+1916,Sussex,Ogdensburg borough,ogdensburg boro
+1917,Sussex,Sandyston township,sandyston twp
+1918,Sussex,Sparta township,sparta twp
+1919,Sussex,Stanhope borough,stanhope boro
+1920,Sussex,Stillwater township,stillwater twp
+1921,Sussex,Sussex borough,sussex boro
+1922,Sussex,Vernon township,vernon twp
+1923,Sussex,Walpack township,walpack twp
+1924,Sussex,Wantage township,wantage twp
+2001,Union,Berkeley Heights township,berkeley heights twp
+2002,Union,Clark township,clark twp
+2003,Union,Cranford township,cranford twp
+2004,Union,Elizabeth city,elizabeth city
+2005,Union,Fanwood borough,fanwood boro
+2006,Union,Garwood borough,garwood boro
+2007,Union,Hillside township,hillside twp
+2008,Union,Kenilworth borough,kenilworth boro
+2009,Union,Linden city,linden city
+2010,Union,Mountainside borough,mountainside boro
+2011,Union,New Providence borough,new providence boro
+2012,Union,Plainfield city,plainfield city
+2013,Union,Rahway city,rahway city
+2015,Union,Roselle Park borough,roselle park boro
+2014,Union,Roselle borough,roselle boro
+2016,Union,Scotch Plains township,scotch plains twp
+2017,Union,Springfield township,springfield twp
+2018,Union,Summit city,summit city
+2019,Union,Union township,union twp
+2020,Union,Westfield town,westfield town
+2021,Union,Winfield township,winfield twp
+2101,Warren,Allamuchy township,allamuchy twp
+2102,Warren,Alpha borough,alpha boro
+2103,Warren,Belvidere town,belvidere town
+2104,Warren,Blairstown township,blairstown twp
+2105,Warren,Franklin township,franklin twp
+2106,Warren,Frelinghuysen township,frelinghuysen twp
+2107,Warren,Greenwich township,greenwich twp
+2108,Warren,Hackettstown town,hackettstown town
+2109,Warren,Hardwick township,hardwick twp
+2110,Warren,Harmony township,harmony twp
+2111,Warren,Hope township,hope twp
+2112,Warren,Independence township,independence twp
+2113,Warren,Knowlton township,knowlton twp
+2114,Warren,Liberty township,liberty twp
+2115,Warren,Lopatcong township,lopatcong twp
+2116,Warren,Mansfield township,mansfield twp
+2117,Warren,Oxford township,oxford twp
+2119,Warren,Phillipsburg town,phillipsburg town
+2120,Warren,Pohatcong township,pohatcong twp
+2121,Warren,Washington borough,washington boro
+2122,Warren,Washington township,washington twp
+2123,Warren,White township,white twp
