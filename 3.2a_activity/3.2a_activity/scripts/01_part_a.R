@@ -1,12 +1,8 @@
 # scripts/01_part_a.R
 # Activity 3.2a, Part A: Run, then read.
+
 #
-# Eleven blocks, A1 to A11. Each block draws one kind of graphic from workbook 3.2 with real data
-# you have not seen drawn this way. Before you run a block, write your prediction on the handout.
-# Then run the block (highlight it, Ctrl+Enter / Cmd+Enter), look at the Plots pane and the
-# console, and answer the handout's questions for that block. 
-#
-# Every command here is one you have seen in Module 2, 3.1, or 3.2. The data are the four
+# The data are the four
 # sources from workbook 3.2, already merged by the 3.2 scripts (see README.md):
 #   nj          every NJ town in 2025 with its 2024 tax bill (Sources 1 and 2): one row per town
 #   nj_all      every town in every budget year, 2016 to 2025 (Source 1): one row per town-year
@@ -30,7 +26,7 @@ dim(nj)
 names(nj)
 summary(nj)
 
-# the key check (Module 2.3): you want zero rows
+# the key check: you want zero rows
 nj |>
   count(muni_code) |>
   filter(n > 1)
@@ -48,7 +44,7 @@ dim(five)                 # how many towns? write it down before A1
 five |>
   count(type)             # the frequency table, so you can check the bars
 
-ggplot(five, aes(y = type)) +
+ggplot(five, aes(x = type)) +
   geom_bar()
 
 
@@ -63,12 +59,13 @@ kinds
 
 ggplot(kinds, aes(x = prop, y = fct_reorder(type, prop))) +
   geom_col() +
-  labs(x = "Proportion of the 124 towns", y = NULL)
+  labs(x = "Proportion of the 124 towns", y = "Town Type")
 
 
 # A3. One number: geom_histogram() bins it -------------------------------------------------
 # debt_per_resident is each town's net debt divided by its population, in dollars (UFB, 2025).
-# Towns over $6,000 would stretch the axis; they are filtered out, and the title must say so.
+# Towns over $6,000 would stretch the axis; 
+# Here, they are filtered out, so the title must say so!
 
 under_6k <- nj |>
   filter(!is.na(debt_per_resident), debt_per_resident <= 6000)
@@ -161,11 +158,11 @@ answered |>
 
 ggplot(answered, aes(y = county, fill = state_plan)) +
   geom_bar() +
-  labs(x = "Number of towns", y = NULL, fill = "State plan?")
+  labs(x = "Number of towns", y = "County", fill = "State plan?")
 
 ggplot(answered, aes(y = county, fill = state_plan)) +
   geom_bar(position = "fill") +
-  labs(x = "Proportion of towns", y = NULL, fill = "State plan?")
+  labs(x = "Proportion of towns", y = "County", fill = "State plan?")
 
 
 # A8. A third variable as color: inside aes() or outside? And the mistake. ----------------
