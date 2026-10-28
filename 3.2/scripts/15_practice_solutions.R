@@ -1,6 +1,8 @@
 # scripts/15_practice_solutions.R
 # One way to do each of the six Practice in R tasks. Look only after you have tried!
 # Every task starts with the three checks: dim(), names(), and summary().
+# Every command here is printed in Workbook 3.2, Workbook 3.1, or the Module 2 workbook.
+# As in Module 2, a table that gets new rows or columns gets a new name (nj_pr, not nj_all).
 
 
 # Packages and Load the Data ---------------------------------------------------------------------
@@ -53,9 +55,14 @@ nj_2025 |>
   filter(n > 1) |>
   arrange(desc(n))       # 12 rows: Washington township repeats the most (5)
 
-n_distinct(nj_2025$muni_code)   # 564
+# How many different codes and names? distinct() keeps one row for each different value.
+nj_2025 |>
+  distinct(muni_code) |>
+  dim()                  # 564 1: 564 different codes for 564 rows, so no code repeats
 
-n_distinct(nj_2025$town)        # 546
+nj_2025 |>
+  distinct(town) |>
+  dim()                  # 546 1: 546 different names for 564 rows, so some names repeat
 
 # The frequency table, with a proportion column
 counties <- nj_2025 |>
@@ -63,12 +70,16 @@ counties <- nj_2025 |>
   mutate(prop = n / sum(n)) |>
   arrange(desc(n))
 
-# Interpret: 2.1 percent of towns in New Jersey are in Mercer County. 
+# Interpret: 2.1 percent of towns in New Jersey are in Mercer County.
 
 # One row is one county. Expect 21 rows and 3 columns.
 dim(counties)
 
-counties                 # Bergen 70 towns, 0.124 of the state; Mercer 12, tied for the fewest
+counties                 # Bergen 70 towns, 0.124 of the state
+
+# R prints only the first 10 of 21 rows. Sort the other way to see the bottom of the table.
+counties |>
+  arrange(n)             # Hudson and Mercer, 12 towns each, tied for the fewest
 
 # The bar chart, sorted, with the county with the most towns on top
 ggplot(nj_2025, aes(y = fct_rev(fct_infreq(county)))) +
@@ -107,15 +118,20 @@ dim(nj_all)
 names(nj_all)
 summary(nj_all)
 
-nj_all <- nj_all |>
+nj_pr <- nj_all |>
   mutate(per_resident = budget / pop)
 
-# Tiny towns budget the most per resident: that is why the median is the benchmark, not the mean
-nj_all |>
-  slice_max(per_resident, n = 3) |>
-  select(town, year, budget, pop, per_resident)
+# The same rows plus one column: expect 5,646 rows and 14 columns
+dim(nj_pr)
+names(nj_pr)
+summary(nj_pr)
 
-ewing <- nj_all |>
+# Tiny towns budget the most per resident: that is why the median is the benchmark, not the mean
+nj_pr |>
+  arrange(desc(per_resident)) |>
+  select(town, year, budget, pop, per_resident)   # Teterboro (61 residents) and Tavistock (2)
+
+ewing <- nj_pr |>
   filter(town == "Ewing township", county == "Mercer")
 
 # One row is one of Ewing's budget years. Expect 10 rows and 14 columns.
@@ -129,7 +145,7 @@ ewing |>
 
 (1621 - 1216) / 1216 * 100     # Ewing: 33.3 percent
 
-state_by_year <- nj_all |>
+state_by_year <- nj_pr |>
   filter(!is.na(per_resident), budget > 0, pop > 0) |>
   group_by(year) |>
   summarize(
@@ -164,14 +180,18 @@ summary(ufb_mercer)
 
 ggplot(ufb_mercer, aes(x = pop, y = budget_m)) +
   geom_point() +
-  geom_smooth(method = "lm", se = FALSE)
+  geom_smooth(method = "lm", se = FALSE)   # the message: `geom_smooth()` using formula = 'y ~ x'
 
 lm(budget_m ~ I(pop / 1000), data = ufb_mercer)   # intercept -12.24, slope 2.38 per thousand residents
 
+# Which point is which? The points have no names, so print the numbers and match them to the plot.
+ufb_mercer |>
+  select(town, pop, budget_m) |>
+  arrange(desc(budget_m))
+
 # Ewing: predicted -12.24 + 2.38 * 35.858 = 73.1; actual 58.1; residual about -15, below the line.
-# Being below the line means spending is below expected, given population. 
-# Trenton is the farthest above it.
-# Being below the line means spending is above expected, given population. 
+# Below the line means Ewing budgets less than the line predicts for a town its size.
+# Trenton is the farthest above the line: it budgets more than predicted for a town its size.
 
 
 # Task 4. Three or More Variables ----------------------------------------------------------------
@@ -189,17 +209,17 @@ ggplot(ufb_mercer, aes(x = pop, y = budget_m, colour = type)) +
 ggplot(ufb_mercer, aes(x = pop, y = budget_m)) +
   geom_point(colour = "steelblue")
 
-mercer_years <- nj_all |>
+mercer_years <- nj_pr |>
   filter(county == "Mercer") |>
-  mutate(per_resident = if_else(budget > 0 & pop > 0, per_resident, NA_real_)) |>
-  select(town, year, per_resident) |>
-  complete(town, year)   # a missing year becomes NA, so the line breaks there
+  select(town, year, per_resident)
 
 # One row is one Mercer town in one budget year. Expect 120 rows (12 x 10) and 3 columns.
+# summary() shows 5 NAs: Trenton 2019 to 2022 and Hightstown 2024 filed no budget.
 dim(mercer_years)
 names(mercer_years)
 summary(mercer_years)
 
+# The warning "Removed 5 rows containing missing values" is those 5 NAs. The line breaks there.
 ggplot(mercer_years, aes(x = year, y = per_resident)) +
   geom_line() +
   geom_point(size = 0.8) +
@@ -221,20 +241,19 @@ summary(no_village)
 ggplot(no_village, aes(y = type, fill = state_plan)) +
   geom_bar(position = "fill")
 
-# The proportions behind the "fill" bars
+# The share answering Yes for each kind of town: the number of Yes rows over all rows of that type
 no_village |>
-  count(type, state_plan) |>
   group_by(type) |>
-  mutate(prop = round(n / sum(n), 2))
+  summarize(
+    towns = n(),
+    yes = sum(state_plan == "Yes", na.rm = TRUE),
+    prop_yes = round(yes / towns, 2)
+  )                      # boroughs 0.56, cities 0.46, towns 0.47, townships 0.50
 
 
 # Task 5. Fix the Key, Then Merge ----------------------------------------------------------------
 
-ufb_mercer <- nj_2025 |>
-  filter(county == "Mercer") |>
-  select(muni_code, town, pop, budget_m, police_ft)
-
-# One row is one Mercer County town in 2025. Expect 12 rows and 5 columns.
+# ufb_mercer from Task 3: expect 12 rows and 18 columns
 dim(ufb_mercer)
 names(ufb_mercer)
 summary(ufb_mercer)
@@ -248,12 +267,16 @@ dim(tax_mercer)
 names(tax_mercer)
 summary(tax_mercer)
 
-# On the raw names, nothing matches
+# On the raw names, nothing matches. The names are in columns with different names (town and
+# district), so first give tax_mercer's column the same name with rename(): new = old.
+tax_mercer_town <- tax_mercer |>
+  rename(town = district)
+
 ufb_mercer |>
-  anti_join(tax_mercer, by = c("town" = "district"))   # expect 12 rows
+  anti_join(tax_mercer_town, by = "town")   # expect 12 rows
 
 # The repaired key, built by the same rules in both tables
-ufb_mercer <- ufb_mercer |>
+ufb_mercer_keyed <- ufb_mercer |>
   mutate(
     key = town |>
       str_to_lower() |>
@@ -262,7 +285,7 @@ ufb_mercer <- ufb_mercer |>
       str_replace(" borough$", " boro")
   )
 
-tax_mercer <- tax_mercer |>
+tax_mercer_keyed <- tax_mercer |>
   mutate(
     key = district |>
       str_to_lower() |>
@@ -270,11 +293,11 @@ tax_mercer <- tax_mercer |>
   )
 
 # anti_join() both ways
-ufb_mercer |>
-  anti_join(tax_mercer, by = "key")    # expect 1 row: "princeton boro"
+ufb_mercer_keyed |>
+  anti_join(tax_mercer_keyed, by = "key")    # expect 1 row: "princeton boro"
 
-tax_mercer |>
-  anti_join(ufb_mercer, by = "key")    # expect 1 row: "princeton"
+tax_mercer_keyed |>
+  anti_join(ufb_mercer_keyed, by = "key")    # expect 1 row: "princeton"
 
 # The lookup table for what no rule can fix
 fixes <- tribble(
@@ -282,25 +305,27 @@ fixes <- tribble(
   "princeton", "princeton boro"
 )
 
-tax_mercer <- tax_mercer |>
+# left_join() adds key_fixed: "princeton boro" for Princeton, NA for every other row.
+# coalesce() keeps key_fixed, or key where key_fixed is NA. -key_fixed means "every column but."
+tax_mercer_fixed <- tax_mercer_keyed |>
   left_join(fixes, by = "key") |>
   mutate(key = coalesce(key_fixed, key)) |>   # the fix, or else the key
   select(-key_fixed)
 
-ufb_mercer |>
-  anti_join(tax_mercer, by = "key")    # expect 0 rows
+ufb_mercer_keyed |>
+  anti_join(tax_mercer_fixed, by = "key")    # expect 0 rows
 
-tax_mercer |>
-  anti_join(ufb_mercer, by = "key")    # expect 0 rows
+tax_mercer_fixed |>
+  anti_join(ufb_mercer_keyed, by = "key")    # expect 0 rows
 
 # Before the merge, what I expect:
-# 1) Rows: ufb_mercer is the left table, so 12 rows in and 12 rows out.
-# 2) Columns: 6 + 3 - 1 = 8 (the key is counted once).
+# 1) Rows: ufb_mercer_keyed is the left table, so 12 rows in and 12 rows out.
+# 2) Columns: 19 + 3 - 1 = 21 (the key is counted once).
 # 3) Drops: none either way, after the lookup table.
-mercer_merged <- ufb_mercer |>
-  left_join(tax_mercer, by = "key")
+mercer_merged <- ufb_mercer_keyed |>
+  left_join(tax_mercer_fixed, by = "key")
 
-# Three checks after the merge: expect 12 rows and 8 columns
+# Three checks after the merge: expect 12 rows and 21 columns
 dim(mercer_merged)
 names(mercer_merged)
 summary(mercer_merged)
@@ -318,29 +343,53 @@ summary(quickfacts)
 
 # The two rows that are not towns are the benchmark: set them aside
 quickfacts_towns <- quickfacts |>
-  filter(!geography %in% c("Mercer County, New Jersey", "New Jersey")) |>
+  filter(geography != "Mercer County, New Jersey" & geography != "New Jersey")
+
+# Expect 19 rows and 21 columns
+dim(quickfacts_towns)
+names(quickfacts_towns)
+summary(quickfacts_towns)
+
+# place: the name with the county and state taken off the end ($ means "at the end")
+# county: the places QuickFacts lists without a county are all in Mercer
+# key: the same four rules as Task 5
+quickfacts_keyed <- quickfacts_towns |>
   mutate(
+    place = geography |>
+      str_remove(", New Jersey$") |>
+      str_remove(", Mercer County$") |>
+      str_remove(", Burlington County$") |>
+      str_remove(", Middlesex County$") |>
+      str_remove(", Somerset County$"),
     county = case_when(
-      str_detect(geography, "Burlington") ~ "Burlington",
-      str_detect(geography, "Middlesex")  ~ "Middlesex",
-      str_detect(geography, "Somerset")   ~ "Somerset",
-      TRUE ~ "Mercer"      # the places listed without a county are all in Mercer
+      place %in% c(
+        "Bordentown township", "Burlington township", "Chesterfield township",
+        "Florence township", "Mansfield township"
+      ) ~ "Burlington",
+      place %in% c("Plainsboro township", "South Brunswick township") ~ "Middlesex",
+      place %in% c("Hillsborough township", "Montgomery township") ~ "Somerset",
+      .default = "Mercer"
     ),
-    key = geography |>
-      word(1, sep = ",") |>
+    key = place |>
       str_to_lower() |>
       str_squish() |>
       str_replace(" township$", " twp") |>
       str_replace(" borough$", " boro")
-  ) |>
-  left_join(fixes, by = "key") |>               # Princeton needs the same fix as in Task 5
+  )
+
+# Princeton needs the same fix as in Task 5
+quickfacts_fixed <- quickfacts_keyed |>
+  left_join(fixes, by = "key") |>
   mutate(key = coalesce(key_fixed, key)) |>
   select(-key_fixed)
 
-# Expect 19 rows and 23 columns (21 plus county and key)
-dim(quickfacts_towns)
-names(quickfacts_towns)
-summary(quickfacts_towns)
+# Expect 19 rows and 24 columns (21 plus place, county, and key)
+dim(quickfacts_fixed)
+names(quickfacts_fixed)
+summary(quickfacts_fixed)
+
+quickfacts_fixed |>
+  count(county)          # Burlington 5, Mercer 10, Middlesex 2, Somerset 2
 
 # The statewide merge of Source 1 and Source 2 needs the 14-row lookup table in 07_fixing_keys.R,
 # and 09_the_merge.R saves the result as data/nj_merged.csv. Read that instead of redoing it here.
@@ -355,56 +404,65 @@ names(nj_merged)
 summary(nj_merged)
 
 # Keep only the key and the columns we need
-nj_merged <- nj_merged |>
+nj_merged_small <- nj_merged |>
   select(county, key, town, budget_m, pop_ufb = pop, avg_tax_bill)
 
+# Expect 564 rows and 6 columns
+dim(nj_merged_small)
+names(nj_merged_small)
+summary(nj_merged_small)
+
 # Is county + key really a key? Both of these should return zero rows.
-quickfacts_towns |>
+quickfacts_fixed |>
   count(county, key) |>
   filter(n > 1)
 
-nj_merged |>
+nj_merged_small |>
   count(county, key) |>
   filter(n > 1)
 
 # Before the merge, what I expect:
-# 1) Rows: quickfacts_towns is the left table, so 19 rows in and 19 rows out.
-# 2) Columns: 23 + 6 - 2 = 27 (county and key are counted once).
+# 1) Rows: quickfacts_fixed is the left table, so 19 rows in and 19 rows out.
+# 2) Columns: 24 + 6 - 2 = 28 (county and key are counted once).
 # 3) Drops: none on the QuickFacts side; 545 on the other (the towns QuickFacts did not download).
-quickfacts_towns |>
-  anti_join(nj_merged, by = c("county", "key"))   # expect 0 rows
+quickfacts_fixed |>
+  anti_join(nj_merged_small, by = c("county", "key"))   # expect 0 rows
 
-nj_merged |>
-  anti_join(quickfacts_towns, by = c("county", "key")) |>
-  nrow()                 # expect 545 (564 - 19)
+nj_merged_small |>
+  anti_join(quickfacts_fixed, by = c("county", "key")) |>
+  dim()                  # expect 545 6 (564 - 19)
 
-near_tcnj <- quickfacts_towns |>
-  left_join(nj_merged, by = c("county", "key"))
+near_tcnj <- quickfacts_fixed |>
+  left_join(nj_merged_small, by = c("county", "key"))
 
-# Three checks after the merge: expect 19 rows and 27 columns
+# Three checks after the merge: expect 19 rows and 28 columns
 dim(near_tcnj)
 names(near_tcnj)
 summary(near_tcnj)
 
-near_tcnj <- near_tcnj |>
+# highlight: "Ewing" for Ewing and "Other towns" for the rest, so Ewing gets its own color
+near_tcnj_share <- near_tcnj |>
   mutate(
     tax_share = avg_tax_bill / median_hh_income * 100,
-    is_ewing = town == "Ewing township"
+    highlight = if_else(town == "Ewing township", "Ewing", "Other towns")
   )
 
-near_tcnj |>
+# Expect 19 rows and 30 columns
+dim(near_tcnj_share)
+
+near_tcnj_share |>
   select(town, avg_tax_bill, median_hh_income, tax_share) |>
   arrange(desc(tax_share))   # highest Princeton (11.8), lowest Florence (5.3), Ewing 8.9
 
 # The benchmark, from the same two sources: New Jersey's bill over New Jersey's income
 9898 / 103556 * 100          # 9.6 percent
 
-tax_share_fig <- ggplot(
-  near_tcnj,
+ggplot(
+  near_tcnj_share,
   aes(
     x = tax_share,
     y = fct_reorder(town, tax_share),
-    fill = is_ewing
+    fill = highlight
   )
 ) +
   geom_col() +
@@ -412,23 +470,18 @@ tax_share_fig <- ggplot(
     xintercept = 9.6,
     linetype = "dashed"
   ) +
-  scale_fill_manual(
-    values = c(`TRUE` = "grey20", `FALSE` = "grey65"),
-    guide = "none"
-  ) +
   labs(
-    title    = "Ewing's tax bill takes a smaller share of income than the NJ average",
-    subtitle = "Each bar is one of 19 towns near TCNJ; Ewing in black; the dashed line is New Jersey (9.6%)",
-    x        = "Average residential tax bill (2024) as a percent of median household income (2020-2024)",
-    y        = NULL,
-    caption  = "Sources: NJ Division of Taxation, Average Residential Tax Report, 2024; U.S. Census Bureau, QuickFacts (ACS 2020-2024)"
+    title    = "Ewing's tax share is below New Jersey's",
+    subtitle = "Dashed line: New Jersey (9.6%)",
+    x        = "Average tax bill as a percent of median income",
+    y        = "Town (19 near TCNJ)",
+    caption  = "Sources: NJ Division of Taxation, 2024; Census QuickFacts, 2020-2024",
+    alt      = "Bar chart of 19 towns near TCNJ. Ewing's tax bill is 8.9 percent of median household income, below New Jersey's 9.6 percent."
   )
 
-tax_share_fig
-
+# ggsave() saves the last plot you drew. Open the file and check that no text is cut off.
 ggsave(
   "output/ewing_vs_neighbors.png",
-  tax_share_fig,
   width = 6,
   height = 4
 )
