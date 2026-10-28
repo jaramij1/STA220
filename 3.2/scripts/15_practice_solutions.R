@@ -63,6 +63,8 @@ counties <- nj_2025 |>
   mutate(prop = n / sum(n)) |>
   arrange(desc(n))
 
+# Interpret: 2.1 percent of towns in New Jersey are in Mercer County. 
+
 # One row is one county. Expect 21 rows and 3 columns.
 dim(counties)
 
