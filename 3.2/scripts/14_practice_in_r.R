@@ -5,8 +5,6 @@
 
 # STEP 1: Attempt each task and answer the questions first without using AI.
 
-# STEP 2: Look at the code from the other scripts in this project
-# i.e., find an example and adapt it to your needs. 03 and 04 have every one-variable graphic,
 # 05 and 06 every two- and three-variable graphic, 07 the key repair, and 09 and 10 every join.
 
 # STEP 3: Ask AI for help identifying specific problems with the script you wrote
@@ -67,8 +65,10 @@ quickfacts <- read_csv(
 # Task 1. Know Your Key, Then Count --------------------------------------------------------------
 
 # The three checks on nj_2025 first.
-# Hints: count(muni_code) |> filter(n > 1); n_distinct(); geom_bar() with aes(y = county);
-#        count(county) |> mutate(prop = n / sum(n)); fct_rev(fct_infreq(county))
+# Hints: count(muni_code) |> filter(n > 1); distinct(muni_code) |> dim() to count the different
+#        codes; geom_bar() with aes(y = county); count(county) |> mutate(prop = n / sum(n));
+#        fct_rev(fct_infreq(county))
+# Tip: the county table has 21 rows, so Mercer is not in the first 10. Try arrange(n).
 
 
 
@@ -84,12 +84,16 @@ quickfacts <- read_csv(
 
 # Task 3. Two Variables: Ewing Over Time, Against the State --------------------------------------
 
-# The three checks on nj_all first, and on every table you save (ewing, state_by_year, ufb_mercer).
-# Hints: mutate(per_resident = budget / pop); filter(town == "Ewing township");
+# The three checks on nj_all first, and on every table you save (nj_pr, ewing, state_by_year,
+# ufb_mercer).
+# Hints: mutate(per_resident = budget / pop) saved as nj_pr; filter(town == "Ewing township");
 #        group_by(year) |> summarize(towns = n(), median_per_resident = median(per_resident));
 #        a second geom_line(data = ..., aes(x = year, y = ...), linetype = "dashed");
 #        filter(nj_2025, county == "Mercer") saved as ufb_mercer;
 #        for the scatterplot: geom_point() + geom_smooth(method = "lm", se = FALSE)
+# Tip: arrange(desc(per_resident)) puts the largest at the top, the same rows slice_max() keeps.
+# Tip: the points have no names. To tell which is Ewing, print ufb_mercer |>
+#      select(town, pop, budget_m) and match the numbers to the plot.
 
 
 
@@ -99,6 +103,11 @@ quickfacts <- read_csv(
 # The three checks on every table you start from.
 # Hints: aes(colour = type) inside vs colour = "steelblue" outside; facet_wrap(~ town, scales = "free_y");
 #        geom_bar(position = "fill") with aes(y = type, fill = state_plan)
+# Tip: the workbook draws the facets from mercer_years but never makes it. It is nj_pr |>
+#      filter(county == "Mercer") |> select(town, year, per_resident): 120 rows.
+# Tip: the villages are type == "village" (lower case). Leave them out with filter(type != ...).
+# Tip: the share answering Yes for each type: group_by(type) |> summarize(towns = n(),
+#      yes = sum(state_plan == "Yes", na.rm = TRUE)), then divide.
 
 
 
@@ -108,6 +117,9 @@ quickfacts <- read_csv(
 # The three checks on both tables before the merge, and on the merged table after it.
 # Hints: str_to_lower(), str_squish(), str_replace(" township$", " twp"), str_replace(" borough$", " boro");
 #        anti_join(x, y, by = "key") both ways; a tribble() of fixes and coalesce(); left_join(); dim()
+# Tip: the codes are text, so filter(county_code == "11"), with quotation marks.
+# Tip: on the raw names, town and district have different column names. rename(town = district)
+#      first (new = old), then anti_join(..., by = "town").
 
 
 
@@ -115,7 +127,16 @@ quickfacts <- read_csv(
 # Task 6. The Rate, Labeled and Saved ------------------------------------------------------------
 
 # The three checks on quickfacts, on data/nj_merged.csv once you read it, and on the merged table.
-# Hints: word(geography, 1, sep = ","); filter() out the county and state rows;
+# Hints: filter() out the county and state rows (geography != "..." & geography != "...");
+#        str_remove(", New Jersey$"), then str_remove(", Mercer County$") and the same for the
+#        other counties, to cut each name down to the town;
+#        case_when(place %in% c(...) ~ "Burlington", ..., .default = "Mercer") for the county;
 #        read_csv("data/nj_merged.csv"); left_join(..., by = c("county", "key"));
 #        mutate(tax_share = avg_tax_bill / median_hh_income * 100); geom_vline(xintercept = 9.6);
 #        labs(); ggsave("output/ewing_vs_neighbors.png", width = 6, height = 4)
+# Tip: nj_merged.csv already has county and key, built with the Task 5 rules. Spell the counties
+#      the same way ("Burlington", not "Burlington County"), and use your Task 5 fixes on the
+#      QuickFacts key too: Princeton's key is "princeton boro".
+# Tip: for Ewing in its own color, make a column with if_else(town == "Ewing township", "Ewing",
+#      "Other towns") and map fill to it inside aes().
+# Tip: at width = 6, long titles run off the edge. Open the saved PNG and check.
