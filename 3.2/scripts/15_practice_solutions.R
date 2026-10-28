@@ -1,8 +1,5 @@
 # scripts/15_practice_solutions.R
 # One way to do each of the six Practice in R tasks. Look only after you have tried!
-# Every task starts with the three checks: dim(), names(), and summary().
-# Every command here is printed in Workbook 3.2, Workbook 3.1, or the Module 2 workbook.
-# As in Module 2, a table that gets new rows or columns gets a new name (nj_pr, not nj_all).
 
 
 # Packages and Load the Data ---------------------------------------------------------------------
