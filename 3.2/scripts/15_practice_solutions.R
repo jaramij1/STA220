@@ -167,7 +167,9 @@ ggplot(ufb_mercer, aes(x = pop, y = budget_m)) +
 lm(budget_m ~ I(pop / 1000), data = ufb_mercer)   # intercept -12.24, slope 2.38 per thousand residents
 
 # Ewing: predicted -12.24 + 2.38 * 35.858 = 73.1; actual 58.1; residual about -15, below the line.
+# Being below the line means spending is below expected, given population. 
 # Trenton is the farthest above it.
+# Being below the line means spending is above expected, given population. 
 
 
 # Task 4. Three or More Variables ----------------------------------------------------------------

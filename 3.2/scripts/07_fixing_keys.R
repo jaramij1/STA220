@@ -100,6 +100,11 @@ tax_mercer <- tax_mercer |>
   mutate(key = coalesce(key_fixed, key)) |>     # the fix, or else the key
   select(-key_fixed)
 
+# Note on coalesce(key_fixed, key):
+# It reads left-to-right. It evaluates 'key_fixed' first. If 'key_fixed' is NA, it uses 'key'.
+# Because only Princeton is not NA for key fixed, only princeton will be replaced
+# Pro-tip: You can Ctrl+Click on the 'coalesce' function name to view its official documentation.
+
 # Now anti_join() returns 0 rows both ways
 anti_join(ufb_mercer, tax_mercer, by = "key")   # 0 rows
 
